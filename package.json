@@ -1,0 +1,36 @@
+{
+  "name": "sugar-vscode-theme",
+  "displayName": "Sugar Theme",
+  "description": "Sugar theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "author": "Libon <bon.li@outlook.com>",
+  "publisher": "banlify",
+  "icon": "./snapshot/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libondev/sugar-vscode-theme"
+  },
+  "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",
+  "bugs": {
+    "url": "https://github.com/libondev/sugar-vscode-theme/issues"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sugar Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sugar-dark-color-theme.json"
+      }
+    ]
+  }
+}
