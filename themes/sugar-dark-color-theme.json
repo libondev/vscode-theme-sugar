@@ -248,8 +248,7 @@
 				"meta.attribute-selector"
 			],
 			"settings": {
-				// "foreground": "#aea768"
-				"foreground": "#b98976"
+				"foreground": "#ce9178"
 			}
 		},
 		{
