@@ -10,12 +10,12 @@ function onClick() {
 
 <template>
   <div class="text-lg" :class="_cls" @click="onClick">
-    This is a Vue component
+    <span>This is a Vue component</span>
 
-    <span>{{ _cls }}</span>
+    <input v-model="_cls"type="text">
 
-    <div v-if="true">
-      21243
+    <div v-if="_cls" clearable class="!w-25 min-w-25 mr-3" filterable>
+      {{ _cls }}
     </div>
   </div>
 </template>

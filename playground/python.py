@@ -6,4 +6,4 @@ def print_hello():
   print("hello world")
   print("hello world")
 
-print_hello()
+print_hello('1231')
