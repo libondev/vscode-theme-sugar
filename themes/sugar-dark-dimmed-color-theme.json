@@ -45,17 +45,17 @@
     "diffEditor.insertedTextBackground": "#04785750",
     "diffEditor.removedTextBackground": "#ab595950",
 
-    "dropdown.background": "#000",
     "dropdown.border": "#000",
+    "dropdown.background": "#000",
     "dropdown.foreground": "#777",
     "dropdown.listBackground": "#000",
 
     "editor.background": "#000",
+    "editor.foreground": "#777",
     "editor.findMatchBackground": "#e6cc7722",
     "editor.findMatchHighlightBackground": "#e6cc7744",
     "editor.focusedStackFrameHighlightBackground": "#b808",
     "editor.foldBackground": "#eeeeee10",
-    "editor.foreground": "#777",
     "editor.inactiveSelectionBackground": "#eeeeee10",
     "editor.lineHighlightBackground": "#000",
     "editor.selectionBackground": "#eeeeee18",
@@ -106,22 +106,22 @@
     "gitDecoration.submoduleResourceForeground": "#dedcd590",
     "gitDecoration.untrackedResourceForeground": "#5eaab5",
 
-    "input.background": "#000",
     "input.border": "#000",
+    "input.background": "#000",
     "input.foreground": "#777",
     "input.placeholderForeground": "#dedcd590",
     "inputOption.activeBackground": "#dedcd550",
 
-    "list.activeSelectionBackground": "#000",
-    "list.activeSelectionForeground": "#777",
-    "list.focusBackground": "#000",
-    "list.highlightForeground": "#047857",
-    "list.hoverBackground": "#2a2a2a",
-    "list.hoverForeground": "#777",
+		"list.focusBackground": "#151515",
+    "list.hoverForeground": "#bbb",
+    "list.hoverBackground": "#151515",
+    "list.activeSelectionBackground": "#191919",
+    "list.activeSelectionForeground": "#bbb",
+    "list.highlightForeground": "#059669",
     "list.inactiveFocusBackground": "#000",
-    "list.inactiveSelectionBackground": "#000",
-    "list.inactiveSelectionForeground": "#777",
-    "menu.separatorBackground": "#000",
+    "list.inactiveSelectionBackground": "#151515",
+    "list.inactiveSelectionForeground": "#999",
+    "menu.separatorBackground": "#151515",
 
     "notificationCenterHeader.background": "#000",
     "notificationCenterHeader.foreground": "#959da5",
@@ -237,7 +237,7 @@
 			],
 			"settings": {
 				// "fontStyle": "italic",
-				"foreground": "#555"
+				"foreground": "#3a3a3a"
 			}
 		},
 		{
@@ -248,7 +248,7 @@
 				"meta.attribute-selector"
 			],
 			"settings": {
-				"foreground": "#705042"
+				"foreground": "#7f5a4a"
 			}
 		},
 		{
@@ -353,7 +353,7 @@
 				"keyword.operator.expression.import"
 			],
 			"settings": {
-				"foreground": "#5a7749"
+				"foreground": "#516a42"
 			}
 		},
 		{
@@ -366,7 +366,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#666"
+				"foreground": "#555"
 			}
 		},
 		{
@@ -648,7 +648,7 @@
       ],
       "settings": {
 				"fontStyle": "",
-        "foreground": "#333"
+        "foreground": "#282828"
       }
     },
 		{
@@ -707,6 +707,15 @@
 			],
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup - Strikethrough",
+			"scope": [
+				"markup.strikethrough.markdown"
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
 			}
 		},
 		{

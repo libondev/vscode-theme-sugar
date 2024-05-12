@@ -45,17 +45,17 @@
     "diffEditor.insertedTextBackground": "#05966950",
     "diffEditor.removedTextBackground": "#ab595950",
 
-    "dropdown.background": "#000",
     "dropdown.border": "#151515",
+    "dropdown.background": "#000",
     "dropdown.foreground": "#bbb",
     "dropdown.listBackground": "#151515",
 
     "editor.background": "#151515",
+    "editor.foreground": "#bbb",
     "editor.findMatchBackground": "#e6cc7722",
     "editor.findMatchHighlightBackground": "#e6cc7744",
     "editor.focusedStackFrameHighlightBackground": "#b808",
     "editor.foldBackground": "#eeeeee10",
-    "editor.foreground": "#bbb",
     "editor.inactiveSelectionBackground": "#eeeeee10",
     "editor.lineHighlightBackground": "#151515",
     "editor.selectionBackground": "#eeeeee18",
@@ -106,22 +106,22 @@
     "gitDecoration.submoduleResourceForeground": "#dedcd590",
     "gitDecoration.untrackedResourceForeground": "#5eaab5",
 
-    "input.background": "#151515",
     "input.border": "#151515",
+    "input.background": "#151515",
     "input.foreground": "#bbb",
     "input.placeholderForeground": "#dedcd590",
     "inputOption.activeBackground": "#dedcd550",
 
+    "list.focusBackground": "#151515",
+    "list.hoverForeground": "#bbb",
+    "list.hoverBackground": "#222",
     "list.activeSelectionBackground": "#151515",
     "list.activeSelectionForeground": "#bbb",
-    "list.focusBackground": "#151515",
     "list.highlightForeground": "#059669",
-    "list.hoverBackground": "#2a2a2a",
-    "list.hoverForeground": "#bbb",
     "list.inactiveFocusBackground": "#000",
-    "list.inactiveSelectionBackground": "#151515",
+    "list.inactiveSelectionBackground": "#222",
     "list.inactiveSelectionForeground": "#bbb",
-    "menu.separatorBackground": "#151515",
+    "menu.separatorBackground": "#222",
 
     "notificationCenterHeader.background": "#000",
     "notificationCenterHeader.foreground": "#959da5",
@@ -707,6 +707,15 @@
 			],
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup - Strikethrough",
+			"scope": [
+				"markup.strikethrough.markdown"
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
