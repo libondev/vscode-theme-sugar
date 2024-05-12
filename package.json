@@ -1,41 +1,63 @@
 {
-  "name": "sugar-vscode-theme",
-  "displayName": "Sugar Theme",
-  "description": "Sugar theme for Visual Studio Code",
-  "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.40.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "license": "MIT",
-  "author": "Libon <bon.li@outlook.com>",
   "publisher": "banlify",
-  "icon": "./snapshot/logo.png",
+  "name": "sugar-theme",
+  "displayName": "Sugar Theme",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Sugar theme for Visual Studio Code",
+  "author": "Libon <bon.li@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/libondev/sugar-vscode-theme"
   },
-  "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",
   "bugs": {
     "url": "https://github.com/libondev/sugar-vscode-theme/issues"
   },
-  "scripts": {
-    "build": "vsce package"
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./snapshot/logo.png",
+  "engines": {
+    "vscode": "^1.40.0"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Sugar Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-color-theme.json"
+        "label": "Sugar Light",
+        "uiTheme": "vs",
+        "path": "./themes/sugar-light.json"
       },
       {
-        "label": "Sugar Dark Dimmed",
+        "label": "Sugar Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-dimmed-color-theme.json"
+        "path": "./themes/sugar-dark.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "esno scripts/index.ts",
+    "dev": "esno watch scripts/index.ts",
+    "vscode:prepublish": "npm run build",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "pack": "vsce package --no-dependencies",
+    "release": "bumpp --all && vsce publish --no-dependencies"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.13.3",
+    "@antfu/utils": "^0.7.7",
+    "@types/color": "^3.0.6",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.12.7",
+    "@vscode/vsce": "^2.25.0",
+    "bumpp": "^9.4.0",
+    "color": "^4.2.3",
+    "eslint": "^9.0.0",
+    "esno": "^4.7.0",
+    "fs-extra": "^11.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   }
 }

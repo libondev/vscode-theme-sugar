@@ -1,6 +1,9 @@
 // @ts-nocheck
 import React, { type MouseEvent } from 'https://esm.sh/react@18.2.0'
-import { exportConst } from './javascript.js'
+import { exportConst, ExportClass } from './javascript.js'
+
+const exportClass = new ExportClass()
+console.log(typeof exportClass)
 
 export function Component() {
   const handleClick = (ev: MouseEvent) => {
@@ -28,7 +31,7 @@ namespace Namespace {
 
 Namespace.NamespaceFunction()
 
-type TType = 1
+type TType = keyof typeof exportClass
 
 interface IInterface {
   a: boolean,
