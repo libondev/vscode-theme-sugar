@@ -21,21 +21,20 @@ function getColors(style: ThemeStyle): typeof colors {
     /* The array of light to dark colors are reversed to auto-generate dark theme */
     const darkColors: any = {}
 
-    Object.entries(colors).forEach(([name, val]) => {
-      if (name === 'black')
-        darkColors.white = val
+    Object.entries(colors).forEach(([colorName, colorValues]) => {
+      if (colorName === 'black')
+        darkColors.white = colorValues
 
-      else if (name === 'white')
-        darkColors.black = val
+      else if (colorName === 'white')
+        darkColors.black = colorValues
 
       else
-        darkColors[name] = [...toArray(val)].reverse()
+        darkColors[colorName] = [...toArray(colorValues)].reverse()
     })
     return darkColors
   }
-  else {
-    return colors
-  }
+
+  return colors
 }
 
 export function createThemeHelpers({ color }: GetThemeOptions) {

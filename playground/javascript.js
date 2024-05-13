@@ -12,9 +12,13 @@ if (1 || 2 && 3) {
 
 }
 
+for (let i = 0; i < 10; i++) {
+  console.log(i)
+}
+
 export class ExportClass {
   constructor() {
-    console.log('ExportClass constructor');
+    console.log('ExportClass constructor', this);
   }
 
   testMethod() {
@@ -53,6 +57,8 @@ const symbol = Symbol('symbol')
 const nullValue = null
 const undefinedValue = undefined
 const bigInt = 123n
+
+const reg = /[123|23123]/
 
 console.log({
   number,

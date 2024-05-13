@@ -294,6 +294,7 @@ export default function getTheme(options: GetThemeOptions) {
           'punctuation',
         ],
         settings: {
+          fontStyle: '',
           foreground: punctuation,
         },
       },
@@ -306,6 +307,19 @@ export default function getTheme(options: GetThemeOptions) {
         ],
         settings: {
           foreground: v('constant'),
+        },
+      },
+      {
+        name: 'Keyword, Storage',
+        scope: [
+          'keyword',
+          'storage.type',
+          'storage.modifier',
+          'keyword.operator.new',
+          'keyword.operator.expression.delete',
+        ],
+        settings: {
+          fontStyle: 'italic',
         },
       },
       {
@@ -385,20 +399,21 @@ export default function getTheme(options: GetThemeOptions) {
         },
       },
       {
+        scope: 'support',
+        settings: {
+          foreground: v('property'),
+        },
+      },
+      {
+        // property quote
         scope: [
           'punctuation.definition.string',
           'punctuation.support.type.property-name',
         ],
         settings: {
-          foreground: v('string', '99'),
+          foreground: v('punctuation'),
         },
       },
-      // {
-      //   scope: 'support',
-      //   settings: {
-      //     foreground: v('property'),
-      //   },
-      // },
       {
         scope: [
           'property',
@@ -739,22 +754,22 @@ export default function getTheme(options: GetThemeOptions) {
         },
       },
     ],
-    rules: [] as any[],
+    // rules: [] as any[],
   }
 
   // monaco rules
-  const rules: any[] = []
+  // const rules: any[] = []
 
-  theme.tokenColors.forEach(({ scope, settings }: any) => {
-    for (const s of toArray(scope)) {
-      rules.push({
-        token: s,
-        foreground: settings.foreground?.replace('#', ''),
-      })
-    }
-  })
+  // theme.tokenColors.forEach(({ scope, settings }: any) => {
+  //   for (const s of toArray(scope)) {
+  //     rules.push({
+  //       token: s,
+  //       foreground: settings.foreground?.replace('#', ''),
+  //     })
+  //   }
+  // })
 
-  theme.rules = rules
+  // theme.rules = rules
 
   return theme
 }

@@ -5,6 +5,8 @@ import { exportConst, ExportClass } from './javascript.js'
 const exportClass = new ExportClass()
 console.log(typeof exportClass)
 
+delete exportClass.testMethod
+
 export function Component() {
   const handleClick = (ev: MouseEvent) => {
     console.log(ev, exportConst)
@@ -19,6 +21,19 @@ export function Component() {
       <button onClick={ handleClick }>Click me!</button>
     </div>
   )
+}
+
+export class Demo extends React.Component {
+  componentDidMount() {
+  }
+
+  render() {
+    return <div>Hello World</div>;
+  }
+}
+
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
 namespace Namespace {

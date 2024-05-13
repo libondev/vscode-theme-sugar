@@ -18,7 +18,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "./snapshot/logo.png",
+  "icon": "./logo.png",
   "engines": {
     "vscode": "^1.40.0"
   },
@@ -33,6 +33,11 @@
         "label": "Sugar Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/sugar-dark.json"
+      },
+      {
+        "label": "Sugar Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sugar-dark-modern.json"
       }
     ]
   },
