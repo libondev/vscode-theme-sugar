@@ -35,34 +35,13 @@
         "path": "./themes/sugar-dark.json"
       },
       {
-        "label": "Sugar Dark Modern",
+        "label": "Sugar Dark Dimmed",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-modern.json"
+        "path": "./themes/sugar-dark-dimmed.json"
       }
     ]
   },
   "scripts": {
-    "build": "esno scripts/index.ts",
-    "dev": "esno watch scripts/index.ts",
-    "vscode:prepublish": "npm run build",
-    "lint": "eslint .",
-    "prepublishOnly": "npm run build",
-    "pack": "vsce package --no-dependencies",
-    "release": "bumpp --all && vsce publish --no-dependencies"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^2.13.3",
-    "@antfu/utils": "^0.7.7",
-    "@types/color": "^3.0.6",
-    "@types/fs-extra": "^11.0.4",
-    "@types/node": "^20.12.7",
-    "@vscode/vsce": "^2.25.0",
-    "bumpp": "^9.4.0",
-    "color": "^4.2.3",
-    "eslint": "^9.0.0",
-    "esno": "^4.7.0",
-    "fs-extra": "^11.2.0",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5"
+    "build": "vsce package --no-dependencies"
   }
 }
