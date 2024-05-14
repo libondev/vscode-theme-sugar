@@ -173,12 +173,6 @@
       }
     },
     {
-      "scope": "comment",
-      "settings": {
-        "foreground": "#5C6370"
-      }
-    },
-    {
       "scope": [
         "constant.numeric",
         "variable.other.enummember",
@@ -420,8 +414,6 @@
     {
       "scope": [
         // "keyword.control",
-        "keyword.operator.new",
-        "keyword.operator.expression",
         "keyword.operator.cast",
         "keyword.operator.sizeof",
         "keyword.operator.alignof",
@@ -442,6 +434,7 @@
       "scope": [
         "storage.type",
         "storage.modifier",
+        "keyword.control.as",
         "keyword.control.loop",
         "keyword.control.flow",
         "keyword.control.from",
@@ -449,7 +442,9 @@
         "keyword.control.export",
         "keyword.control.import",
         "keyword.control.conditional",
-        "keyword.operator.noexcept"
+        "keyword.operator.new",
+        "keyword.operator.noexcept",
+        "keyword.operator.expression",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -586,6 +581,7 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "comment": "#5C6370",
     "namespace": "#67abbd",
     "interface": "#67abbd",
     // "property": "#c5b570",
