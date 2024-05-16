@@ -1,6 +1,13 @@
+.github/**
 .vscode/**
 .vscode-test/**
 .gitignore
 *.vsix
 preview/**
 playground/**
+.eslint.config.js
+/node_modules/
+/pnpm-lock.yaml
+/scripts/**
+/extra/**
+tsconfig.json

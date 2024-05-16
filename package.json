@@ -1,41 +1,47 @@
 {
-  "name": "sugar-vscode-theme",
-  "displayName": "Sugar Theme",
-  "description": "Sugar theme for Visual Studio Code",
-  "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.40.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "license": "MIT",
-  "author": "Libon <bon.li@outlook.com>",
   "publisher": "banlify",
-  "icon": "./snapshot/logo.png",
+  "name": "sugar-theme",
+  "displayName": "Sugar Theme",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Sugar theme for Visual Studio Code",
+  "author": "Libon <bon.li@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/libondev/sugar-vscode-theme"
   },
-  "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",
   "bugs": {
     "url": "https://github.com/libondev/sugar-vscode-theme/issues"
   },
-  "scripts": {
-    "build": "vsce package"
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./logo.png",
+  "engines": {
+    "vscode": "^1.40.0"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Sugar Dark",
+        "label": "Sugar Dark Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-color-theme.json"
+        "path": "./themes/sugar-dark-classic-color-theme.json"
       },
       {
         "label": "Sugar Dark Dimmed",
         "uiTheme": "vs-dark",
         "path": "./themes/sugar-dark-dimmed-color-theme.json"
+      },
+      {
+        "label": "Sugar Dark Stylization",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sugar-dark-stylization-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package --no-dependencies"
   }
 }

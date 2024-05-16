@@ -1,6 +1,11 @@
 // @ts-nocheck
 import React, { type MouseEvent } from 'https://esm.sh/react@18.2.0'
-import { exportConst } from './javascript.js'
+import { exportConst, ExportClass } from './javascript.js'
+
+const exportClass = new ExportClass()
+console.log(typeof exportClass)
+
+delete exportClass.testMethod
 
 export function Component() {
   const handleClick = (ev: MouseEvent) => {
@@ -18,6 +23,19 @@ export function Component() {
   )
 }
 
+export class Demo extends React.Component {
+  componentDidMount() {
+  }
+
+  render() {
+    return <div>Hello World</div>;
+  }
+}
+
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
 namespace Namespace {
   export const a = 1
 
@@ -28,7 +46,7 @@ namespace Namespace {
 
 Namespace.NamespaceFunction()
 
-type TType = 1
+type TType = keyof typeof exportClass
 
 interface IInterface {
   a: boolean,
