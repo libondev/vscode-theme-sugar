@@ -110,7 +110,7 @@
 			"scope": [
 				"support.type.vendored.property-name",
 				"support.type.property-name",
-				"entity.name.tag"
+				"entity.name.tag",
 			],
 			"settings": {
 				"foreground": "#9f434b"
@@ -469,6 +469,19 @@
 			],
 			"settings": {
 				"foreground": "#9C6C59"
+			}
+		},
+		{
+			"scope": [
+				"source.css variable",
+				"source.coffee.embedded",
+				"support.type.property-name.css",
+				"support.type.property-name.less",
+				"support.type.custom-property.name.less",
+				"punctuation.definition.custom-property.less"
+			],
+			"settings": {
+				"foreground": "#8e824e"
 			}
 		},
 		{
