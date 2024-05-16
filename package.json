@@ -33,6 +33,11 @@
         "label": "Sugar Dark Dimmed",
         "uiTheme": "vs-dark",
         "path": "./themes/sugar-dark-dimmed-color-theme.json"
+      },
+      {
+        "label": "Sugar Dark Stylization",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sugar-dark-stylization-color-theme.json"
       }
     ]
   },
