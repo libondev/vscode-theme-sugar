@@ -25,9 +25,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sugar Dark",
+        "label": "Sugar Dark Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-color-theme.json"
+        "path": "./themes/sugar-dark-classic-color-theme.json"
       },
       {
         "label": "Sugar Dark Dimmed",
