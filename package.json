@@ -25,14 +25,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sugar Dark Classic",
+        "label": "Sugar Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-classic-color-theme.json"
-      },
-      {
-        "label": "Sugar Dark Dimmed",
-        "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-dimmed-color-theme.json"
+        "path": "./themes/sugar-dark-color-theme.json"
       },
       {
         "label": "Sugar Dark Stylization",

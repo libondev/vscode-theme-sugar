@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "include": "./sugar-dark-classic-color-theme.json",
+  "include": "./sugar-dark-color-theme.json",
   "tokenColors": [
     {
       "scope": [
@@ -17,30 +17,31 @@
         "keyword.operator.attribute-selector",
       ],
       "settings": {
-        "foreground": "#3F3F3F"
+        "foreground": "#555555"
+      }
+    },
+
+    {
+      "scope": [
+        "keyword.operator.logical",
+        "keyword.operator.increment",
+        "keyword.operator.relational"
+      ],
+      "settings": {
+        "foreground": "#888888"
       }
     },
 
     {
       "scope": [
         "storage.type",
-        "keyword.control",
+				"keyword.control",
+				"keyword.operator.new",
+				"keyword.operator.expression",
       ],
       "settings": {
         "fontStyle": "italic"
       }
-    },
-
-    {
-			"scope": [
-				"storage.type",
-				"keyword.control",
-				"keyword.operator.new",
-				"keyword.operator.expression",
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
+    }
   ]
 }
