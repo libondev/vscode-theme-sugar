@@ -36,8 +36,8 @@
     {
       "scope": [
         "storage.type",
+        "storage.modifier",
 				"keyword.control",
-				"keyword.operator.new",
 				"keyword.operator.expression",
       ],
       "settings": {
