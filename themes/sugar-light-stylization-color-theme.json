@@ -1,6 +1,6 @@
 {
-  "$schema": "vscode://schemas/color-theme",
-  "include": "./sugar-dark-color-theme.json",
+  "name": "Sugar Light Stylization",
+  "include": "./sugar-light-color-theme.json",
   "tokenColors": [
     {
       "scope": [
@@ -29,7 +29,7 @@
         "keyword.operator.comparison"
       ],
       "settings": {
-        "foreground": "#99999999"
+        "foreground": "#999999"
       }
     },
 
