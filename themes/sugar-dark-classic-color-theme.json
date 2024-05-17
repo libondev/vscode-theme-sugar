@@ -206,7 +206,7 @@
 				"entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#BE5C64"
+				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -353,7 +353,7 @@
 				"keyword.operator.expression",
 			],
 			"settings": {
-				"foreground": "#CB7676"
+				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -522,7 +522,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#6F7DCB"
+				"foreground": "#4DC4AC"
 			}
 		},
 		{
@@ -536,7 +536,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#6F7DCB"
+				"foreground": "#4DC4AC"
 			}
 		},
 		{
