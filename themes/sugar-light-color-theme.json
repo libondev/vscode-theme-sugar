@@ -186,7 +186,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#06865d"
 			}
 		},
 		{
@@ -448,7 +448,6 @@
 			}
 		},
 		{
-			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#059669"
@@ -505,7 +504,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#A64001"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -519,7 +518,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#A64001"
+				"foreground": "#AA3731"
 			}
 		},
 		{
