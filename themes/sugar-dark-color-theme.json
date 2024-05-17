@@ -216,7 +216,7 @@
 				"invalid.deprecated.entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#C79261"
+				"foreground": "#C79866"
 			}
 		},
 		{
@@ -232,7 +232,7 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#C79261"
+				"foreground": "#C79866"
 			}
 		},
 		{
@@ -354,7 +354,7 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#C69168"
+				"foreground": "#90B774"
 			}
 		},
 		{
@@ -459,7 +459,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#85b365"
+				"foreground": "#62A5dC"
 			}
 		},
 		{
@@ -499,7 +499,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#779DDA"
+				"foreground": "#5c95f1"
 			}
 		},
 		{
