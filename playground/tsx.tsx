@@ -7,7 +7,7 @@ console.log(typeof exportClass)
 
 delete exportClass.testMethod
 
-export function Component() {
+export function Component<Generics>(): Generics {
   const handleClick = (ev: MouseEvent) => {
     console.log(ev, exportConst)
   }
@@ -35,6 +35,8 @@ export class Demo extends React.Component {
 function capitalize(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
+
+capitalize('hello')
 
 namespace Namespace {
   export const a = 1
@@ -64,3 +66,9 @@ enum EEnum {
 const Type: TType = 1
 const Interface: IInterface = {}
 const Enum: EEnum = EEnum.A
+
+console.log({
+  Type,
+  Interface,
+  Enum
+})
