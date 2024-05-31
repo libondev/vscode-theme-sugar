@@ -9,15 +9,20 @@
         "meta.brace.round",
         "meta.brace.square",
         "storage.type.function.arrow",
+        "keyword.operator.scss",
         "keyword.operator.rest",
         "keyword.operator.spread",
-        "keyword.operator.assignment",
         "keyword.operator.pattern",
         "keyword.operator.type.annotation",
         "keyword.operator.attribute-selector",
+        "punctuation.definition.parameters",
+        "invalid.illegal.character-not-allowed-here.html",
+        "keyword.operator.scss",
+				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
+				"punctuation.definition.attribute-selector.end.bracket.square.scss"
       ],
       "settings": {
-        "foreground": "#8888"
+        "foreground": "#6669"
       }
     },
 
@@ -26,10 +31,12 @@
         "keyword.operator.logical",
         "keyword.operator.increment",
         "keyword.operator.relational",
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
       ],
       "settings": {
-        "foreground": "#9999"
+        "foreground": "#999D"
       }
     },
 

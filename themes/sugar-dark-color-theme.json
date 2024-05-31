@@ -180,7 +180,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#d6ab60"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 				"entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#E06C75"
+				"foreground": "#d1666f"
 			}
 		},
 		{
@@ -257,7 +257,8 @@
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#059669",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -320,7 +321,7 @@
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#CB9B60"
+				"foreground": "#c5975e"
 			}
 		},
 		{
@@ -345,16 +346,28 @@
 				"keyword.operator.expression",
 			],
 			"settings": {
-				"foreground": "#E06C75"
+				"foreground": "#d1666f"
 			}
 		},
 		{
 			"scope": [
 				"string",
-				"meta.embedded.assembly"
+				"meta.embedded.assembly",
+				"meta.attribute-selector.scss"
 			],
 			"settings": {
 				"foreground": "#90B774"
+			}
+		},
+		{
+			// scss property: [property=""]
+			"scope": [
+				"keyword.operator.scss",
+				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
+				"punctuation.definition.attribute-selector.end.bracket.square.scss"
+			],
+			"settings": {
+				"foreground": "#AAAAAA"
 			}
 		},
 		{
@@ -421,7 +434,7 @@
 		{
 			"scope": "support.function.git-rebase",
 			"settings": {
-				"foreground": "#CB9B60"
+				"foreground": "#c5975e"
 			}
 		},
 		{
@@ -459,7 +472,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#5aa8e7"
+				"foreground": "#549dd7"
 			}
 		},
 		{
@@ -529,7 +542,7 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#CB9B60"
+				"foreground": "#c5975e"
 			}
 		},
 		{
@@ -538,7 +551,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#CB9B60"
+				"foreground": "#c5975e"
 			}
 		},
 		{
@@ -631,6 +644,6 @@
 			"settings": {
 				"foreground": "#C8C8C8"
 			}
-		}
+		},
 	],
 }
