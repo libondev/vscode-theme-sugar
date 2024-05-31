@@ -216,7 +216,7 @@
 				"invalid.deprecated.entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#ce9f6d"
+				"foreground": "#c5975e"
 			}
 		},
 		{
@@ -232,7 +232,7 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#ce9f6d"
+				"foreground": "#c5975e"
 			}
 		},
 		{
