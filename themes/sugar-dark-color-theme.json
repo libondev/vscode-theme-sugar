@@ -216,7 +216,7 @@
 				"invalid.deprecated.entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#C79866"
+				"foreground": "#ce9f6d"
 			}
 		},
 		{
@@ -232,7 +232,7 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#C79866"
+				"foreground": "#ce9f6d"
 			}
 		},
 		{
@@ -459,7 +459,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#62A5dC"
+				"foreground": "#5aa8e7"
 			}
 		},
 		{
@@ -499,7 +499,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#5c95f1"
+				"foreground": "#4eae84"
 			}
 		},
 		{
@@ -513,7 +513,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4DC4AC"
+				"foreground": "#4eae84"
 			}
 		},
 		{
@@ -566,7 +566,7 @@
 				"punctuation.definition.custom-property.less"
 			],
 			"settings": {
-				"foreground": "#b8a965"
+				"foreground": "#c3b36e"
 			}
 		},
 		{

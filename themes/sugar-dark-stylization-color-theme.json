@@ -17,7 +17,7 @@
         "keyword.operator.attribute-selector",
       ],
       "settings": {
-        "foreground": "#88888866"
+        "foreground": "#8888"
       }
     },
 
@@ -29,7 +29,7 @@
         "keyword.operator.comparison"
       ],
       "settings": {
-        "foreground": "#99999999"
+        "foreground": "#9999"
       }
     },
 
