@@ -14,7 +14,7 @@ export default defineComponent({
     const msg = ref('Hello JavaScript');
 
     return () => (
-      <div>
+      <div class="text-xl font-medium">
         <p>{ msg } - { props.modelValue }</p>
       </div>
     )
