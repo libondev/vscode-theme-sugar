@@ -22,7 +22,7 @@
 				"punctuation.definition.attribute-selector.end.bracket.square.scss"
       ],
       "settings": {
-        "foreground": "#6669"
+        "foreground": "#7777"
       }
     },
 
@@ -45,10 +45,21 @@
         "storage.type",
         "storage.modifier",
 				"keyword.control",
+        "keyword.operator.new",
+        // typeof/delete
 				"keyword.operator.expression",
       ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+
+    {
+      "scope": [
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "fontStyle": ""
       }
     }
   ]
