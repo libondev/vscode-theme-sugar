@@ -338,12 +338,13 @@
 		},
 		{
 			"scope": [
+				"keyword",
 				"storage.type",
 				"storage.modifier",
-				"keyword.control",
-				"keyword.operator.new",
-				"keyword.operator.noexcept",
-				"keyword.operator.expression",
+				// "keyword.control",
+				// "keyword.operator.new",
+				// "keyword.operator.noexcept",
+				// "keyword.operator.expression",
 			],
 			"settings": {
 				"foreground": "#d1666f"
