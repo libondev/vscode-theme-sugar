@@ -1,6 +1,7 @@
 {
   "name": "Sugar Light Stylization",
   "include": "./sugar-light-color-theme.json",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": [
@@ -22,7 +23,7 @@
 				"punctuation.definition.attribute-selector.end.bracket.square.scss"
       ],
       "settings": {
-        "foreground": "#66666655"
+        "foreground": "#6665"
       }
     },
 
@@ -48,6 +49,11 @@
         "keyword.operator.new",
         // typeof/delete
 				"keyword.operator.expression",
+        "keyword.var.go",
+        "keyword.const.go",
+        "keyword.function.go",
+        "keyword.package.go",
+        "entity.name.type.package.go"
       ],
       "settings": {
         "fontStyle": "italic"

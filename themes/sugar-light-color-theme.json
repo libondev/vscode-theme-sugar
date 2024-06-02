@@ -365,6 +365,18 @@
 			}
 		},
 		{
+			// scss property: [property=""]
+			"scope": [
+				"keyword.operator.scss",
+				"keyword.operator.assignment",
+				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
+				"punctuation.definition.attribute-selector.end.bracket.square.scss"
+			],
+			"settings": {
+				"foreground": "#555555"
+			}
+		},
+		{
 			"name": "String interpolation",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
