@@ -184,9 +184,15 @@
 			}
 		},
 		{
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#2f9368",
+			}
+		},
+		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#06865d"
+				"foreground": "#bd4d2b"
 			}
 		},
 		{
@@ -460,13 +466,6 @@
 				"foreground": "#d4d4d4"
 			}
 		},
-		{
-			"scope": "variable.language",
-			"settings": {
-				"foreground": "#059669"
-			}
-		},
-
 		{
 			"name": "Function declarations",
 			"scope": [

@@ -178,12 +178,6 @@
 			}
 		},
 		{
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#d6ab60"
-			}
-		},
-		{
 			"scope": [
 				"constant.numeric",
 				"variable.other.enummember",
@@ -191,7 +185,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#A2B996"
+				"foreground": "#acc59f"
 			}
 		},
 		{
@@ -457,13 +451,17 @@
 			}
 		},
 		{
-			"name": "this.self",
-			"scope": "variable.language",
+			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#7186ff",
 			}
 		},
-
+		{
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#8d77e6"
+			}
+		},
 		{
 			"name": "Function declarations",
 			"scope": [
@@ -474,7 +472,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#549dd7"
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -514,7 +512,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4eae84"
+				"foreground": "#7386f7"
 			}
 		},
 		{
@@ -596,7 +594,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#b68571"
 			}
 		},
 		{
@@ -608,7 +606,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#B15C5C"
+				"foreground": "#c55151"
 			}
 		},
 		{
