@@ -1,50 +1,105 @@
-package basic
+package main
 
 import (
 	"fmt"
-	"strconv"
+	"math"
 )
 
-func ByteType() {
-	var b byte = '1'
+func main() {
+	fmt.Println("欢迎使用 Go！")
 
-	fmt.Printf("%c\n", b)
+	add := func(a, b float64) float64 {
+		return a + b
+	}
 
-	// strconv：string conversion（字符串转换）
-	var str = "123"
+	multiply := func(a, b float64) float64 {
+		return a * b
+	}
 
-	/**
-	字符串转换为 int 数字
-		a => string
-		to => 转换
-		i => int
-	*/
-	// 因为字符串转换成其他类型有可能是非法字符，无法转换，所以会需要处理异常的情况
-	// 在出现错误的时候，si 变量会是一个 0，因为 0 是默认值
-	si, _ := strconv.Atoi(str)
-	fmt.Println(si)
+	subtract := func(a, b float64) float64 {
+		return a - b
+	}
 
-	var int1 = 321
-	// 数字肯定是可以转换成字符串的，所以这个函数不会返回异常
-	is := strconv.Itoa(int1)
-	fmt.Println(is)
+	divide := func(a, b float64) (float64, error) {
+		if b == 0 {
+			return 0, fmt.Errorf("除数不能为0")
+		}
+		return a / b, nil
+	}
 
-	// 	字符串转换 float 类型
-	var str1 = "123.123"
-	// 返回值的类型始终为 float64
-	sf, _ := strconv.ParseFloat(str1, 64)
+	num1 := float64(0)
+	num2 := float64(0)
+	fmt.Print("请输入两个数，用空格分隔: ")
+	_, err := fmt.Scan(&num1, &num2)
+	if err != nil {
+		fmt.Println("输入错误: ", err)
+		return
+	}
 
-	fmt.Println(sf)
+	fmt.Printf("两数之和: %v\n", add(num1, num2))
+	fmt.Printf("两数之积: %v\n", multiply(num1, num2))
+	fmt.Printf("两数之差: %v\n", subtract(num1, num2))
+	result, err := divide(num1, num2)
+	if err != nil {
+		fmt.Println("除法错误: ", err)
+	} else {
+		fmt.Printf("两数之商: %v\n", result)
+	}
 
-	// 将 100 转换位 2 进制的数字
-	fmt.Println(strconv.ParseInt("100", 2, 64))
+	isEven := func(num int) bool {
+		return num%2 == 0
+	}
 
-	// 除了 0/1/"true"/"false" 之外的值都会转换错误，并返回初始值 false
-	sb, _ := strconv.ParseBool("true")
-	fmt.Println(sb)
+	isOdd := func(num int) bool {
+		return num%2 != 0
+	}
 
-	// 	将某个类型的值格式化为字符串
-	fmt.Println(strconv.FormatBool(true))   // "true"
-	fmt.Println(strconv.FormatInt(123, 64)) // "123"
-	fmt.Println(strconv.FormatFloat(3.1415926, 'f', -1, 64))
+	num := 0
+	fmt.Print("请输入一个整数: ")
+	fmt.Scan(&num)
+
+	if isEven(num) {
+		fmt.Println(num, "是偶数")
+	} else {
+		fmt.Println(num, "是奇数")
+	}
+
+	// 循环和条件语句
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	// 使用条件语句
+	if i == 3 {
+		fmt.Println("i 等于 3")
+	} else {
+		fmt.Println("i 不等于 3")
+	}
+
+	// 使用循环和条件语句
+	for i := 0; i < 5; i++ {
+		if i == 3 {
+			fmt.Println("i 等于 3")
+		} else {
+			fmt.Println("i 不等于 3")
+		}
+	}
+
+	// 使用切片和循环
+	fruits := []string{"apple", "banana", "cherry"}
+	for _, fruit := range fruits {
+		fmt.Println(fruit)
+	}
+
+	// 使用map和循环
+	person := map[string]int{"name": "张三", "age": 25, "city": "北京"}
+	for key, value := range person {
+		fmt.Printf("%s: %d\n", key, value)
+	}
+
+	// 使用集合和循环
+	numbers := []int{1, 2, 3, 4, 5}
+	for number := range numbers {
+		fmt.Println(number)
+	}
 }
