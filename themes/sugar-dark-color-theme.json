@@ -453,13 +453,13 @@
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#7186ff",
+				"foreground": "#7685dc",
 			}
 		},
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#8d77e6"
+				"foreground": "#ce7c7c"
 			}
 		},
 		{
@@ -472,7 +472,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#5da8e7"
 			}
 		},
 		{
