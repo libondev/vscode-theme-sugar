@@ -358,6 +358,7 @@
 			// scss property: [property=""]
 			"scope": [
 				"keyword.operator.scss",
+				"keyword.operator.logical", // || &&
 				"keyword.operator.assignment",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss"
@@ -459,7 +460,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#ce7c7c"
+				"foreground": "#d78383"
 			}
 		},
 		{
@@ -472,7 +473,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#5da8e7"
+				"foreground": "#68ade5"
 			}
 		},
 		{
@@ -486,34 +487,9 @@
 				"entity.name.scope-resolution",
 				"entity.name.class",
 				"entity.other.inherited-class",
-				"storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#8f9be0"
+				"foreground": "#919ee7"
 			}
 		},
 		{
