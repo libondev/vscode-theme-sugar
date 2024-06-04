@@ -453,7 +453,7 @@
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#3bb07d",
+				"foreground": "#5bb38d",
 			}
 		},
 		{
@@ -512,7 +512,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#7c8df0"
+				"foreground": "#8e9ced"
 			}
 		},
 		{
