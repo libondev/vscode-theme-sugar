@@ -485,6 +485,7 @@
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
 				"entity.name.class",
+				"entity.other.inherited-class",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -512,7 +513,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#8e9ced"
+				"foreground": "#8f9be0"
 			}
 		},
 		{
@@ -523,7 +524,6 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#4eae84"

@@ -489,6 +489,7 @@
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
 				"entity.name.class",
+				"entity.other.inherited-class",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -527,7 +528,6 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#AA3731"
