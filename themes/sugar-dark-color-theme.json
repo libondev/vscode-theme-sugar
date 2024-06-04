@@ -373,7 +373,7 @@
 				"punctuation.definition.template-expression.end",
 			],
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#D1666F"
 			}
 		},
 		{
@@ -453,7 +453,7 @@
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#7685dc",
+				"foreground": "#3bb07d",
 			}
 		},
 		{

@@ -1,5 +1,6 @@
 {
   "name": "Sugar Light Stylization",
+  "$schema": "vscode://schemas/color-theme",
   "include": "./sugar-light-color-theme.json",
   "semanticHighlighting": true,
   "tokenColors": [
@@ -20,10 +21,12 @@
         "invalid.illegal.character-not-allowed-here.html",
         "keyword.operator.scss",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
-				"punctuation.definition.attribute-selector.end.bracket.square.scss"
+				"punctuation.definition.attribute-selector.end.bracket.square.scss",
+        "punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
       ],
       "settings": {
-        "foreground": "#6665"
+        "foreground": "#6664"
       }
     },
 

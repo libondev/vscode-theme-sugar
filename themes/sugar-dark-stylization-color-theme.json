@@ -1,4 +1,5 @@
 {
+  "name": "Sugar Dark Stylization",
   "$schema": "vscode://schemas/color-theme",
   "include": "./sugar-dark-color-theme.json",
   "semanticHighlighting": true,
