@@ -454,13 +454,13 @@
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#5bb38d",
+				"foreground": "#53a481",
 			}
 		},
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#d78383"
+				"foreground": "#cb7676"
 			}
 		},
 		{

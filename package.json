@@ -27,22 +27,22 @@
       {
         "label": "Sugar Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-color-theme.json"
+        "path": "./themes/dark-color-theme.json"
       },
       {
         "label": "Sugar Dark Stylization",
         "uiTheme": "vs-dark",
-        "path": "./themes/sugar-dark-stylization-color-theme.json"
+        "path": "./themes/dark-stylization-color-theme.json"
       },
       {
         "label": "Sugar Light",
         "uiTheme": "vs",
-        "path": "./themes/sugar-light-color-theme.json"
+        "path": "./themes/light-color-theme.json"
       },
       {
         "label": "Sugar Light Stylization",
         "uiTheme": "vs",
-        "path": "./themes/sugar-light-stylization-color-theme.json"
+        "path": "./themes/light-stylization-color-theme.json"
       }
     ]
   },
