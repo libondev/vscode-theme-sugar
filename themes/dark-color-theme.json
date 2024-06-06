@@ -159,6 +159,7 @@
     {
       "scope": [
         "variable",
+        "meta.object-literal.key",
         "support.constant.property",
         "support.variable.property",
       ],
