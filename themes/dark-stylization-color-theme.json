@@ -1,25 +1,18 @@
 {
   "name": "Sugar Dark Stylization",
   "$schema": "vscode://schemas/color-theme",
-  "include": "./sugar-dark-color-theme.json",
+  "include": "./dark-color-theme.json",
   "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": [
         "punctuation",
-        "meta.brace.curly",
-        "meta.brace.round",
-        "meta.brace.square",
+        "meta.brace",
+        "keyword.operator",
         "storage.type.function.arrow",
-        "keyword.operator.scss",
-        "keyword.operator.rest",
-        "keyword.operator.spread",
-        "keyword.operator.pattern",
-        "keyword.operator.type.annotation",
-        "keyword.operator.attribute-selector",
+        "punctuation.separator.key-value",
         "punctuation.definition.parameters",
         "invalid.illegal.character-not-allowed-here.html",
-        "keyword.operator.scss",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss"
       ],
@@ -31,30 +24,29 @@
     {
       "scope": [
         "keyword.operator.logical",
+        "keyword.operator.bitwise",
         "keyword.operator.increment",
+        "keyword.operator.decrement",
         "keyword.operator.relational",
         "keyword.operator.comparison",
         "keyword.operator.arithmetic",
         "keyword.operator.assignment",
       ],
       "settings": {
-        "foreground": "#999E"
+        "foreground": "#CCC9"
       }
     },
 
     {
+      // language keywords
       "scope": [
         "storage.type",
+        "keyword.control",
         "storage.modifier",
-				"keyword.control",
-        "keyword.operator.new",
-        // typeof/delete
-				"keyword.operator.expression",
-        "keyword.var.go",
-        "keyword.const.go",
         "keyword.function.go",
-        "keyword.package.go",
-        "entity.name.type.package.go"
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "support.type.object.module.js",
       ],
       "settings": {
         "fontStyle": "italic"
