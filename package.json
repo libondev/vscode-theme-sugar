@@ -4,6 +4,7 @@
   "displayName": "Sugar Theme",
   "type": "module",
   "version": "0.5.0",
+  "packageManager": "pnpm@9.2.0",
   "description": "Sugar theme for Visual Studio Code",
   "author": "Libon <bon.li@outlook.com>",
   "license": "MIT",
