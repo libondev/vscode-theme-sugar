@@ -33,7 +33,7 @@
         "keyword.operator.assignment",
       ],
       "settings": {
-        "foreground": "#CCC9"
+        "foreground": "#999"
       }
     },
 
