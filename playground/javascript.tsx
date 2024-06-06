@@ -19,7 +19,7 @@ const a = bool | 123 & 456 ^ 789
 
 while (1) { }
 
-for (let i = 0; i < 10; i--) { }
+for (let i = 0; i < 10; i++) { }
 
 try { } catch (e) { }
 
