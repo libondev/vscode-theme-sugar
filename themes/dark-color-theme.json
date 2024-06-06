@@ -252,8 +252,9 @@
     {
       "scope": [
         // undefined/null
+        "constant.language.null",
         "constant.language.undefined",
-        "constant.language.null"
+        "keyword.other.important",
       ],
       "settings": {
         "foreground": "#cb7676",

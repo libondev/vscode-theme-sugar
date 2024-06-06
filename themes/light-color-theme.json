@@ -287,8 +287,9 @@
     {
       "scope": [
         // undefined/null
+        "constant.language.null",
         "constant.language.undefined",
-        "constant.language.null"
+        "keyword.other.important",
       ],
       "settings": {
         "foreground": "#aa3c3c",
