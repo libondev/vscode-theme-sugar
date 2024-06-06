@@ -6,7 +6,7 @@ def add(a, b):
 
 num1 = float(input("请输入第一个数: "))
 
-print("两数之和:", add(num1, num2))
+print("两数之和:", add(num1))
 
 def is_even(num):
     return num % 2 == 0

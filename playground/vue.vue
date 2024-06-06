@@ -1,21 +1,22 @@
-<script lang="ts" setup>
-import { exportConst } from './javascript.js'
+<script setup>
+const props = defineProps({
+  modelValue: {
+    type: [String, Array],
+    default: '',
+  },
+  multiple: {
+    type: Boolean,
+    default: true,
+  },
+})
 
-const _cls = 'underline'
-
-function onClick() {
-  console.log(exportConst)
-}
+const emits = defineEmits(['update:modelValue'])
 </script>
 
 <template>
-  <div class="text-lg" :class="_cls" @click="onClick">
-    <span>This is a Vue component</span>
-
-    <input v-model="_cls"type="text">
-
-    <div v-if="_cls" clearable class="!w-25 min-w-25 mr-3" filterable>
-      {{ _cls }}
-    </div>
-  </div>
+  <view>
+    <view>
+      12312
+    </view>
+  </view>
 </template>

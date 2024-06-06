@@ -7,6 +7,26 @@ console.log(typeof exportClass)
 
 delete exportClass.testMethod
 
+1 in 1
+[1, 2, 3] instanceof Array
+'toString' in {}
+
+const bool = true || false
+
+const language = undefined && !null ?? ~undefined
+
+const a = bool | 123 & 456 ^ 789
+
+while (1) { }
+
+for (let i = 0; i < 10; i--) { }
+
+try { } catch (e) { }
+
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
 export function Component<Generics>(): Generics {
   const handleClick = (ev: MouseEvent) => {
     console.log(ev, exportConst)
@@ -23,8 +43,11 @@ export function Component<Generics>(): Generics {
   )
 }
 
+class Test { }
+
 export class Demo extends React.Component {
-  componentDidMount() {
+  constructor() {
+    super()
   }
 
   render() {
@@ -32,11 +55,6 @@ export class Demo extends React.Component {
   }
 }
 
-function capitalize(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1)
-}
-
-capitalize('hello')
 
 namespace Namespace {
   export const a = 1
@@ -63,9 +81,11 @@ enum EEnum {
   C = 3
 }
 
+const _symbol: symbol = Symbol('symbol')
+
 const Type: TType = 1
 const Interface: IInterface = {}
-const Enum: EEnum = EEnum.A
+const Enum: keyof EEnum = EEnum.A
 
 console.log({
   Type,

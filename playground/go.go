@@ -5,9 +5,12 @@ import (
 	"math"
 )
 
-func main() {
-	fmt.Println("欢迎使用 Go！")
+type Person struct {
+	Name string
+	Age  int
+}
 
+func main() {
 	add := func(a, b float64) float64 {
 		return a + b
 	}

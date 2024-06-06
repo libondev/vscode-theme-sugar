@@ -1,0 +1,12 @@
+name: sugar-vscode-theme
+enable: true
+effect: null
+repository:
+  type: git
+  url: 'https://github.com/libondev/sugar-vscode-theme'
+  nested:
+    path: nested
+    nested:
+      path: nested
+      nested:
+        path: nested

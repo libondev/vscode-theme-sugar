@@ -6,19 +6,9 @@ export const exportConst = 'exportConst';
   multi line comment
 */
 
-console.log(1 + 2 - 3 * 4 / 5)
-
-if (1 || 2 && 3) {
-
-}
-
-for (let i = 0; i < 10; i++) {
-  console.log(i)
-}
-
 export class ExportClass {
   constructor() {
-    console.log('ExportClass constructor', this);
+    console.log('ExportClass constructor', this, this.name.xx);
   }
 
   testMethod() {
@@ -41,13 +31,27 @@ if (true) {
 
 }
 
+console.log(1 + 2 - 3 * 4 / 5)
+
+if (1 || 2 && 3) {
+
+}
+
+for (let i = 0; i < 10; i++) {
+  console.log(i)
+}
+
 const number = 123
 const string = 'string'
 const string2 = `${string}`
-const boolean = false
+const boolean = true | false
 const array = [1, 2, 3]
 const object = {
-  key: 'value',
+  key: 1,
+  key2: true,
+  key3: undefined,
+  key4: null,
+  key5: [1, 2, 3],
   'single-quote': 'single quote string',
   "double-quote": "double quote string",
 }
