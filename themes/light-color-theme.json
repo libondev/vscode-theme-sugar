@@ -157,7 +157,11 @@
       }
     },
     {
-      "scope": "variable",
+      "scope": [
+        "variable",
+        "support.constant.property",
+        "support.variable.property",
+      ],
       "settings": {
         "foreground": "#7A4797",
       }
@@ -238,9 +242,6 @@
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
         "keyword.other.keyframe-selector.less",
-
-        // js object property name
-        "variable.other.property.js,meta.object-literal.key.js"
 			],
 			"settings": {
 				"foreground": "#5d69c4"
@@ -274,6 +275,8 @@
         "support.type.object.module.js",
 				// golang func keyword
         "keyword.function.go",
+        // template expression: ${}
+        "punctuation.definition.template-expression",
       ],
       "settings": {
         "foreground": "#d33a3d",
@@ -281,8 +284,6 @@
     },
     {
       "scope": [
-        // template expression: ${}
-        "punctuation.definition.template-expression",
         // undefined/null
         "constant.language.undefined",
         "constant.language.null"
