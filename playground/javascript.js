@@ -64,6 +64,8 @@ const bigInt = 123n
 
 const reg = /[123|23123]/
 
+if (/\b_blank\b/i.test('to')) return
+
 console.log({
   number,
   string,
