@@ -24,7 +24,7 @@ for (let i = 0; i < 10; i++) { }
 try { } catch (e) { }
 
 function capitalize(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1)
+  return str.charAt(0)['toUpperCase']() + str.slice(1)
 }
 
 export function Component<Generics>(): Generics {
