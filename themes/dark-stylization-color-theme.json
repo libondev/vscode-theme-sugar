@@ -6,16 +6,22 @@
   "tokenColors": [
     {
       "scope": [
-        "punctuation",
         "meta.brace",
         "keyword.operator",
         "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
+        "punctuation.other",
+        "punctuation.section", // ( )
+        "punctuation.separator",  // ,
+        "punctuation.terminator", // ;
+        "punctuation.definition", // {}
         "punctuation.separator.key-value",
-        "punctuation.definition.parameters",
+        "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",
+        "punctuation.definition.group.begin.less",
+        "punctuation.definition.group.end.less",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
-				"punctuation.definition.attribute-selector.end.bracket.square.scss"
+				"punctuation.definition.attribute-selector.end.bracket.square.scss",
       ],
       "settings": {
         "foreground": "#7777778F"
@@ -23,7 +29,16 @@
     },
 
     {
+      // ?: ?=
+      "scope": "punctuation.definition.group",
+      "settings": {
+        "foreground": "#C4704F",
+      }
+    },
+
+    {
       "scope": [
+        "punctuation.accessor", // xxx(.)xxx
         "keyword.operator.logical",
         "keyword.operator.bitwise",
         "keyword.operator.increment",
@@ -44,7 +59,6 @@
         "storage.type",
         "keyword.control",
         "storage.modifier",
-        "keyword.function.go",
         "keyword.operator.new",
         "keyword.operator.expression",
         "support.type.object.module.js",
@@ -56,7 +70,8 @@
 
     {
       "scope": [
-        "storage.type.function.arrow"
+        "storage.type.function.arrow",
+        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "fontStyle": ""

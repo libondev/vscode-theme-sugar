@@ -187,8 +187,10 @@
     },
     {
       "scope": [
-        "constant.numeric", // 1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+        "number",
+        "constant.numeric", // 1234567890
         "storage.type.numeric.bigint", // bigint: n
+        "keyword.operator.quantifier.regexp",
       ],
       "settings": {
         "foreground": "#acc59f",
@@ -204,9 +206,9 @@
     {
       // reset to default color
       "scope": [
+        "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
         "storage.type.function.arrow", // =>
         "punctuation.separator.key-value", // object key:
-        "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
         // scss ([) xxx=xxx (])
         "punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",
@@ -273,6 +275,7 @@
     {
       // language keywords
       "scope": [
+        "keyword",
         // const/var/let/function/interface/enum/class/(type Aa = 1)/constructor/get/set
         "storage.type",
         // import/export/(import type Aa)/return/if/else/for/while/switch/try/catch/finally/throw
@@ -285,8 +288,6 @@
         "keyword.operator.expression",
         // module.exports
         "support.type.object.module.js",
-				// golang func keyword
-        "keyword.function.go",
         // template expression: ${}
         "punctuation.definition.template-expression",
       ],
@@ -295,42 +296,39 @@
       }
     },
     {
-			"name": "Regular expression groups",
-			"scope": [
-				"punctuation.definition.group.regexp",
-				"punctuation.definition.group.assertion.regexp",
-				"punctuation.definition.character-class.regexp",
-				"punctuation.character.set.begin.regexp",
-				"punctuation.character.set.end.regexp",
-				"keyword.operator.negation.regexp",
-				"support.other.parenthesis.regexp"
-			],
-			"settings": {
-				"foreground": "#b68571"
-			}
-		},
-    {
-      // regexp string
-			"scope": [
-				"constant.character.character-class.regexp",
-				"constant.other.character-class.set.regexp",
-				"constant.other.character-class.regexp",
-        "keyword.operator.quantifier.regexp",
-				"constant.character.set.regexp",
-				"string.regexp"
-			],
-			"settings": {
-				"foreground": "#e27652"
-			}
-		},
-    {
       "scope": [
-        // regexp anchors($)
-        "keyword.control.anchor.regexp"
+        "type.identifier",
+        "constant.other.character-class.regexp" // (\d)
       ],
       "settings": {
-        "foreground": "#ceb25b",
-        "fontStyle": ""
+        "foreground": "#6872ab"
+      }
+    },
+    {
+      "scope": [
+        "source.regexp",
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#C4704F"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.or.regexp", // |
+        "string.regexp.character-class",
+        "string.regexp constant.character.escape",
+        "string.regexp source.ruby.embedded",
+        "string.regexp string.regexp.arbitrary-repitition",
+      ],
+      "settings": {
+        "foreground": "#c98a7d"
+      }
+    },
+    {
+      "scope": "string.regexp constant.character.escape",
+      "settings": {
+        "foreground": "#e6cc77"
       }
     },
     {
@@ -339,6 +337,15 @@
         "support.function.misc", // (var)(--var)
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
+      ],
+      "settings": {
+        "foreground": "#68ade5",
+      }
+    },
+    {
+      "scope": [
+        // hover card function (name)
+        "entity.name",
       ],
       "settings": {
         "foreground": "#68ade5",
