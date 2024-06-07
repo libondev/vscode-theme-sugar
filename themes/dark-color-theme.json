@@ -59,7 +59,6 @@
     "inputOption.activeBackground": "#05966982",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#FFFFFF",
-    "keybindingLabel.foreground": "#BFBFBF",
     "list.activeSelectionForeground": "#FFFFFF",
     "list.activeSelectionBackground": "#05966982",
     "list.activeSelectionIconForeground": "#FFFFFF",
@@ -321,7 +320,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#d8955e"
+				"foreground": "#e27652"
 			}
 		},
     {
@@ -330,6 +329,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
+        "foreground": "#ceb25b",
         "fontStyle": ""
       }
     },
@@ -363,7 +363,7 @@
 				"entity.name.type.module,meta.namespace.declaration",
       ],
       "settings": {
-        "foreground": "#64bfcf",
+        "foreground": "#55bdcf",
       }
     },
     {

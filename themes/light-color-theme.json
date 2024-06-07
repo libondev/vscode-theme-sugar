@@ -59,9 +59,8 @@
 		"inputOption.activeBackground": "#05966982",
 		"inputOption.activeBorder": "#059669",
 		"inputOption.activeForeground": "#000000",
-		"keybindingLabel.foreground": "#3B3B3B",
     "list.activeSelectionForeground": "#FFFFFF",
-    "list.activeSelectionBackground": "#059668e0",
+    "list.activeSelectionBackground": "#059668",
 		"list.activeSelectionIconForeground": "#000000",
 		"list.hoverBackground": "#EEEEEE",
     "list.dropBackground": "#CCCCCC",
@@ -153,7 +152,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#858585",
+        "foreground": "#AAA",
       }
     },
     {
@@ -174,7 +173,7 @@
 				"meta.attribute-selector.scss"
       ],
       "settings": {
-        "foreground": "#5e9751",
+        "foreground": "#448c27",
       }
     },
     {
@@ -183,7 +182,7 @@
         "support.type.builtin"
       ],
       "settings": {
-        "foreground": "#53a481",
+        "foreground": "#059669",
       }
     },
     {
@@ -292,7 +291,7 @@
         "keyword.other.important",
       ],
       "settings": {
-        "foreground": "#aa3c3c",
+        "foreground": "#c73939",
       }
     },
     {
@@ -321,7 +320,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#c7735e"
+				"foreground": "#d0421f"
 			}
 		},
     {
@@ -330,6 +329,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
+        "foreground": "#c89809",
         "fontStyle": ""
       }
     },
@@ -363,7 +363,7 @@
 				"entity.name.type.module,meta.namespace.declaration",
       ],
       "settings": {
-        "foreground": "#49afc1",
+        "foreground": "#0db2d0",
       }
     },
     {
@@ -372,7 +372,7 @@
         "support.type.primitive",
       ],
       "settings": {
-        "foreground": "#3aa28f",
+        "foreground": "#05c2c2",
       }
     },
     {
