@@ -6,6 +6,9 @@
   "tokenColors": [
     {
       "scope": [
+        "meta.brace",
+        "keyword.operator",
+        "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
         "punctuation.other",
         "punctuation.section", // ( )
