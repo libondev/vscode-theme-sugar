@@ -162,8 +162,9 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable",
+        "meta.object-literal.key",
 				"constant.other.placeholder",
-        "variable.other.constant.property"
+        "variable.other.constant.property",
       ],
       "settings": {
         "foreground": "#b3a462",
@@ -177,7 +178,7 @@
 				"variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#cd944f",
+        "foreground": "#c5975e",
       }
     },
     {
@@ -245,7 +246,7 @@
         "support.type.property-name.media", // @media ((min-width): 100px)
       ],
       "settings": {
-        "foreground": "#cd944f",
+        "foreground": "#c5975e",
       }
     },
     {

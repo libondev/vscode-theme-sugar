@@ -162,8 +162,9 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable",
+        "meta.object-literal.key",
 				"constant.other.placeholder",
-        "variable.other.constant.property"
+        "variable.other.constant.property",
       ],
       "settings": {
         "foreground": "#5f80d4",
