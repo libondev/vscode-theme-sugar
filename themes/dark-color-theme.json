@@ -158,12 +158,26 @@
     {
       "scope": [
         "variable",
-        "meta.object-literal.key",
-        "support.constant.property",
-        "support.variable.property",
+        "identifier",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable",
+				"constant.other.placeholder",
+        "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "#c5975e",
+        "foreground": "#b3a462",
+      }
+    },
+    {
+      "scope": [
+        "support.variable",
+        "variable.other.object",
+        "variable.other.constant",
+				"variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#cd944f",
       }
     },
     {
@@ -231,7 +245,7 @@
         "support.type.property-name.media", // @media ((min-width): 100px)
       ],
       "settings": {
-        "foreground": "#c5975e",
+        "foreground": "#cd944f",
       }
     },
     {
@@ -432,7 +446,7 @@
     {
 			"scope": [
         "markup.inserted",
-        "meta.diff.header.to-file",
+        // "meta.diff.header.to-file",
         "punctuation.definition.inserted"
       ],
 			"settings": {
@@ -442,7 +456,7 @@
 		{
 			"scope": [
         "markup.deleted",
-        "meta.diff.header.from-file",
+        // "meta.diff.header.from-file",
         "punctuation.definition.deleted"
       ],
 			"settings": {
