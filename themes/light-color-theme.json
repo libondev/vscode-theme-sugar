@@ -240,6 +240,8 @@
 				"source.coffee.embedded",
 				"support.type.property-name.css",
 				"support.type.property-name.less",
+        "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
+        "support.type.vendored.property-name.css",
 
         // css keyframe
         "entity.other.keyframe-offset",
@@ -334,7 +336,9 @@
     {
       "scope": [
         "entity.name.function", // function name
+        "support.function.url", // (url)()
         "support.function.misc", // (var)(--var)
+        "support.function.format",
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
       ],

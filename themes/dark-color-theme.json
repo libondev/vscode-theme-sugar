@@ -98,7 +98,7 @@
 		"settings.textInputBorder": "#424242",
     "sideBar.border": "#2B2B2B",
     "sideBar.background": "#121212",
-    "sideBar.foreground": "#BFBFBF",
+    "sideBar.foreground": "#CCCCCC",
     "sideBarSectionHeader.background": "#0000",
     "sideBarSectionHeader.border": "#2B2B2B",
     "sideBarSectionHeader.foreground": "#BFBFBF",
@@ -127,7 +127,7 @@
     "tab.unfocusedActiveBorder": "#1F1F1F",
     "tab.unfocusedActiveBorderTop": "#2B2B2B",
     "tab.unfocusedHoverBackground": "#1F1F1F",
-    "terminal.foreground": "#BFBFBF",
+    "terminal.foreground": "#CDCDCD",
     "terminal.inactiveSelectionBackground": "#3A3D41",
     "terminal.tab.activeBorder": "#059669",
     "terminalCursor.foreground": "#059669",
@@ -240,6 +240,8 @@
 				"source.coffee.embedded",
 				"support.type.property-name.css",
 				"support.type.property-name.less",
+        "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
+        "support.type.vendored.property-name.css",
 
         // css keyframe
         "entity.other.keyframe-offset",
@@ -334,7 +336,9 @@
     {
       "scope": [
         "entity.name.function", // function name
+        "support.function.url", // (url)()
         "support.function.misc", // (var)(--var)
+        "support.function.format",
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
       ],
