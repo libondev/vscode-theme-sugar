@@ -358,6 +358,7 @@
     {
       "scope": [
         "entity.name.type.class", // class (Name)
+        "support.class.component", // jsx class component
         "entity.name.type.module", // extends (React).Component
         "entity.other.inherited-class", // class Name extends (Test)
       ],
