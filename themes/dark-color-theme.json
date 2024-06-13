@@ -168,12 +168,13 @@
         "variable.other.constant.property",
       ],
       "settings": {
-        "foreground": "#b3a462",
+        "foreground": "#afa36a",
       }
     },
     {
       "scope": [
         "support.variable",
+        "variable.language.this",
         "variable.other.constant",
 				"variable.other.enummember",
         "variable.other.readwrite.alias",
@@ -424,6 +425,7 @@
       // link/image
       "scope": [
         "markup.underline.link",
+        "variable.other.link.underline",
         "punctuation.definition.list.begin.markdown"
       ],
       "settings": {
