@@ -174,7 +174,6 @@
     {
       "scope": [
         "support.variable",
-        "variable.other.object",
         "variable.other.constant",
 				"variable.other.enummember",
         "variable.other.readwrite.alias",
@@ -347,21 +346,14 @@
     },
     {
       "scope": [
+        // hover card function (name)
+        "entity.name",
         "entity.name.function", // function name
         "support.function.url", // (url)()
         "support.function.misc", // (var)(--var)
         "support.function.format",
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
-      ],
-      "settings": {
-        "foreground": "#68ade5",
-      }
-    },
-    {
-      "scope": [
-        // hover card function (name)
-        "entity.name",
       ],
       "settings": {
         "foreground": "#68ade5",

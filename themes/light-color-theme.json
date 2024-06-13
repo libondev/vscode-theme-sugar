@@ -31,7 +31,7 @@
 		"dropdown.foreground": "#3B3B3B",
 		"dropdown.listBackground": "#FFFFFF",
 		"editor.background": "#f8f8f8",
-		"editor.foreground": "#424242",
+		"editor.foreground": "#555555",
     "editor.findMatchBackground": "#9E6A03",
 		"editor.inactiveSelectionBackground": "#E5EBF188",
 		"editor.selectionHighlightBackground": "#ADD6FF80",
@@ -66,7 +66,7 @@
     "list.dropBackground": "#CCCCCC",
 		"menu.border": "#CECECE",
     "menu.background": "#ffffff",
-    "menu.foreground": "#424242",
+    "menu.foreground": "#555555",
 		"menu.selectionBackground": "#059669",
 		"menu.selectionForeground": "#FFFFFF",
 		"notificationCenterHeader.background": "#FFFFFF",
@@ -152,7 +152,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#BBB",
+        "foreground": "#999",
       }
     },
     {
@@ -168,19 +168,18 @@
         "variable.other.constant.property",
       ],
       "settings": {
-        "foreground": "#5f80d4",
+        "foreground": "#2786be",
       }
     },
     {
       "scope": [
         "support.variable",
-        "variable.other.object",
         "variable.other.constant",
 				"variable.other.enummember",
         "variable.other.readwrite.alias",
       ],
       "settings": {
-        "foreground": "#7A4797",
+        "foreground": "#9042be",
       }
     },
     {
@@ -347,6 +346,8 @@
     },
     {
       "scope": [
+        // hover card function (name)
+        "entity.name",
         "entity.name.function", // function name
         "support.function.url", // (url)()
         "support.function.misc", // (var)(--var)
@@ -355,16 +356,7 @@
         "support.function.filter.less", // less (attr)()
       ],
       "settings": {
-        "foreground": "#2087db",
-      }
-    },
-    {
-      "scope": [
-        // hover card function (name)
-        "entity.name",
-      ],
-      "settings": {
-        "foreground": "#2087db",
+        "foreground": "#2d69d7",
       }
     },
     {
