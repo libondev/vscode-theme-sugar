@@ -159,11 +159,12 @@
       "scope": [
         "variable",
         "identifier",
-				"meta.definition.variable.name",
+        "support.constant",
 				"support.variable",
 				"entity.name.variable",
         "meta.object-literal.key",
 				"constant.other.placeholder",
+				"meta.definition.variable.name",
         "variable.other.constant.property",
       ],
       "settings": {
@@ -175,7 +176,8 @@
         "support.variable",
         "variable.other.object",
         "variable.other.constant",
-				"variable.other.enummember"
+				"variable.other.enummember",
+        "variable.other.readwrite.alias",
       ],
       "settings": {
         "foreground": "#7A4797",
@@ -210,12 +212,6 @@
       "settings": {
         "foreground": "#76a35e",
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": "support.constant", // css property value: display: (flex)
-      "settings": {
-        "foreground": "#c99076",
       }
     },
     {
@@ -284,6 +280,7 @@
         "entity.name.tag",
         // json property name
         "string.json.comments",
+        "support.class.component", // jsx class component
       ],
       "settings": {
         "foreground": "#d33a3d",
@@ -373,7 +370,6 @@
     {
       "scope": [
         "entity.name.type.class", // class (Name)
-        "support.class.component", // jsx class component
         "entity.name.type.module", // extends (React).Component
         "entity.other.inherited-class", // class Name extends (Test)
       ],
