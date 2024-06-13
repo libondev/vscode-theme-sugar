@@ -7,6 +7,7 @@
     {
       "scope": [
         "meta.brace",
+        "source.css.scss",
         "keyword.operator",
         "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
@@ -48,6 +49,8 @@
         "keyword.operator.comparison",
         "keyword.operator.arithmetic",
         "keyword.operator.assignment",
+        
+        "invalid.illegal.combinator.less",
       ],
       "settings": {
         "foreground": "#999"
