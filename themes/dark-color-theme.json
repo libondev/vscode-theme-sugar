@@ -168,7 +168,7 @@
         "variable.other.constant.property",
       ],
       "settings": {
-        "foreground": "#afa36a",
+        "foreground": "#b8aa63",
       }
     },
     {
@@ -260,7 +260,7 @@
         "keyword.other.keyframe-selector.less",
 			],
 			"settings": {
-				"foreground": "#afa36a"
+				"foreground": "#b8aa63"
 			}
     },
     {
@@ -355,6 +355,7 @@
         "support.function.format",
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
+        "variable.language.super", // (super)()
       ],
       "settings": {
         "foreground": "#68ade5",

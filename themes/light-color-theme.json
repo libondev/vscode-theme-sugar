@@ -355,6 +355,7 @@
         "support.function.format",
         "support.function.var.less", // less css
         "support.function.filter.less", // less (attr)()
+        "variable.language.super", // (super)()
       ],
       "settings": {
         "foreground": "#2d69d7",
