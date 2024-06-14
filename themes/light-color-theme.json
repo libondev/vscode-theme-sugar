@@ -349,12 +349,8 @@
       "scope": [
         // hover card function (name)
         "entity.name",
+        "support.function",
         "entity.name.function", // function name
-        "support.function.url", // (url)()
-        "support.function.misc", // (var)(--var)
-        "support.function.format",
-        "support.function.var.less", // less css
-        "support.function.filter.less", // less (attr)()
         "variable.language.super", // (super)()
       ],
       "settings": {
