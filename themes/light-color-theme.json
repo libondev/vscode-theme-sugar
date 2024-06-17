@@ -240,6 +240,7 @@
         "entity.name.function.scss", // scss @keyframe (Animate)
         "meta.at-rule.keyframe.less",
         "support.type.property-name.media", // @media ((min-width): 100px)
+        "constant.character.escape", // `(\n)(\t)`
       ],
       "settings": {
         "foreground": "#1580c7",
