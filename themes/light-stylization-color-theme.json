@@ -7,7 +7,6 @@
     {
       "scope": [
         "meta.brace",
-        "source.css.scss",
         "keyword.operator",
         "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
