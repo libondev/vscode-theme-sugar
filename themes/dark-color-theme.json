@@ -254,7 +254,7 @@
 				"support.type.property-name.less",
         "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
         "support.type.vendored.property-name.css",
-
+        "meta.property-value.css",
         // css keyframe
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
@@ -360,6 +360,7 @@
     },
     {
       "scope": [
+        "support.class",
         "entity.name.type.class", // class (Name)
         "entity.name.type.module", // extends (React).Component
         "entity.other.inherited-class", // class Name extends (Test)
