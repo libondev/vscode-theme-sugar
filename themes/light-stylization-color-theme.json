@@ -30,14 +30,6 @@
     },
 
     {
-      // ?: ?=
-      "scope": "punctuation.definition.group",
-      "settings": {
-        "foreground": "#C4704F",
-      }
-    },
-
-    {
       "scope": [
         "punctuation.accessor", // xxx(.)xxx
         "keyword.operator.logical",

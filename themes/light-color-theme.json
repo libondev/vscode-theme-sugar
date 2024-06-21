@@ -163,6 +163,7 @@
 				"support.variable",
 				"entity.name.variable",
         "meta.object-literal.key",
+        "support.variable.property",
 				"constant.other.placeholder",
 				"meta.definition.variable.name",
         "variable.other.constant.property",
@@ -177,7 +178,7 @@
         "variable.language.this",
         "variable.other.constant",
 				"variable.other.enummember",
-        "variable.other.readwrite.alias",
+        "variable.other.readwrite",
       ],
       "settings": {
         "foreground": "#9042be",
@@ -207,7 +208,6 @@
         "number",
         "constant.numeric", // 1234567890
         "storage.type.numeric.bigint", // bigint: n
-        "keyword.operator.quantifier.regexp",
       ],
       "settings": {
         "foreground": "#76a35e",
@@ -270,6 +270,7 @@
         "constant.language.null",
         "constant.language.undefined",
         "keyword.other.important",
+        "keyword.operator.or.regexp", // (|)
       ],
       "settings": {
         "foreground": "#c73939",
@@ -320,30 +321,10 @@
       }
     },
     {
-      "scope": [
-        "source.regexp",
-        "string.regexp"
-      ],
+      // regexp: ?: ?=
+      "scope": "punctuation.definition.group",
       "settings": {
-        "foreground": "#c4704f"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.or.regexp", // |
-        "string.regexp.character-class",
-        "string.regexp constant.character.escape",
-        "string.regexp source.ruby.embedded",
-        "string.regexp string.regexp.arbitrary-repitition"
-      ],
-      "settings": {
-        "foreground": "#c98a7d"
-      }
-    },
-    {
-      "scope": "string.regexp constant.character.escape",
-      "settings": {
-        "foreground": "#e6cc77"
+        "foreground": "#C4704F",
       }
     },
     {
@@ -385,6 +366,8 @@
       "scope": [
 				// string/number/boolean/symbol
         "support.type.primitive",
+        "keyword.operator.quantifier.regexp",
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "#05c2c2",
