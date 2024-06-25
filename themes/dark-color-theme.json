@@ -160,7 +160,6 @@
         "variable",
         "identifier",
         "support.constant",
-				"support.variable",
 				"entity.name.variable",
         "meta.object-literal.key",
         "support.variable.property",
@@ -176,6 +175,7 @@
       "scope": [
         "support.variable",
         "variable.language.this",
+        "variable.other.object", // (obj).xxx
         "variable.other.constant",
 				"variable.other.enummember",
         "variable.other.readwrite",
@@ -196,11 +196,11 @@
     },
     {
       "scope": [
-        "constant.language", // undefined/null/nil
+        "constant.language", // undefined/null/nil/true/false
         "support.type.builtin",
       ],
       "settings": {
-        "foreground": "#53a481",
+        "foreground": "#509778",
       }
     },
     {
