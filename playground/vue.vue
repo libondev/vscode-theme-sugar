@@ -10,6 +10,10 @@ const props = defineProps({
     type: Boolean,
     default: true,
   },
+  fn: {
+    type: Function,
+    default: () => {},
+  }
 })
 
 const emits = defineEmits(['update:modelValue'])
@@ -33,7 +37,7 @@ modelValue.value.toString().split('')
 
 <template>
   <view>
-    <view>
+    <view class="123">
       12312
     </view>
   </view>
