@@ -13,9 +13,9 @@ delete exportClass.testMethod
 
 const bool = true || false
 
-const language = undefined && !null ?? ~undefined
+const language = undefined && !null
 
-const a = bool | 123 & 456 ^ 789
+const a = bool | 123 & 456 ^ 789 << 101112 >> 131415 >>> 161718
 
 while (1) { }
 

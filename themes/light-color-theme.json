@@ -271,6 +271,7 @@
         "constant.language.undefined",
         "keyword.other.important",
         "keyword.operator.or.regexp", // (|)
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "#c73939",
@@ -330,7 +331,7 @@
     {
       "scope": [
         // hover card function (name)
-        "entity.name",
+        // "entity.name",
         "support.function",
         "entity.name.function", // function name
         "variable.language.super", // (super)()
@@ -367,7 +368,6 @@
 				// string/number/boolean/symbol
         "support.type.primitive",
         "keyword.operator.quantifier.regexp",
-        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "#05c2c2",

@@ -7,20 +7,22 @@
     {
       "scope": [
         "meta.brace",
+        "punctuation",
         "keyword.operator",
+        "meta.embedded.block",
+        "meta.function.expression",
         "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
-        "punctuation.other",
-        "punctuation.section", // ( )
-        "punctuation.separator",  // ,
-        "punctuation.terminator", // ;
-        "punctuation.definition", // {}
-        "meta.function.expression",
-        "punctuation.destructuring",
-        "meta.embedded.block",
+        // "punctuation.other",
+        // "punctuation.section", // ( )
+        // "punctuation.separator",  // ,
+        // "punctuation.terminator", // ;
+        // "punctuation.definition", // {}
+        // "punctuation.destructuring",
         "punctuation.separator.key-value",
         "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",
+        // less: @media (()     ())
         "punctuation.definition.group.begin.less",
         "punctuation.definition.group.end.less",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
