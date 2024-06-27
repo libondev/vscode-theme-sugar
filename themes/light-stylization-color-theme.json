@@ -15,7 +15,9 @@
         "punctuation.separator",  // ,
         "punctuation.terminator", // ;
         "punctuation.definition", // {}
+        "meta.function.expression",
         "punctuation.destructuring",
+        "meta.embedded.block",
         "punctuation.separator.key-value",
         "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",

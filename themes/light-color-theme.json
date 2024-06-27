@@ -219,7 +219,7 @@
       "scope": [
         "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
         "storage.type.function.arrow", // =>
-        "punctuation.separator.key-value", // object key:
+        "punctuation.separator.key-value", // object_key(:)value/str(:) string
         // scss ([) xxx=xxx (])
         "punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",
