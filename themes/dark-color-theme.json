@@ -160,6 +160,8 @@
         "variable",
         "identifier",
         "support.constant",
+        "entity.name.label",
+        "meta.objectliteral",
 				"entity.name.variable",
         "meta.object-literal.key",
         "support.variable.property",
@@ -196,11 +198,11 @@
     },
     {
       "scope": [
-        "constant.language", // undefined/null/nil/true/false
+        "constant.language", // true/false
         "support.type.builtin",
       ],
       "settings": {
-        "foreground": "#409f8f",
+        "foreground": "#47af9e",
       }
     },
     {
@@ -217,6 +219,7 @@
     {
       // reset to default color
       "scope": [
+        "meta.jsx.children",
         "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
         "storage.type.function.arrow", // =>
         "punctuation.separator.key-value", // object_key(:)value/str(:) string
