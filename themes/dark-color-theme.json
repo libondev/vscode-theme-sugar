@@ -223,6 +223,8 @@
         "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
         "storage.type.function.arrow", // =>
         "punctuation.separator.key-value", // object_key(:)value/str(:) string
+        // string Uppercase(<)First(>)
+        "punctuation.definition.typeparameters",
         // scss ([) xxx=xxx (])
         "punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",

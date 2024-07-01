@@ -20,6 +20,7 @@
         // "punctuation.definition", // {}
         // "punctuation.destructuring",
         "punctuation.separator.key-value",
+        "punctuation.definition.typeparameters",
         "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",
         // less: @media (()     ())
