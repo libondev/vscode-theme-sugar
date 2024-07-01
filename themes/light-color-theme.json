@@ -161,7 +161,6 @@
         "identifier",
         "support.constant",
         "entity.name.label",
-        "meta.objectliteral",
 				"entity.name.variable",
         "meta.object-literal.key",
         "support.variable.property",
