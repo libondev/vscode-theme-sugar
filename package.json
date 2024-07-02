@@ -3,7 +3,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Sugar theme for Visual Studio Code",
   "author": "Libon <bon.li@outlook.com>",
   "license": "MIT",
