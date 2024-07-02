@@ -31,12 +31,6 @@ body {
   100% {}
 }
 
-@supports (display: grid) {
-  body {
-    display: grid;
-  }
-}
-
 @media (min-width: 100px) {
   body {
     width: 100%;

@@ -8,7 +8,7 @@ export const exportConst = 'exportConst';
 
 export class ExportClass {
   constructor() {
-    console.log('ExportClass constructor', this, this.name.xx);
+    console.log('ExportClass constructor', this, this.name.xxx.xxx);
   }
 
   testMethod() {
@@ -17,7 +17,7 @@ export class ExportClass {
 }
 
 export function exportFunction(...restParams) {
-  console.log('exportFunction', ...restParams);
+  console.log('exportFunction', ...restParams, restParams.length);
 }
 
 function blockFunction(...restParams) {
