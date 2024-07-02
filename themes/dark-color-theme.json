@@ -148,6 +148,9 @@
     "welcomePage.tileBackground": "#333333",
     "widget.border": "#313131",
   },
+  "semanticTokenColors": {
+    "property": "#b8aa63"
+  },
   "tokenColors": [
     {
       "scope": "comment",
@@ -162,11 +165,8 @@
         "support.constant",
         "entity.name.label",
 				"entity.name.variable",
-        "meta.object-literal.key",
-        "support.variable.property",
 				"constant.other.placeholder",
 				"meta.definition.variable.name",
-        "variable.other.constant.property",
       ],
       "settings": {
         "foreground": "#b8aa63",
@@ -175,11 +175,8 @@
     {
       "scope": [
         "support.variable",
-        "variable.language.this",
-        "variable.other.object", // (obj).xxx
-        "variable.other.constant",
-				"variable.other.enummember",
-        "variable.other.readwrite",
+        "variable.language",
+        "variable.other.readwrite.alias",
       ],
       "settings": {
         "foreground": "#c5975e",
@@ -224,6 +221,10 @@
         "punctuation.separator.key-value", // object_key(:)value/str(:) string
         // string Uppercase(<)First(>)
         "punctuation.definition.typeparameters",
+        "punctuation.section.function",
+        // attr(()data-bid())
+        "punctuation.definition.group.begin.less",
+        "punctuation.definition.group.end.less",
         // scss ([) xxx=xxx (])
         "punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",
@@ -238,9 +239,7 @@
         // html attribute name
         "entity.other.attribute-name",
         // html deprecated attribute: border/align
-        "invalid.deprecated.entity.other.attribute-name.html",
-        // less custom property: --xxx
-        "support.type.custom-property.less",
+        "invalid.deprecated.entity.other.attribute-name",
         "entity.name.function.scss", // scss @keyframe (Animate)
         "meta.at-rule.keyframe.less",
         "support.type.property-name.media", // @media ((min-width): 100px)
@@ -259,6 +258,7 @@
         "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
         "support.type.vendored.property-name.css",
         "meta.property-value.css",
+        "support.type.custom-property",
         // css keyframe
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",

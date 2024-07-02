@@ -23,6 +23,10 @@
         "punctuation.definition.typeparameters",
         "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",
+        "punctuation.section.function",
+        // attr(()data-bid())
+        "punctuation.definition.group.begin.less",
+        "punctuation.definition.group.end.less",
         // less: @media (()     ())
         "punctuation.definition.group.begin.less",
         "punctuation.definition.group.end.less",
