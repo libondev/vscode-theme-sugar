@@ -165,6 +165,7 @@
         "support.constant",
         "entity.name.label",
 				"entity.name.variable",
+        "meta.object-literal.key",
 				"constant.other.placeholder",
 				"meta.definition.variable.name",
       ],
