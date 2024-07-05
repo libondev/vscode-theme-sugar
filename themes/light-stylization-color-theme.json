@@ -9,16 +9,11 @@
         "meta.brace",
         "punctuation",
         "keyword.operator",
+        "meta.array.literal",
         "meta.embedded.block",
         "meta.function.expression",
         "meta.attribute.directive", // @click(.)stop
         "storage.type.function.arrow",
-        // "punctuation.other",
-        // "punctuation.section", // ( )
-        // "punctuation.separator",  // ,
-        // "punctuation.terminator", // ;
-        // "punctuation.definition", // {}
-        // "punctuation.destructuring",
         "punctuation.separator.key-value",
         "punctuation.definition.typeparameters",
         "meta.property-list.media-query.scss",
