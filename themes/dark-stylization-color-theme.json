@@ -9,6 +9,7 @@
         "meta.brace",
         "punctuation",
         "keyword.operator",
+        "meta.parameters",
         "meta.array.literal",
         "meta.embedded.block",
         "meta.function.expression",
