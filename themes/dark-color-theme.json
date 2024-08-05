@@ -148,9 +148,6 @@
     "welcomePage.tileBackground": "#333333",
     "widget.border": "#313131",
   },
-  "semanticTokenColors": {
-    "property": "#b8aa63"
-  },
   "tokenColors": [
     {
       "scope": "comment",
@@ -245,6 +242,7 @@
         "meta.at-rule.keyframe.less",
         "support.type.property-name.media", // @media ((min-width): 100px)
         "constant.character.escape", // `(\n)(\t)`
+        "support.type.custom-property"
       ],
       "settings": {
         "foreground": "#c5975e",
@@ -259,7 +257,6 @@
         "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
         "support.type.vendored.property-name.css",
         "meta.property-value.css",
-        "support.type.custom-property",
         // css keyframe
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
