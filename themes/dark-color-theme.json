@@ -50,6 +50,13 @@
     "errorForeground": "#cb7676",
     "focusBorder": "#059669",
     "foreground": "#BFBFBF",
+    "gitDecoration.addedResourceForeground": "#4d9375",
+    "gitDecoration.modifiedResourceForeground": "#6394bf",
+    "gitDecoration.deletedResourceForeground": "#cb7676",
+    "gitDecoration.untrackedResourceForeground": "#5eaab5",
+    "gitDecoration.ignoredResourceForeground": "#dedcd550",
+    "gitDecoration.conflictingResourceForeground": "#d4976c",
+    "gitDecoration.submoduleResourceForeground": "#dedcd590",
     "icon.foreground": "#BFBFBF",
     "input.background": "#313131",
     "input.border": "#3C3C3C",
@@ -126,8 +133,25 @@
     "tab.unfocusedActiveBorder": "#1F1F1F",
     "tab.unfocusedActiveBorderTop": "#333333",
     "tab.unfocusedHoverBackground": "#1F1F1F",
+    "terminal.ansiBrightBlack": "#777777",
+    "terminal.ansiBrightBlue": "#6394bf",
+    "terminal.ansiBrightCyan": "#5eaab5",
+    "terminal.ansiBrightGreen": "#4d9375",
+    "terminal.ansiBrightMagenta": "#d9739f",
+    "terminal.ansiBrightRed": "#cb7676",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#e6cc77",
+    "terminal.ansiBlack": "#393a34",
+    "terminal.ansiBlue": "#6394bf",
+    "terminal.ansiCyan": "#5eaab5",
+    "terminal.ansiGreen": "#4d9375",
+    "terminal.ansiMagenta": "#d9739f",
+    "terminal.ansiRed": "#cb7676",
+    "terminal.ansiWhite": "#dbd7ca",
+    "terminal.ansiYellow": "#e6cc77",
     "terminal.foreground": "#CDCDCD",
     "terminal.inactiveSelectionBackground": "#3A3D41",
+    "terminal.selectionBackground": "#eeeeee18",
     "terminal.tab.activeBorder": "#059669",
     "terminalCursor.foreground": "#059669",
     "textBlockQuote.background": "#333333",
@@ -447,7 +471,8 @@
 			"settings": {
 				"foreground": "#ffab70"
 			}
-		},{
+		},
+    {
       "scope": [
         "markup.ignored",
         "markup.untracked"

@@ -50,6 +50,13 @@
 		"errorForeground": "#ab5959",
 		"focusBorder": "#059669",
 		"foreground": "#3B3B3B",
+    "gitDecoration.addedResourceForeground": "#1e754f",
+    "gitDecoration.modifiedResourceForeground": "#296aa3",
+    "gitDecoration.deletedResourceForeground": "#ab5959",
+    "gitDecoration.untrackedResourceForeground": "#2993a3",
+    "gitDecoration.ignoredResourceForeground": "#393a3450",
+    "gitDecoration.conflictingResourceForeground": "#a65e2b",
+    "gitDecoration.submoduleResourceForeground": "#393a3490",
 		"icon.foreground": "#3B3B3B",
 		"input.background": "#FFFFFF",
 		"input.border": "#CECECE",
@@ -126,8 +133,25 @@
 		"tab.unfocusedActiveBorder": "#F8F8F8",
 		"tab.unfocusedActiveBorderTop": "#E5E5E5",
 		"tab.unfocusedHoverBackground": "#F8F8F8",
+    "terminal.ansiBrightBlack": "#aaaaaa",
+    "terminal.ansiBrightBlue": "#296aa3",
+    "terminal.ansiBrightCyan": "#2993a3",
+    "terminal.ansiBrightGreen": "#1e754f",
+    "terminal.ansiBrightMagenta": "#a13865",
+    "terminal.ansiBrightRed": "#ab5959",
+    "terminal.ansiBrightWhite": "#dddddd",
+    "terminal.ansiBrightYellow": "#bda437",
+    "terminal.ansiBlack": "#121212",
+    "terminal.ansiBlue": "#296aa3",
+    "terminal.ansiCyan": "#2993a3",
+    "terminal.ansiGreen": "#1e754f",
+    "terminal.ansiMagenta": "#a13865",
+    "terminal.ansiRed": "#ab5959",
+    "terminal.ansiWhite": "#dbd7ca",
+    "terminal.ansiYellow": "#bda437",
 		"terminal.foreground": "#3B3B3B",
 		"terminal.inactiveSelectionBackground": "#E5EBF1",
+    "terminal.selectionBackground": "#22222218",
 		"terminal.tab.activeBorder": "#059669",
 		"terminalCursor.foreground": "#059669",
 		"textBlockQuote.background": "#F8F8F8",
@@ -462,6 +486,12 @@
       "settings": {
         "foreground": "#6f42c1",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#005cc5"
       }
     },
   ]
