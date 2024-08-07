@@ -31,15 +31,15 @@
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#121212",
     "editor.foreground": "#cccccc",
-    "editor.findMatchBackground": "#9E6A03",
+    "editor.findMatchBackground": "#e6cc7722",
     "editor.inactiveSelectionBackground": "#3A3D4188",
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "editorGroup.border": "#DFDFDF17",
     "editorGroupHeader.tabsBackground": "#121212",
     "editorGroupHeader.tabsBorder": "#333333",
-    "editorGutter.addedBackground": "#2EA043",
-    "editorGutter.deletedBackground": "#F85149",
-    "editorGutter.modifiedBackground": "#059669",
+    "editorGutter.addedBackground": "#4d9375",
+    "editorGutter.deletedBackground": "#cb7676",
+    "editorGutter.modifiedBackground": "#6394bf",
     "editorIndentGuide.activeBackground1": "#707070",
     "editorIndentGuide.background1": "#404040",
     "editorLineNumber.activeForeground": "#BFBFBF",
@@ -47,7 +47,7 @@
     "editorOverviewRuler.border": "#010409",
     "editorSuggestWidget.background": "#242424",
     "editorWidget.background": "#242424",
-    "errorForeground": "#F85149",
+    "errorForeground": "#cb7676",
     "focusBorder": "#059669",
     "foreground": "#BFBFBF",
     "icon.foreground": "#BFBFBF",
@@ -289,7 +289,7 @@
         "support.class.component", // jsx class component
       ],
       "settings": {
-        "foreground": "#de6d77",
+        "foreground": "#d4606a",
       }
     },
     {
@@ -312,7 +312,7 @@
         "punctuation.definition.template-expression",
       ],
       "settings": {
-        "foreground": "#de6d77",
+        "foreground": "#d4606a",
       }
     },
     {
@@ -426,7 +426,7 @@
         "punctuation.definition.inserted"
       ],
 			"settings": {
-				"foreground": "#8fce8e"
+				"foreground": "#85e89d"
 			}
 		},
 		{
@@ -436,7 +436,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#ce7a78"
+				"foreground": "#fdaeb7"
 			}
 		},
 		{
@@ -445,8 +445,29 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#059669"
+				"foreground": "#ffab70"
 			}
-		},
+		},{
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
+      "settings": {
+        "foreground": "#2f363d",
+      }
+    },
+    {
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#b392f0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#79b8ff"
+      }
+    },
   ]
 }
