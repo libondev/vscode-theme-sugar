@@ -1,7 +1,6 @@
 {
 	"name": "Sugar Light",
 	"base": "vs",
-	"semanticHighlighting": true,
 	"colors": {
 		"actionBar.toggledBackground": "#dddddd",
 		"activityBar.activeBorder": "#059669",
@@ -148,6 +147,7 @@
 		"welcomePage.tileBackground": "#F3F3F3",
 		"widget.border": "#E5E5E5",
 	},
+	"semanticHighlighting": true,
 	"tokenColors": [
     {
       "scope": "comment",
@@ -192,7 +192,8 @@
     },
     {
       "scope": [
-        "constant.language", // true/false
+        "constant.language",
+        "constant.language.boolean", // true/false
         "support.type.builtin"
       ],
       "settings": {
@@ -219,6 +220,7 @@
         "punctuation.separator.key-value", // object_key(:)value/str(:) string
         // string Uppercase(<)First(>)
         "punctuation.definition.typeparameters",
+        "punctuation.section.function",
         // attr(()data-bid())
         "punctuation.definition.group.begin.less",
         "punctuation.definition.group.end.less",

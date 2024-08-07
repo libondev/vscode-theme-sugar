@@ -1,10 +1,10 @@
 {
-  "publisher": "banlify",
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
   "version": "0.6.5",
   "description": "Sugar theme for Visual Studio Code",
+  "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
   "license": "MIT",
   "homepage": "https://github.com/libondev/sugar-vscode-theme#readme",

@@ -1,7 +1,6 @@
 {
   "name": "Sugar Dark",
   "base": "vs-dark",
-  "semanticHighlighting": true,
   "colors": {
     "actionBar.toggledBackground": "#383a49",
     "activityBar.activeBorder": "#059669",
@@ -148,6 +147,7 @@
     "welcomePage.tileBackground": "#333333",
     "widget.border": "#313131",
   },
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": "comment",
@@ -167,7 +167,7 @@
 				"meta.definition.variable.name",
       ],
       "settings": {
-        "foreground": "#b8aa63",
+        "foreground": "#b8a965",
       }
     },
     {
@@ -192,11 +192,12 @@
     },
     {
       "scope": [
-        "constant.language", // true/false
+        "constant.language",
         "support.type.builtin",
+        "meta.module-reference",
       ],
       "settings": {
-        "foreground": "#47af9e",
+        "foreground": "#52a380",
       }
     },
     {
@@ -263,7 +264,7 @@
         "keyword.other.keyframe-selector.less",
 			],
 			"settings": {
-				"foreground": "#b8aa63"
+				"foreground": "#b8a965"
 			}
     },
     {
@@ -288,7 +289,7 @@
         "support.class.component", // jsx class component
       ],
       "settings": {
-        "foreground": "#df6868",
+        "foreground": "#de6d77",
       }
     },
     {
@@ -311,7 +312,7 @@
         "punctuation.definition.template-expression",
       ],
       "settings": {
-        "foreground": "#df6868",
+        "foreground": "#de6d77",
       }
     },
     {
