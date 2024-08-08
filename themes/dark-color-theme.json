@@ -47,7 +47,7 @@
     "editorOverviewRuler.border": "#010409",
     "editorSuggestWidget.background": "#242424",
     "editorWidget.background": "#242424",
-    "errorForeground": "#D4606A",
+    "errorForeground": "#dd636d",
     "focusBorder": "#059669",
     "foreground": "#BFBFBF",
     "gitDecoration.addedResourceForeground": "#4d9375",
@@ -309,7 +309,7 @@
         "support.class.component", // jsx class component
       ],
       "settings": {
-        "foreground": "#d4606a",
+        "foreground": "#dd636d",
       }
     },
     {
@@ -332,7 +332,7 @@
         "punctuation.definition.template-expression",
       ],
       "settings": {
-        "foreground": "#d4606a",
+        "foreground": "#dd636d",
       }
     },
     {
