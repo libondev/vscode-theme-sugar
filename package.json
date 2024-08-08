@@ -33,16 +33,6 @@
         "label": "Sugar Dark Stylization",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-stylization-color-theme.json"
-      },
-      {
-        "label": "Sugar Light",
-        "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
-      },
-      {
-        "label": "Sugar Light Stylization",
-        "uiTheme": "vs",
-        "path": "./themes/light-stylization-color-theme.json"
       }
     ]
   },
