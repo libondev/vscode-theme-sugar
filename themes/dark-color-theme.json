@@ -157,10 +157,15 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#6f6f6f",
     "property": "#b8a965",
   },
   "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6f6f6f",
+      }
+    },
     {
       "scope": [
         "variable",
