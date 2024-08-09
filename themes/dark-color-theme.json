@@ -183,6 +183,7 @@
         "variable.language", // (this), (this).name
         "meta.property-name",
         "entity.name.tag.yaml",
+        "support.constant.property-value"
       ],
       "settings": {
         "foreground": "#c5975e",
