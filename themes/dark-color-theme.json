@@ -191,7 +191,7 @@
     {
       "scope": [
         "constant", // /[(123)|(123)]/
-        "support.constant", // @supports (display: (grid)) {
+        // "support.constant", // @supports (display: (grid)) {
         "entity.name.constant",
         "meta.definition.variable",
       ],
