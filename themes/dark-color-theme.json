@@ -156,20 +156,25 @@
     "widget.border": "#313131",
   },
   "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "property": "#b8a965",
-  },
   "tokenColors": [
     {
-      "scope": "comment",
+      "scope": [
+        "comment",
+        "string.comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#777777",
       }
     },
     {
       "scope": [
+        "support",
+        "property",
         "variable",
         "identifier",
+        "attribute.name",
+        "meta.property-name",
         "meta.object-literal.key",
       ],
       "settings": {
@@ -178,12 +183,8 @@
     },
     {
       "scope": [
-        "attribute.name",
         "support.variable", // (console).log
         "variable.language", // (this), (this).name
-        "meta.property-name",
-        "entity.name.tag.yaml",
-        "support.constant.property-value"
       ],
       "settings": {
         "foreground": "#c5975e",
@@ -192,9 +193,9 @@
     {
       "scope": [
         "constant", // /[(123)|(123)]/
-        // "support.constant", // @supports (display: (grid)) {
         "entity.name.constant",
         "meta.definition.variable",
+        "support.constant.property-value", // @supports (display: (grid)) {
       ],
       "settings": {
         "foreground":"#c99076",
@@ -218,7 +219,7 @@
         "meta.module-reference",
       ],
       "settings": {
-        "foreground": "#49a27b",
+        "foreground": "#5DA994",
       }
     },
     {
@@ -296,10 +297,11 @@
         "keyword.other.important", // !important
         "keyword.operator.or.regexp", // (|)
         "keyword.control.anchor.regexp",
-        "punctuation.definition.character-class.regexp"
+        "constant.language.import-export-all.ts",
+        "punctuation.definition.character-class.regexp",
       ],
       "settings": {
-        "foreground": "#cb7676",
+        "foreground": "#d68686",
       }
     },
     {
@@ -308,6 +310,7 @@
         "entity.name.tag",
         // json property name
         "string.json.comments",
+        "support.type.property-name.json.comments",
         "support.class.component", // jsx class component
       ],
       "settings": {
@@ -326,6 +329,7 @@
         "storage.modifier",
         // new
         "keyword.operator.new",
+        "storage.type.class.jsdoc",
         // delete/void/typeof/instanceof/in
         "keyword.operator.expression",
         // module.exports
@@ -355,8 +359,6 @@
     },
     {
       "scope": [
-        // hover card function (name)
-        // "entity.name",
         "support.function",
         "entity.name.function", // function name
         "variable.language.super", // (super)()

@@ -2,7 +2,6 @@
   "name": "Sugar Dark Stylization",
   "$schema": "vscode://schemas/color-theme",
   "include": "./dark-color-theme.json",
-  "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": [
@@ -53,30 +52,5 @@
         "foreground": "#999"
       }
     },
-
-    {
-      // language keywords
-      "scope": [
-        "storage.type",
-        "keyword.control",
-        "storage.modifier",
-        "keyword.operator.new",
-        "keyword.operator.expression",
-        "support.type.object.module.js",
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-
-    {
-      "scope": [
-        "storage.type.function.arrow",
-        "keyword.control.anchor.regexp"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    }
   ]
 }

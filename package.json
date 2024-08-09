@@ -22,6 +22,9 @@
   "engines": {
     "vscode": "^1.40.0"
   },
+  "scripts": {
+    "build": "vsce package --no-dependencies"
+  },
   "contributes": {
     "themes": [
       {
@@ -30,13 +33,15 @@
         "path": "./themes/dark-color-theme.json"
       },
       {
-        "label": "Sugar Dark Stylization",
+        "label": "Sugar Dark Plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-stylization-color-theme.json"
+        "path": "./themes/dark-plus-color-theme.json"
+      },
+      {
+        "label": "Sugar Dark Plus Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-plus-italic-color-theme.json"
       }
     ]
-  },
-  "scripts": {
-    "build": "vsce package --no-dependencies"
   }
 }
