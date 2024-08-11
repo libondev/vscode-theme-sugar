@@ -7,8 +7,8 @@
       "scope": [
         "meta.brace",
         "punctuation",
-        "keyword.operator",
         "meta.parameters",
+        "keyword.operator",
         "meta.array.literal",
         "meta.embedded.block",
         "meta.function.expression",
@@ -19,13 +19,13 @@
         "meta.property-list.media-query.scss",
         "invalid.illegal.character-not-allowed-here.html",
         "punctuation.section.function",
-        // attr(()data-bid())
-        "punctuation.definition.group.begin.less",
+        "punctuation.definition.group.begin.less", // attr(()data-bid())
         "punctuation.definition.group.end.less",
-        // less: @media (()     ())
-        "punctuation.definition.group.begin.less",
+        "punctuation.definition.group.begin.less", // less: @media (()     ())
         "punctuation.definition.group.end.less",
         "punctuation.definition.list.begin.markdown", // markdown list symbol
+        "punctuation.definition.parameters.begin.bracket.round.css",
+        "punctuation.definition.parameters.end.bracket.round.css",
 				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",
       ],
@@ -37,6 +37,7 @@
     {
       "scope": [
         "punctuation.accessor", // xxx(.)xxx
+        "keyword.operator.ternary", // ? :
         "keyword.operator.logical",
         "keyword.operator.bitwise",
         "keyword.operator.increment",
@@ -45,11 +46,10 @@
         "keyword.operator.comparison",
         "keyword.operator.arithmetic",
         "keyword.operator.assignment",
-
         "invalid.illegal.combinator.less",
       ],
       "settings": {
-        "foreground": "#999"
+        "foreground": "#afafaf"
       }
     },
   ]

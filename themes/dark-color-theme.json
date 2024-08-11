@@ -153,7 +153,6 @@
     "titleBar.inactiveForeground": "#9D9D9D",
     "welcomePage.progress.foreground": "#059669",
     "welcomePage.tileBackground": "#333333",
-    "widget.border": "#313131",
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -164,7 +163,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#777777",
+        "foreground": "#777777"
       }
     },
     {
@@ -178,7 +177,7 @@
         "meta.object-literal.key",
       ],
       "settings": {
-        "foreground": "#b8a965",
+        "foreground": "#b8a965"
       }
     },
     {
@@ -187,7 +186,7 @@
         "variable.language", // (this), (this).name
       ],
       "settings": {
-        "foreground": "#c5975e",
+        "foreground": "#c5975e"
       }
     },
     {
@@ -198,7 +197,7 @@
         "support.constant.property-value", // @supports (display: (grid)) {
       ],
       "settings": {
-        "foreground":"#c99076",
+        "foreground":"#c99076"
       }
     },
     {
@@ -209,7 +208,7 @@
         "string punctuation.section.embedded source",
       ],
       "settings": {
-        "foreground": "#97b579",
+        "foreground": "#97b579"
       }
     },
     {
@@ -219,18 +218,19 @@
         "meta.module-reference",
       ],
       "settings": {
-        "foreground": "#5DA994",
+        "foreground": "#5DA994"
       }
     },
     {
       "scope": [
         "number",
         "constant.numeric", // 1234567890
-        "storage.type.numeric.bigint", // bigint: n
+        "keyword.other.unit", // 1(em), 10(%)
+        // css keyframe (from) (to) (100%)
+        "entity.other.keyframe-offset",
       ],
       "settings": {
-        "foreground": "#acc59f",
-        "fontStyle": ""
+        "foreground": "#acc59f"
       }
     },
     {
@@ -246,12 +246,14 @@
         // attr(()data-bid())
         "punctuation.definition.group.begin.less",
         "punctuation.definition.group.end.less",
+        "punctuation.definition.parameters.begin.bracket.round.css",
+        "punctuation.definition.parameters.end.bracket.round.css",
         // scss ([) xxx=xxx (])
         "punctuation.definition.attribute-selector.begin.bracket.square.scss",
 				"punctuation.definition.attribute-selector.end.bracket.square.scss",
       ],
       "settings": {
-        "foreground": "#cccccc",
+        "foreground": "#cccccc"
       }
     },
     {
@@ -261,14 +263,11 @@
         "entity.other.attribute-name",
         // html deprecated attribute: border/align
         "invalid.deprecated.entity.other.attribute-name",
-        "entity.name.function.scss", // scss @keyframe (Animate)
-        "meta.at-rule.keyframe.less",
-        "support.type.property-name.media", // @media ((min-width): 100px)
         "constant.character.escape", // `(\n)(\t)`
-        "support.type.custom-property"
+        "support.type.custom-property",
       ],
       "settings": {
-        "foreground": "#c5975e",
+        "foreground": "#c5975e"
       }
     },
     {
@@ -280,10 +279,12 @@
         "support.type.vendor-prefix.less", // -webkit-/-moz-/-ms-/-o-
         "support.type.vendored.property-name.css",
         "meta.property-value.css",
-        // css keyframe
-        "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
         "keyword.other.keyframe-selector.less",
+        "support.type.property-name.media", // @media ((min-width): 100px)
+        "meta.at-rule.media.header.css", // @media ((prefers-color-scheme): dark) {
+        "entity.name.function.scss", // @keyframe (Animate)
+        "meta.at-rule.keyframe.less",
 			],
 			"settings": {
 				"foreground": "#b8a965"
@@ -301,7 +302,7 @@
         "punctuation.definition.character-class.regexp",
       ],
       "settings": {
-        "foreground": "#d68686",
+        "foreground": "#d28080"
       }
     },
     {
@@ -310,11 +311,11 @@
         "entity.name.tag",
         // json property name
         "string.json.comments",
-        "support.type.property-name.json.comments",
         "support.class.component", // jsx class component
+        "support.type.property-name.json.comments",
       ],
       "settings": {
-        "foreground": "#dd636d",
+        "foreground": "#dd636d"
       }
     },
     {
@@ -338,7 +339,7 @@
         "punctuation.definition.template-expression",
       ],
       "settings": {
-        "foreground": "#dd636d",
+        "foreground": "#dd636d"
       }
     },
     {
@@ -354,7 +355,7 @@
       // regexp: ?: ?=
       "scope": "punctuation.definition.group",
       "settings": {
-        "foreground": "#C4704F",
+        "foreground": "#C4704F"
       }
     },
     {
@@ -364,7 +365,7 @@
         "variable.language.super", // (super)()
       ],
       "settings": {
-        "foreground": "#68ade5",
+        "foreground": "#68ade5"
       }
     },
     {
@@ -375,11 +376,12 @@
         "entity.other.inherited-class", // class Name extends (Test)
       ],
       "settings": {
-        "foreground": "#8287d7",
+        "foreground": "#8287d7"
       }
     },
     {
       "scope": [
+        "support.type",
 				"entity.name.type",
 				"entity.name.type.parameter", // TS generic type
 				// ts function params type
@@ -387,7 +389,7 @@
 				"entity.name.type.module,meta.namespace.declaration",
       ],
       "settings": {
-        "foreground": "#55bdcf",
+        "foreground": "#54b5c6"
       }
     },
     {
@@ -397,13 +399,7 @@
         "keyword.operator.quantifier.regexp",
       ],
       "settings": {
-        "foreground": "#4ebda8",
-      }
-    },
-    {
-      "scope": "markup.heading",
-      "settings": {
-        "foreground": "#059669",
+        "foreground": "#4bbda6"
       }
     },
     {
@@ -422,6 +418,12 @@
       "scope": "markup.italic",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#059669"
       }
     },
     {
@@ -456,7 +458,6 @@
 		{
 			"scope": [
         "markup.deleted",
-        // "meta.diff.header.from-file",
         "punctuation.definition.deleted"
       ],
 			"settings": {
@@ -478,7 +479,7 @@
         "markup.untracked"
       ],
       "settings": {
-        "foreground": "#2f363d",
+        "foreground": "#2f363d"
       }
     },
     {

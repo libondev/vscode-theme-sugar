@@ -17,6 +17,8 @@ const language = undefined && !null
 
 const a = bool | 123 & 456 ^ 789 << 101112 >> 131415 >>> 161718
 
+1 === 1 ? true : false
+
 while (1) { }
 
 for (let i = 0; i < 10; i++) { }
