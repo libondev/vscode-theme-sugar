@@ -261,10 +261,10 @@
       "scope": [
         // html attribute name
         "entity.other.attribute-name",
-        // html deprecated attribute: border/align
-        "invalid.deprecated.entity.other.attribute-name",
         "constant.character.escape", // `(\n)(\t)`
         "support.type.custom-property",
+        // html deprecated attribute: border/align
+        "invalid.deprecated.entity.other.attribute-name",
       ],
       "settings": {
         "foreground": "#c5975e"
