@@ -194,7 +194,6 @@
         "constant", // /[(123)|(123)]/
         "entity.name.constant",
         "meta.definition.variable",
-        "support.constant.property-value", // @supports (display: (grid)) {
       ],
       "settings": {
         "foreground":"#c99076"
@@ -234,10 +233,27 @@
       }
     },
     {
+      // property name
+      "scope": [
+        // html attribute name
+        "entity.other.attribute-name",
+        "constant.character.escape", // `(\n)(\t)`
+        "support.type.custom-property",
+        // html deprecated attribute: border/align
+        "invalid.deprecated.entity.other.attribute-name",
+        // @supports (display: (grid)) {,normal,center,none,inline-block,fixed
+        "support.constant.property-value",
+      ],
+      "settings": {
+        "foreground": "#c5975e"
+      }
+    },
+    {
       // reset to default color
       "scope": [
         "meta.jsx.children",
         "keyword.operator", // .../||/&&/??/!/|/&/^/++/--/==/!=/></>=<=
+        "constant.other.color",
         "storage.type.function.arrow", // =>
         "punctuation.separator.key-value", // object_key(:)value/str(:) string
         // string Uppercase(<)First(>)
@@ -254,20 +270,6 @@
       ],
       "settings": {
         "foreground": "#cccccc"
-      }
-    },
-    {
-      // property name
-      "scope": [
-        // html attribute name
-        "entity.other.attribute-name",
-        "constant.character.escape", // `(\n)(\t)`
-        "support.type.custom-property",
-        // html deprecated attribute: border/align
-        "invalid.deprecated.entity.other.attribute-name",
-      ],
-      "settings": {
-        "foreground": "#c5975e"
       }
     },
     {
@@ -295,7 +297,6 @@
         // undefined/null
         "constant.language.null",
         "constant.language.undefined",
-        "keyword.other.important", // !important
         "keyword.operator.or.regexp", // (|)
         "keyword.control.anchor.regexp",
         "constant.language.import-export-all.ts",
