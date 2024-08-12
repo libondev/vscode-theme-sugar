@@ -309,10 +309,9 @@
       "scope": [
         // html tag name
         "entity.name.tag",
-        // json property name
-        "string.json.comments",
         "support.class.component", // jsx class component
-        "support.type.property-name.json.comments",
+        // json property name
+        "support.type.property-name.json",
       ],
       "settings": {
         "foreground": "#dd636d"
