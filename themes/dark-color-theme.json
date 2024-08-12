@@ -363,6 +363,10 @@
         "support.function",
         "entity.name.function", // function name
         "variable.language.super", // (super)()
+        // from vscode: https://github.com/microsoft/vscode/blob/d0857f8ec9655f17920cece120cde6be19f1ba2e/extensions/theme-defaults/themes/dark_plus.json#L11
+        "support.constant.handlebars",
+				"entity.name.operator.custom-literal",
+				"source.powershell variable.other.member",
       ],
       "settings": {
         "foreground": "#68ade5"
