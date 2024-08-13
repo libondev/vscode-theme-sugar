@@ -207,7 +207,7 @@
         "string punctuation.section.embedded source",
       ],
       "settings": {
-        "foreground": "#97b579"
+        "foreground": "#a0c47b"
       }
     },
     {
@@ -303,7 +303,7 @@
         "punctuation.definition.character-class.regexp",
       ],
       "settings": {
-        "foreground": "#d28080"
+        "foreground": "#c37373"
       }
     },
     {
@@ -319,13 +319,12 @@
       }
     },
     {
-      // language keywords
       "scope": [
         "keyword",
         // const/var/let/function/interface/enum/class/(type Aa = 1)/constructor/get/set
         "storage.type",
         // import/export/(import type Aa)/return/if/else/for/while/switch/try/catch/finally/throw
-        "keyword.control",
+        // "keyword.control",
         // extends/class readonly/class private/class public
         "storage.modifier",
         // new
@@ -363,7 +362,6 @@
         "support.function",
         "entity.name.function", // function name
         "variable.language.super", // (super)()
-        // from vscode: https://github.com/microsoft/vscode/blob/d0857f8ec9655f17920cece120cde6be19f1ba2e/extensions/theme-defaults/themes/dark_plus.json#L11
         "support.constant.handlebars",
 				"entity.name.operator.custom-literal",
 				"source.powershell variable.other.member",
