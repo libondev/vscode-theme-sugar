@@ -29,12 +29,12 @@ export const getTemplate = (colors: any) => {
     "activityBar.foreground": "${foreground}",
     "activityBar.inactiveForeground": "${inactiveBorder}",
     "activityBarBadge.background": "${accent}",
-    "activityBarBadge.foreground": "${inputForeground}",
+    "activityBarBadge.foreground": "${foreground}",
     "badge.background": "${inputBackground}",
-    "badge.foreground": "${inputForeground}",
+    "badge.foreground": "${foreground}",
     "button.border": "#0000",
     "button.background": "${accent}",
-    "button.foreground": "${inputForeground}",
+    "button.foreground": "${foreground}",
     "button.hoverBackground": "${accent}e3",
     "button.secondaryBackground": "${inputBackground}",
     "button.secondaryForeground": "${inputForeground}",
@@ -50,9 +50,9 @@ export const getTemplate = (colors: any) => {
     "editor.foreground": "${foreground}",
     "editorGroupHeader.tabsBackground": "${background}",
     "editorGroupHeader.tabsBorder": "${border}",
-    "editorGutter.addedBackground": "#16a34a",
-    "editorGutter.deletedBackground": "#dc2626",
-    "editorGutter.modifiedBackground": "#0891b2",
+    "editorGutter.addedBackground": "${theme.insert}",
+    "editorGutter.deletedBackground": "${theme.delete}",
+    "editorGutter.modifiedBackground": "${theme.change}",
     "editorLineNumber.activeForeground": "${foreground}88",
     "editorLineNumber.foreground": "${foreground}50",
     "errorForeground": "#dc2626",
@@ -395,6 +395,55 @@ export const getTemplate = (colors: any) => {
       ],
       "settings": {
         "foreground": "${accent}df"
+      }
+    },
+    {
+			"scope": [
+        "markup.inserted",
+        "punctuation.definition.inserted"
+      ],
+			"settings": {
+				"foreground": "${theme.insert}"
+			}
+		},
+		{
+			"scope": [
+        "markup.deleted",
+        "punctuation.definition.deleted"
+      ],
+			"settings": {
+				"foreground": "${theme.delete}"
+			}
+		},
+		{
+			"scope": [
+        "markup.changed",
+        "punctuation.definition.changed"
+      ],
+			"settings": {
+				"foreground": "${theme.change}"
+			}
+		},
+    {
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
+      "settings": {
+        "foreground": "#2f363d"
+      }
+    },
+    {
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#b392f0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#79b8ff"
       }
     }
   ]

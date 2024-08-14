@@ -8,12 +8,12 @@
     "activityBar.foreground": "#cccccc",
     "activityBar.inactiveForeground": "#888",
     "activityBarBadge.background": "#059669",
-    "activityBarBadge.foreground": "#bfbfbf",
+    "activityBarBadge.foreground": "#cccccc",
     "badge.background": "#313131",
-    "badge.foreground": "#bfbfbf",
+    "badge.foreground": "#cccccc",
     "button.border": "#0000",
     "button.background": "#059669",
-    "button.foreground": "#bfbfbf",
+    "button.foreground": "#cccccc",
     "button.hoverBackground": "#059669e3",
     "button.secondaryBackground": "#313131",
     "button.secondaryForeground": "#bfbfbf",
@@ -29,9 +29,9 @@
     "editor.foreground": "#cccccc",
     "editorGroupHeader.tabsBackground": "#121212",
     "editorGroupHeader.tabsBorder": "#333333",
-    "editorGutter.addedBackground": "#16a34a",
-    "editorGutter.deletedBackground": "#dc2626",
-    "editorGutter.modifiedBackground": "#0891b2",
+    "editorGutter.addedBackground": "#22c55e",
+    "editorGutter.deletedBackground": "#ef4444",
+    "editorGutter.modifiedBackground": "#3b82f6",
     "editorLineNumber.activeForeground": "#cccccc88",
     "editorLineNumber.foreground": "#cccccc50",
     "errorForeground": "#dc2626",
@@ -374,6 +374,55 @@
       ],
       "settings": {
         "foreground": "#059669df"
+      }
+    },
+    {
+			"scope": [
+        "markup.inserted",
+        "punctuation.definition.inserted"
+      ],
+			"settings": {
+				"foreground": "#22c55e"
+			}
+		},
+		{
+			"scope": [
+        "markup.deleted",
+        "punctuation.definition.deleted"
+      ],
+			"settings": {
+				"foreground": "#ef4444"
+			}
+		},
+		{
+			"scope": [
+        "markup.changed",
+        "punctuation.definition.changed"
+      ],
+			"settings": {
+				"foreground": "#3b82f6"
+			}
+		},
+    {
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
+      "settings": {
+        "foreground": "#2f363d"
+      }
+    },
+    {
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#b392f0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#79b8ff"
       }
     }
   ]

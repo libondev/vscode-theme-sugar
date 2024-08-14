@@ -11,6 +11,10 @@ export const themeColors = {
   inputBackground: '#313131',
   listBackground: '#1f1f1f',
 
+  insert: '#22c55e',
+  delete: '#ef4444',
+  change: '#3b82f6',
+
   comment: '#777',
   class: '#8287d7',
   variable: '#b8a965',
