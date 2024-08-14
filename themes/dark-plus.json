@@ -12,7 +12,7 @@
         "meta.array.literal",
         "meta.embedded.block",
         "meta.function.expression",
-        "meta.attribute.directive", // @click(.)stop
+        "meta.attribute.directive",
         "storage.type.function.arrow",
         "punctuation.separator.key-value",
         "punctuation.definition.typeparameters",
@@ -26,14 +26,13 @@
         "punctuation.definition.list.begin.markdown", // markdown list symbol
         "punctuation.definition.parameters.begin.bracket.round.css",
         "punctuation.definition.parameters.end.bracket.round.css",
-				"punctuation.definition.attribute-selector.begin.bracket.square.scss",
-				"punctuation.definition.attribute-selector.end.bracket.square.scss",
+        "punctuation.definition.attribute-selector.begin.bracket.square.scss",
+        "punctuation.definition.attribute-selector.end.bracket.square.scss",
       ],
       "settings": {
         "foreground": "#7777778F"
       }
     },
-
     {
       "scope": [
         "punctuation.accessor", // xxx(.)xxx
@@ -49,7 +48,7 @@
         "invalid.illegal.combinator.less",
       ],
       "settings": {
-        "foreground": "#afafaf"
+        "foreground": "#aaaaaa"
       }
     },
   ]

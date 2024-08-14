@@ -30,7 +30,7 @@ function capitalize(str: string) {
 }
 
 export function Component<Generics>(): Generics {
-  const handleClick = (ev: MouseEvent) => {
+  const handleClick = (ev: Array<MouseEvent>) => {
     console.log(ev, exportConst.aaa)
   }
 

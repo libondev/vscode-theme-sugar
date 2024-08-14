@@ -2,7 +2,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Sugar theme for Visual Studio Code",
   "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
@@ -23,6 +23,8 @@
     "vscode": "^1.40.0"
   },
   "scripts": {
+    "dev": "tsx --watch ./src/gen.ts",
+    "prebuild": "tsx ./src/gen.ts",
     "build": "vsce package --no-dependencies"
   },
   "contributes": {
@@ -30,18 +32,22 @@
       {
         "label": "Sugar Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
+        "path": "./themes/dark.json"
       },
       {
         "label": "Sugar Dark Plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-color-theme.json"
+        "path": "./themes/dark-plus.json"
       },
       {
         "label": "Sugar Dark Plus Italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-italic-color-theme.json"
+        "path": "./themes/dark-plus-italic.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "tsx": "^4.17.0"
   }
 }
