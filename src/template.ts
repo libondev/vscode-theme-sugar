@@ -176,7 +176,7 @@ export const getTemplate = (colors: any) => {
         "variable.language"
       ],
       "settings": {
-        "foreground": "${theme.this}"
+        "foreground": "${theme.caller}"
       }
     },
     {
@@ -192,6 +192,7 @@ export const getTemplate = (colors: any) => {
     {
       "scope":[
         "string",
+        "entity.name",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
         "string punctuation.section.embedded source"
@@ -239,15 +240,13 @@ export const getTemplate = (colors: any) => {
         "keyword.operator",
         "constant.other.color",
         "storage.type.function.arrow",
-        "punctuation.separator.key-value",
-        "punctuation.definition.typeparameters",
         "punctuation.section.function",
-        "punctuation.definition.group.begin.less",
-        "punctuation.definition.group.end.less",
-        "punctuation.definition.parameters.begin.bracket.round.css",
-        "punctuation.definition.parameters.end.bracket.round.css",
-        "punctuation.definition.attribute-selector.begin.bracket.square.scss",
-				"punctuation.definition.attribute-selector.end.bracket.square.scss"
+        "punctuation.definition.entity",
+        "punctuation.separator.key-value",
+        "punctuation.definition.parameters",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.attribute-selector",
+        "source.css.less punctuation.definition.group"
       ],
       "settings": {
         "foreground": "${foreground}"
@@ -278,7 +277,7 @@ export const getTemplate = (colors: any) => {
         "constant.language.undefined",
         "keyword.operator.or.regexp",
         "constant.language.import-export-all.ts",
-        "punctuation.definition.character-class.regexp",
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "${theme.nil}"
@@ -288,11 +287,21 @@ export const getTemplate = (colors: any) => {
       "scope": [
         "entity.name.tag",
         "support.class.component",
-        "keyword.control.anchor.regexp",
-        "support.type.property-name.json"
+        "keyword.control.anchor.regexp"
+
       ],
       "settings": {
         "foreground": "${theme.tag}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.yaml",
+        "keyword.other.definition.ini",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "${theme.json}"
       }
     },
     {
@@ -312,7 +321,7 @@ export const getTemplate = (colors: any) => {
     {
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "${theme.this}"
+        "foreground": "${theme.caller}"
       }
     },
     {
@@ -328,7 +337,7 @@ export const getTemplate = (colors: any) => {
         "variable.language.super",
         "support.constant.handlebars",
 				"entity.name.operator.custom-literal",
-				"source.powershell variable.other.member",
+				"source.powershell variable.other.member"
       ],
       "settings": {
         "foreground": "${theme.function}"

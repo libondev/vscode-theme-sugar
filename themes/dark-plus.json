@@ -11,23 +11,17 @@
         "keyword.operator",
         "meta.array.literal",
         "meta.embedded.block",
-        "meta.function.expression",
         "meta.attribute.directive",
+        "meta.function.expression",
         "storage.type.function.arrow",
-        "punctuation.separator.key-value",
-        "punctuation.definition.typeparameters",
-        "meta.property-list.media-query.scss",
-        "invalid.illegal.character-not-allowed-here.html",
         "punctuation.section.function",
-        "punctuation.definition.group.begin.less", // attr(()data-bid())
-        "punctuation.definition.group.end.less",
-        "punctuation.definition.group.begin.less", // less: @media (()     ())
-        "punctuation.definition.group.end.less",
-        "punctuation.definition.list.begin.markdown", // markdown list symbol
-        "punctuation.definition.parameters.begin.bracket.round.css",
-        "punctuation.definition.parameters.end.bracket.round.css",
-        "punctuation.definition.attribute-selector.begin.bracket.square.scss",
-        "punctuation.definition.attribute-selector.end.bracket.square.scss",
+        "punctuation.definition.entity",
+        "punctuation.separator.key-value",
+        "punctuation.definition.parameters",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.attribute-selector",
+        "source.css.less punctuation.definition.group",
+        "invalid.illegal.character-not-allowed-here.html",
       ],
       "settings": {
         "foreground": "#7777778F"
@@ -48,7 +42,7 @@
         "invalid.illegal.combinator.less",
       ],
       "settings": {
-        "foreground": "#aaaaaa"
+        "foreground": "#aaa"
       }
     },
   ]
