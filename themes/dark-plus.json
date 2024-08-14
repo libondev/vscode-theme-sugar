@@ -1,7 +1,7 @@
 {
   "name": "Sugar Dark Stylization",
   "$schema": "vscode://schemas/color-theme",
-  "include": "./dark-color-theme.json",
+  "include": "./dark.json",
   "tokenColors": [
     {
       "scope": [
