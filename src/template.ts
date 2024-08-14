@@ -223,7 +223,7 @@ export const getTemplate = (colors: any) => {
     },
     {
       "scope": [
-        "entity.other.attribute-name",
+        "entity.other.attribute-name", // css class/id selector
         "constant.character.escape",
         "support.type.custom-property",
         "invalid.deprecated.entity.other.attribute-name",
@@ -277,9 +277,8 @@ export const getTemplate = (colors: any) => {
         "constant.language.null",
         "constant.language.undefined",
         "keyword.operator.or.regexp",
-        "keyword.control.anchor.regexp",
         "constant.language.import-export-all.ts",
-        "punctuation.definition.character-class.regexp"
+        "punctuation.definition.character-class.regexp",
       ],
       "settings": {
         "foreground": "${theme.nil}"
@@ -289,6 +288,7 @@ export const getTemplate = (colors: any) => {
       "scope": [
         "entity.name.tag",
         "support.class.component",
+        "keyword.control.anchor.regexp",
         "support.type.property-name.json"
       ],
       "settings": {
@@ -303,11 +303,16 @@ export const getTemplate = (colors: any) => {
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
-        "support.type.object.module.js",
-        "punctuation.definition.template-expression"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "${theme.keyword}"
+      }
+    },
+    {
+      "scope": "punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "${theme.this}"
       }
     },
     {
@@ -323,7 +328,7 @@ export const getTemplate = (colors: any) => {
         "variable.language.super",
         "support.constant.handlebars",
 				"entity.name.operator.custom-literal",
-				"source.powershell variable.other.member"
+				"source.powershell variable.other.member",
       ],
       "settings": {
         "foreground": "${theme.function}"
@@ -343,10 +348,8 @@ export const getTemplate = (colors: any) => {
     {
       "scope": [
         "support.type",
+        "entity.name.type",
         "meta.type.parameters",
-        "entity.name.type.enum",
-        "entity.name.type.interface",
-				"entity.name.type.parameter",
 				"meta.function,meta.type.annotation",
 				"entity.name.type.module,meta.namespace.declaration"
       ],
@@ -357,6 +360,8 @@ export const getTemplate = (colors: any) => {
     {
       "scope": [
         "support.type.primitive",
+        "storage.type.string.go",
+        "storage.type.numeric.go",
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
