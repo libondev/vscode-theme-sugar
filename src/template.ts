@@ -404,8 +404,8 @@ export const getTemplate = (colors: any) => {
     {
       "scope": [
         "markup.underline.link",
-        "variable.other.link.underline",
-        "punctuation.definition.list.begin.markdown"
+        "punctuation.definition.list",
+        "variable.other.link.underline"
       ],
       "settings": {
         "foreground": "${accent}df"

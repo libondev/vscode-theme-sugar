@@ -330,7 +330,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#6975b8"
+        "foreground": "#717dc5"
       }
     },
     {
@@ -383,8 +383,8 @@
     {
       "scope": [
         "markup.underline.link",
-        "variable.other.link.underline",
-        "punctuation.definition.list.begin.markdown"
+        "punctuation.definition.list",
+        "variable.other.link.underline"
       ],
       "settings": {
         "foreground": "#059669df"
