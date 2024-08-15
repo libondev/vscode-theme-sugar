@@ -197,7 +197,7 @@
         "entity.other.keyframe-offset"
       ],
       "settings": {
-        "foreground": "#4C9A91"
+        "foreground": "#b5cea8"
       }
     },
     {
@@ -216,7 +216,6 @@
       "scope": [
         "meta.jsx.children",
         "keyword.operator",
-        "constant.other.color",
         "punctuation.accessor",
         "storage.type.function.arrow",
         "punctuation.section.function",

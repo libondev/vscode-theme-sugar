@@ -237,7 +237,6 @@ export const getTemplate = (colors: any) => {
       "scope": [
         "meta.jsx.children",
         "keyword.operator",
-        "constant.other.color",
         "punctuation.accessor",
         "storage.type.function.arrow",
         "punctuation.section.function",

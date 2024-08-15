@@ -21,7 +21,7 @@ export const themeColors = {
   keyword: '#4D9375',
   storage: '#CB7676',
   class: '#717dc5',
-  number: '#4C9A91',
+  number: '#b5cea8',
   string: '#C98A7D',
   boolean: '#4D9375',
   function: '#80A665',
