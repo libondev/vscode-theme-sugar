@@ -224,8 +224,8 @@ export const getTemplate = (colors: any) => {
     },
     {
       "scope": [
-        "entity.other.attribute-name", // css class/id selector
         "constant.character.escape",
+        "entity.other.attribute-name",
         "support.type.custom-property",
         "invalid.deprecated.entity.other.attribute-name",
         "support.constant.property-value"
@@ -239,6 +239,7 @@ export const getTemplate = (colors: any) => {
         "meta.jsx.children",
         "keyword.operator",
         "constant.other.color",
+        "punctuation.accessor",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
@@ -305,23 +306,23 @@ export const getTemplate = (colors: any) => {
       }
     },
     {
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "${theme.storage || theme.keyword}"
+      }
+    },
+    {
       "scope": [
         "keyword",
-        "storage.type",
         "storage.modifier",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
-        "support.type.object.module.js"
+        "support.type.object.module.js",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "${theme.keyword}"
-      }
-    },
-    {
-      "scope": "punctuation.definition.template-expression",
-      "settings": {
-        "foreground": "${theme.caller}"
       }
     },
     {
@@ -359,8 +360,8 @@ export const getTemplate = (colors: any) => {
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
-				"meta.function,meta.type.annotation",
-				"entity.name.type.module,meta.namespace.declaration"
+				"meta.namespace.declaration",
+				"meta.function,meta.type.annotation"
       ],
       "settings": {
         "foreground": "${theme.tsType}"
