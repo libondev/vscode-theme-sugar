@@ -20,7 +20,7 @@ export const themeColors = {
   constant: '#C99076',
   keyword: '#4D9375',
   storage: '#CB7676',
-  class: '#717dc1',
+  class: '#6975b8',
   number: '#4C9A91',
   string: '#C98A7D',
   boolean: '#4D9375',

@@ -39,9 +39,8 @@
     "foreground": "#bfbfbf",
     "icon.foreground": "#bfbfbf",
     "input.background": "#313131",
-    "input.border": "#333333",
+    "input.border": "#121212",
     "input.foreground": "#bfbfbf",
-    "input.placeholderForeground": "#333333",
     "inputOption.activeBackground": "#05966988",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
@@ -331,7 +330,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#717dc1"
+        "foreground": "#6975b8"
       }
     },
     {
