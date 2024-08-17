@@ -35,14 +35,9 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Sugar Dark Plus",
+        "label": "Sugar Dark Italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus.json"
-      },
-      {
-        "label": "Sugar Dark Plus Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-italic.json"
+        "path": "./themes/dark-italic.json"
       }
     ]
   },

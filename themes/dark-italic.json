@@ -1,7 +1,7 @@
 {
   "name": "Sugar Dark Stylization",
   "$schema": "vscode://schemas/color-theme",
-  "include": "./dark-plus.json",
+  "include": "./dark.json",
   "tokenColors": [
     {
       "scope": [
@@ -16,7 +16,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "scope": [
         "storage.type.function.arrow",

@@ -1,13 +1,13 @@
-export const getTemplate = (colors: any) => {
+export function getTemplate(colors: any) {
+  let [black, white] = [colors.black || '#000', colors.white || '#fff']
+
   if (colors.mode === 'light') {
-    [colors.white, colors.black] = [colors.black, colors.white]
+    [white, black] = [black, white]
   }
 
   const {
     name,
     mode,
-    white,
-    black,
     accent,
     border,
     foreground,
@@ -215,7 +215,9 @@ export const getTemplate = (colors: any) => {
         "number",
         "constant.numeric",
         "keyword.other.unit",
-        "entity.other.keyframe-offset"
+        "meta.at-rule.keyframes.scss",
+        "entity.other.attribute-name.scss",
+        "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
         "foreground": "${theme.number}"
@@ -223,32 +225,17 @@ export const getTemplate = (colors: any) => {
     },
     {
       "scope": [
+        "variable.css",
+        "variable.scss",
+        "support.type.custom-property",
+        "variable.argument.css",
         "constant.character.escape",
         "entity.other.attribute-name",
-        "support.type.custom-property",
-        "invalid.deprecated.entity.other.attribute-name",
-        "support.constant.property-value"
+        "support.constant.property-value",
+        "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "${theme.attribute}"
-      }
-    },
-    {
-      "scope": [
-        "meta.jsx.children",
-        "keyword.operator",
-        "punctuation.accessor",
-        "storage.type.function.arrow",
-        "punctuation.section.function",
-        "punctuation.definition.entity",
-        "punctuation.separator.key-value",
-        "punctuation.definition.parameters",
-        "punctuation.definition.typeparameters",
-        "punctuation.definition.attribute-selector",
-        "source.css.less punctuation.definition.group"
-      ],
-      "settings": {
-        "foreground": "${foreground}"
       }
     },
     {
@@ -259,7 +246,6 @@ export const getTemplate = (colors: any) => {
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
         "meta.property-value.css",
-        "entity.other.attribute-name.scss",
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
@@ -300,7 +286,7 @@ export const getTemplate = (colors: any) => {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.json}"
+        "foreground": "${theme.json || theme.tag}"
       }
     },
     {
@@ -326,7 +312,7 @@ export const getTemplate = (colors: any) => {
     {
       "scope": "punctuation.definition.group",
       "settings": {
-        "foreground": "#D16969"
+        "foreground": "${theme.keyword}"
       }
     },
     {
@@ -377,6 +363,57 @@ export const getTemplate = (colors: any) => {
       }
     },
     {
+      "scope": [
+        "meta.jsx.children",
+        "entity.name.tag.custom.scss"
+      ],
+      "settings": {
+        "foreground": "${foreground}"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.accessor",
+        "keyword.operator.ternary",
+        "keyword.operator.logical",
+        "keyword.operator.bitwise",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.relational",
+        "keyword.operator.comparison",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "invalid.illegal.combinator.less"
+      ],
+      "settings": {
+        "foreground": "${theme.secondary}"
+      }
+    },
+    {
+      "scope": [
+        "meta.brace",
+        "punctuation",
+        "meta.parameters",
+        "keyword.operator",
+        "meta.array.literal",
+        "meta.embedded.block",
+        "meta.attribute.directive",
+        "meta.function.expression",
+        "storage.type.function.arrow",
+        "punctuation.section.function",
+        "punctuation.definition.entity",
+        "punctuation.separator.key-value",
+        "punctuation.definition.parameters",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.attribute-selector",
+        "source.css.less punctuation.definition.group",
+        "invalid.illegal.character-not-allowed-here.html"
+      ],
+      "settings": {
+        "foreground": "${theme.symbol}"
+      }
+    },
+    {
       "scope": "markup.strikethrough",
       "settings": {
         "fontStyle": "strikethrough"
@@ -395,9 +432,12 @@ export const getTemplate = (colors: any) => {
       }
     },
     {
-      "scope": "markup.heading",
+      "scope": [
+        "markup.heading",
+        "entity.name.section.markdown",
+      ],
       "settings": {
-        "foreground": "${accent}"
+        "foreground": "${adjustHexColor(accent, 1.5)}ac"
       }
     },
     {
@@ -461,4 +501,24 @@ export const getTemplate = (colors: any) => {
     }
   ]
 }`
+}
+
+function adjustHexColor(hexColor: string, relativeValue: number) {
+  hexColor = hexColor.replace(/^#/, '');
+
+  const rgb = [
+    parseInt(hexColor.slice(0, 2), 16),
+    parseInt(hexColor.slice(2, 4), 16),
+    parseInt(hexColor.slice(4, 6), 16),
+  ];
+
+  // 计算相对值
+  const r = Math.floor(Math.max(0, Math.min(255, rgb[0] * relativeValue)));
+  const g = Math.floor(Math.max(0, Math.min(255, rgb[1] * relativeValue)));
+  const b = Math.floor(Math.max(0, Math.min(255, rgb[2] * relativeValue)));
+
+  // 将 RGB 转换回 16 进制颜色值
+  const adjustedHexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+
+  return adjustedHexColor;
 }
