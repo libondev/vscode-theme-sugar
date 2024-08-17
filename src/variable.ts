@@ -1,13 +1,12 @@
 export const darkThemeColors = {
   accent: '#059669',
   border: '#333333',
-  // foreground: '#cbcac6',
-  foreground: '#ABB2BF',
+  foreground: '#CBCAC6',
   background: '#161616',
   listBackground: '#1F1F1F',
   inactiveBorder: '#888888',
-  inputForeground: '#BFBFBF',
   inputBackground: '#242424',
+  editorForeground: '#ABB2BF',
 
   insert: '#059669',
   delete: '#DE6666',
