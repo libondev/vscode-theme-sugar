@@ -1,36 +1,48 @@
+/* eslint-disable */
 // @ts-nocheck
-import React, { type MouseEvent } from 'https://esm.sh/react@18.2.0'
-import { exportConst, ExportClass } from './javascript.js'
+import { exportConst, ExportClass, type TestType } from './javascript.js'
 
-const exportClass = new ExportClass()
-console.log(typeof exportClass)
+export { exportConst }
+export default ExportClass
 
-delete exportClass.testMethod
-
-1 in 1
-[1, 2, 3] instanceof Array
-'toString' in {}
-
-const bool = true || false
-
-const language = undefined && !null
-
-const a = bool | 123 & 456 ^ 789 << 101112 >> 131415 >>> 161718
-
-1 === 1 ? true : false
-
-while (1) { }
-
-for (let i = 0; i < 10; i++) { }
-
-try { } catch (e) { }
-
-function capitalize(str: string) {
-  return str.charAt(0)['toUpperCase']() + str.slice(1)
+const number = 1 + 2 * 3 / 4 % 5
+const string = 'hello' + ", world" + `${number}`
+const boolean = true || false
+const array: number[] = [1, 2, 3]
+const object: Record<string, any> = {
+  cls: Array,
+  fn: () => { },
+  [`${string}`]: `string`,
+  'string': 'only a string',
 }
+const symbol = Symbol('symbol')
+const nullable = undefined || null
+const regexp = /^(?:13\d|14[5|7]|15[0-3|5-9]|17[0|135-8]|18\d|166|198|199)\d{8}$/gim
+
+const ternary = 1 ? true : false
+
+const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6;
+
+(() => {
+  while (Math.random() > 0.5) { }
+
+  for (let i = 0; i < 10; i++) { }
+
+  array.forEach(console.log)
+
+  try {
+    const instance = new ExportClass()
+    delete instance.testMethod
+    console.log(typeof instance.testMethod)
+
+  } catch (error) {
+    console.log(error)
+  }
+
+})();
 
 export function Component<Generics>(): Generics {
-  const handleClick = (ev: Array<MouseEvent>) => {
+  const handleClick = (ev: MouseEvent) => {
     console.log(ev, exportConst.aaa)
   }
 
@@ -45,8 +57,6 @@ export function Component<Generics>(): Generics {
   )
 }
 
-class Test { }
-
 export class Demo extends React.Component {
   constructor() {
     super()
@@ -56,7 +66,6 @@ export class Demo extends React.Component {
     return <div>Hello World</div>;
   }
 }
-
 
 namespace Namespace {
   export const a = 1
@@ -77,20 +86,10 @@ interface IInterface {
   d: Record<string, unknown>
 }
 
-enum EEnum {
-  A = 1,
-  B = 2,
-  C = 3
+enum Enum {
+  AAA = 1,
+  BBB = 2,
+  CCC = 3
 }
 
-const _symbol: symbol = Symbol('symbol')
-
-const Type: TType = 1
-const Interface: IInterface = {}
-const Enum: keyof EEnum = EEnum.A
-
-console.log({
-  Type,
-  Interface,
-  Enum
-})
+const EnumValue: keyof Enum = Enum.AAA
