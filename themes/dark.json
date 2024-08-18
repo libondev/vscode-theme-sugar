@@ -43,16 +43,16 @@
     "input.foreground": "#CBCAC6",
     "inputOption.activeBackground": "#05966988",
     "inputOption.activeBorder": "#059669",
-    "inputOption.activeForeground": "#fff",
-    "list.activeSelectionForeground": "#fff",
+    "inputOption.activeForeground": "#FFFFFF",
+    "list.activeSelectionForeground": "#FFFFFF",
     "list.activeSelectionBackground": "#05966988",
-    "list.activeSelectionIconForeground": "#fff",
+    "list.activeSelectionIconForeground": "#FFFFFF",
     "list.hoverBackground": "#333333",
     "menu.border": "#333333",
     "menu.background": "#1F1F1F",
     "menu.foreground": "#CBCAC6",
     "menu.selectionBackground": "#059669",
-		"menu.selectionForeground": "#fff",
+		"menu.selectionForeground": "#FFFFFF",
     "notificationCenterHeader.background": "#1F1F1F",
     "notificationCenterHeader.foreground": "#CBCAC6",
     "notifications.border": "#333333",
@@ -413,10 +413,10 @@
     {
       "scope": [
         "markup.heading",
-        "entity.name.section.markdown",
+        "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#07e19dac"
+        "foreground": "#06c388ac"
       }
     },
     {

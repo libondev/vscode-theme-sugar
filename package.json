@@ -38,6 +38,16 @@
         "label": "Sugar Dark Italic",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-italic.json"
+      },
+      {
+        "label": "Sugar Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      },
+      {
+        "label": "Sugar Light Italic",
+        "uiTheme": "vs",
+        "path": "./themes/light-italic.json"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
-  "name": "Sugar Dark Italic",
+  "name": "Sugar Light Italic",
   "$schema": "vscode://schemas/color-theme",
-  "include": "./dark.json",
+  "include": "./light.json",
   "tokenColors": [
     {
       "scope": [

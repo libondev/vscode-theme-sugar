@@ -1,141 +1,126 @@
-export function getTemplate(colors: any) {
-  const {
-    name,
-    mode,
-    accent,
-    border,
-    background,
-    inactiveBorder,
-    listBackground,
-    editorForeground,
-    foreground,
-    inputBackground,
-    ...theme
-  } = colors;
-
-  return `{
-  "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
-  "base": "vs-${mode}",
+{
+  "name": "Sugar Light",
+  "base": "vs-light",
   "colors": {
-    "activityBar.activeBorder": "${accent}",
-    "activityBar.background": "${background}",
-    "activityBar.border": "${border}",
-    "activityBar.foreground": "${foreground}",
-    "activityBar.inactiveForeground": "${inactiveBorder}",
-    "activityBarBadge.background": "${accent}",
+    "activityBar.activeBorder": "#065f46",
+    "activityBar.background": "#F5F5F5",
+    "activityBar.border": "#DDDDDD",
+    "activityBar.foreground": "#424242",
+    "activityBar.inactiveForeground": "#888888",
+    "activityBarBadge.background": "#065f46",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "${inputBackground}",
-    "badge.foreground": "${foreground}",
+    "badge.background": "#EEEEEE",
+    "badge.foreground": "#424242",
     "button.border": "#0000",
-    "button.background": "${accent}",
+    "button.background": "#065f46",
     "button.foreground": "#fff",
-    "button.hoverBackground": "${accent}e3",
-    "button.secondaryBackground": "${inputBackground}",
-    "button.secondaryForeground": "${foreground}",
-    "button.secondaryHoverBackground": "${border}",
-    "checkbox.background": "${inputBackground}",
-    "checkbox.border": "${border}",
-    "debugToolBar.background": "${background}",
-    "dropdown.background": "${inputBackground}",
-    "dropdown.border": "${border}",
-    "dropdown.foreground": "${foreground}",
-    "dropdown.listBackground": "${listBackground}",
-    "editor.background": "${background}",
-    "editor.foreground": "${editorForeground}",
-    "editorGroupHeader.tabsBackground": "${background}",
-    "editorGroupHeader.tabsBorder": "${border}",
-    "editorGutter.addedBackground": "${theme.insert}",
-    "editorGutter.deletedBackground": "${theme.delete}",
-    "editorGutter.modifiedBackground": "${theme.change}",
-    "editorLineNumber.activeForeground": "${foreground}88",
-    "editorLineNumber.foreground": "${foreground}50",
+    "button.hoverBackground": "#065f46e3",
+    "button.secondaryBackground": "#EEEEEE",
+    "button.secondaryForeground": "#424242",
+    "button.secondaryHoverBackground": "#DDDDDD",
+    "checkbox.background": "#EEEEEE",
+    "checkbox.border": "#DDDDDD",
+    "debugToolBar.background": "#F5F5F5",
+    "dropdown.background": "#EEEEEE",
+    "dropdown.border": "#DDDDDD",
+    "dropdown.foreground": "#424242",
+    "dropdown.listBackground": "#EFEFEF",
+    "editor.background": "#F5F5F5",
+    "editor.foreground": "#42444b",
+    "editorGroupHeader.tabsBackground": "#F5F5F5",
+    "editorGroupHeader.tabsBorder": "#DDDDDD",
+    "editorGutter.addedBackground": "#059669",
+    "editorGutter.deletedBackground": "#DE6666",
+    "editorGutter.modifiedBackground": "#68ADE5",
+    "editorLineNumber.activeForeground": "#42424288",
+    "editorLineNumber.foreground": "#42424250",
     "errorForeground": "#dc2626",
-    "focusBorder": "${accent}",
-    "foreground": "${foreground}",
-    "icon.foreground": "${foreground}",
-    "input.background": "${inputBackground}",
-    "input.border": "${background}",
-    "input.foreground": "${foreground}",
-    "inputOption.activeBackground": "${accent}88",
-    "inputOption.activeBorder": "${accent}",
+    "focusBorder": "#065f46",
+    "foreground": "#424242",
+    "icon.foreground": "#424242",
+    "input.background": "#EEEEEE",
+    "input.border": "#F5F5F5",
+    "input.foreground": "#424242",
+    "inputOption.activeBackground": "#065f4688",
+    "inputOption.activeBorder": "#065f46",
     "inputOption.activeForeground": "#FFFFFF",
     "list.activeSelectionForeground": "#FFFFFF",
-    "list.activeSelectionBackground": "${accent}88",
+    "list.activeSelectionBackground": "#065f4688",
     "list.activeSelectionIconForeground": "#FFFFFF",
-    "list.hoverBackground": "${border}",
-    "menu.border": "${border}",
-    "menu.background": "${listBackground}",
-    "menu.foreground": "${foreground}",
-    "menu.selectionBackground": "${accent}",
+    "list.hoverBackground": "#DDDDDD",
+    "menu.border": "#DDDDDD",
+    "menu.background": "#EFEFEF",
+    "menu.foreground": "#424242",
+    "menu.selectionBackground": "#065f46",
 		"menu.selectionForeground": "#FFFFFF",
-    "notificationCenterHeader.background": "${listBackground}",
-    "notificationCenterHeader.foreground": "${foreground}",
-    "notifications.border": "${border}",
-    "notifications.background": "${listBackground}",
-    "notifications.foreground": "${foreground}",
-    "panel.background": "${background}",
-    "panel.border": "${border}",
-    "panelInput.border": "${border}",
-    "panelTitle.activeBorder": "${accent}",
-    "panelTitle.activeForeground": "${foreground}",
-    "panelTitle.inactiveForeground": "${inactiveBorder}",
-    "peekViewResult.background": "${listBackground}",
-    "pickerGroup.border": "${border}",
-    "progressBar.background": "${accent}",
-    "quickInput.background": "${background}",
-    "quickInput.foreground": "${foreground}",
-    "quickInputList.focusBackground": "${accent}88",
-    "settings.dropdownBackground": "${inputBackground}",
-    "settings.dropdownBorder": "${border}",
-    "settings.headerForeground": "${foreground}",
-    "settings.numberInputBorder": "${border}",
-		"settings.textInputBorder": "${border}",
-    "sideBar.border": "${border}",
-    "sideBar.background": "${background}",
-    "sideBar.foreground": "${foreground}",
+    "notificationCenterHeader.background": "#EFEFEF",
+    "notificationCenterHeader.foreground": "#424242",
+    "notifications.border": "#DDDDDD",
+    "notifications.background": "#EFEFEF",
+    "notifications.foreground": "#424242",
+    "panel.background": "#F5F5F5",
+    "panel.border": "#DDDDDD",
+    "panelInput.border": "#DDDDDD",
+    "panelTitle.activeBorder": "#065f46",
+    "panelTitle.activeForeground": "#424242",
+    "panelTitle.inactiveForeground": "#888888",
+    "peekViewResult.background": "#EFEFEF",
+    "pickerGroup.border": "#DDDDDD",
+    "progressBar.background": "#065f46",
+    "quickInput.background": "#F5F5F5",
+    "quickInput.foreground": "#424242",
+    "quickInputList.focusBackground": "#065f4688",
+    "settings.dropdownBackground": "#EEEEEE",
+    "settings.dropdownBorder": "#DDDDDD",
+    "settings.headerForeground": "#424242",
+    "settings.numberInputBorder": "#DDDDDD",
+		"settings.textInputBorder": "#DDDDDD",
+    "sideBar.border": "#DDDDDD",
+    "sideBar.background": "#F5F5F5",
+    "sideBar.foreground": "#424242",
     "sideBarSectionHeader.background": "#0000",
-    "sideBarSectionHeader.border": "${border}",
-    "sideBarSectionHeader.foreground": "${foreground}",
-    "sideBarTitle.foreground": "${foreground}",
-    "statusBar.background": "${background}",
-    "statusBar.border": "${border}",
-    "statusBar.debuggingBackground": "${accent}88",
-    "statusBar.debuggingForeground": "${foreground}",
-    "statusBar.focusBorder": "${accent}",
-    "statusBar.foreground": "${foreground}",
-    "statusBar.noFolderBackground": "${listBackground}",
-    "statusBarItem.errorBackground": "${background}",
-    "statusBarItem.focusBorder": "${accent}",
-    "statusBarItem.remoteBackground": "${accent}",
+    "sideBarSectionHeader.border": "#DDDDDD",
+    "sideBarSectionHeader.foreground": "#424242",
+    "sideBarTitle.foreground": "#424242",
+    "statusBar.background": "#F5F5F5",
+    "statusBar.border": "#DDDDDD",
+    "statusBar.debuggingBackground": "#065f4688",
+    "statusBar.debuggingForeground": "#424242",
+    "statusBar.focusBorder": "#065f46",
+    "statusBar.foreground": "#424242",
+    "statusBar.noFolderBackground": "#EFEFEF",
+    "statusBarItem.errorBackground": "#F5F5F5",
+    "statusBarItem.focusBorder": "#065f46",
+    "statusBarItem.remoteBackground": "#065f46",
     "statusBarItem.remoteForeground": "#fff",
-    "tab.activeBackground": "${inputBackground}",
+    "tab.activeBackground": "#EEEEEE",
     "tab.activeBorder": "#0000",
-    "tab.activeBorderTop": "${accent}",
-    "tab.activeForeground": "${foreground}",
-    "tab.border": "${border}",
-    "tab.hoverBackground": "${background}",
-    "tab.inactiveBackground": "${background}",
-    "tab.inactiveForeground": "${inactiveBorder}",
-    "tab.lastPinnedBorder": "${foreground}33",
-    "tab.unfocusedActiveBorder": "${listBackground}",
-    "tab.unfocusedActiveBorderTop": "${border}",
-    "tab.unfocusedHoverBackground": "${listBackground}",
-    "terminal.foreground": "${foreground}",
-    "terminal.selectionBackground": "${accent}55",
-    "terminal.tab.activeBorder": "${accent}",
-    "terminalCursor.foreground": "${accent}",
-    "textBlockQuote.background": "${border}",
-    "textCodeBlock.background": "${border}",
-    "textLink.activeForeground": "${accent}",
-    "textLink.foreground": "${accent}",
-    "textPreformat.background": "${border}",
+    "tab.activeBorderTop": "#065f46",
+    "tab.activeForeground": "#424242",
+    "tab.border": "#DDDDDD",
+    "tab.hoverBackground": "#F5F5F5",
+    "tab.inactiveBackground": "#F5F5F5",
+    "tab.inactiveForeground": "#888888",
+    "tab.lastPinnedBorder": "#42424233",
+    "tab.unfocusedActiveBorder": "#EFEFEF",
+    "tab.unfocusedActiveBorderTop": "#DDDDDD",
+    "tab.unfocusedHoverBackground": "#EFEFEF",
+    "terminal.foreground": "#424242",
+    "terminal.selectionBackground": "#065f4655",
+    "terminal.tab.activeBorder": "#065f46",
+    "terminalCursor.foreground": "#065f46",
+    "textBlockQuote.background": "#DDDDDD",
+    "textCodeBlock.background": "#DDDDDD",
+    "textLink.activeForeground": "#065f46",
+    "textLink.foreground": "#065f46",
+    "textPreformat.background": "#DDDDDD",
     "titleBar.border": "#0000",
-    "titleBar.activeBackground": "${background}",
-    "titleBar.activeForeground": "${foreground}",
-    "titleBar.inactiveBackground": "${background}",
-    "titleBar.inactiveForeground": "${inactiveBorder}",
-    "welcomePage.progress.foreground": "${accent}",
-    "welcomePage.tileBackground": "${border}"
+    "titleBar.activeBackground": "#F5F5F5",
+    "titleBar.activeForeground": "#424242",
+    "titleBar.inactiveBackground": "#F5F5F5",
+    "titleBar.inactiveForeground": "#888888",
+    "welcomePage.progress.foreground": "#065f46",
+    "welcomePage.tileBackground": "#DDDDDD"
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -146,7 +131,7 @@ export function getTemplate(colors: any) {
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "${theme.comment}"
+        "foreground": "#777777"
       }
     },
     {
@@ -160,7 +145,7 @@ export function getTemplate(colors: any) {
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "${theme.variable}"
+        "foreground": "#42444b"
       }
     },
     {
@@ -169,7 +154,7 @@ export function getTemplate(colors: any) {
         "variable.language"
       ],
       "settings": {
-        "foreground": "${theme.caller}"
+        "foreground": "#ae7230"
       }
     },
     {
@@ -179,7 +164,7 @@ export function getTemplate(colors: any) {
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "${theme.constant}"
+        "foreground": "#AB5E3F"
       }
     },
     {
@@ -191,7 +176,7 @@ export function getTemplate(colors: any) {
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "${theme.string}"
+        "foreground": "#448C27"
       }
     },
     {
@@ -201,7 +186,7 @@ export function getTemplate(colors: any) {
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "${theme.boolean}"
+        "foreground": "#1E754F"
       }
     },
     {
@@ -214,7 +199,7 @@ export function getTemplate(colors: any) {
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "${theme.number}"
+        "foreground": "#2F798A"
       }
     },
     {
@@ -229,7 +214,7 @@ export function getTemplate(colors: any) {
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "${theme.attribute}"
+        "foreground": "#ae7230"
       }
     },
     {
@@ -247,7 +232,7 @@ export function getTemplate(colors: any) {
         "meta.at-rule.keyframe.less"
 			],
 			"settings": {
-				"foreground": "${theme.css}"
+				"foreground": "#998418"
 			}
     },
     {
@@ -259,7 +244,7 @@ export function getTemplate(colors: any) {
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "${theme.nil}"
+        "foreground": "#C36666"
       }
     },
     {
@@ -270,7 +255,7 @@ export function getTemplate(colors: any) {
 
       ],
       "settings": {
-        "foreground": "${theme.tag}"
+        "foreground": "#1E754F"
       }
     },
     {
@@ -280,13 +265,13 @@ export function getTemplate(colors: any) {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.json || theme.tag}"
+        "foreground": "#1E754F"
       }
     },
     {
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "${theme.storage || theme.keyword}"
+        "foreground": "#A626A4"
       }
     },
     {
@@ -300,13 +285,13 @@ export function getTemplate(colors: any) {
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "${theme.keyword}"
+        "foreground": "#A626A4"
       }
     },
     {
       "scope": "punctuation.definition.group",
       "settings": {
-        "foreground": "${theme.keyword}"
+        "foreground": "#A626A4"
       }
     },
     {
@@ -319,7 +304,7 @@ export function getTemplate(colors: any) {
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "${theme.function}"
+        "foreground": "#3e6ccf"
       }
     },
     {
@@ -330,7 +315,7 @@ export function getTemplate(colors: any) {
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "${theme.class}"
+        "foreground": "#4c1bc8"
       }
     },
     {
@@ -342,7 +327,7 @@ export function getTemplate(colors: any) {
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "${theme.tsType}"
+        "foreground": "#0790A9"
       }
     },
     {
@@ -353,7 +338,7 @@ export function getTemplate(colors: any) {
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "${theme.tsBaseType}"
+        "foreground": "#049380"
       }
     },
     {
@@ -362,7 +347,7 @@ export function getTemplate(colors: any) {
         "entity.name.tag.custom.scss"
       ],
       "settings": {
-        "foreground": "${editorForeground}"
+        "foreground": "#42444b"
       }
     },
     {
@@ -380,7 +365,7 @@ export function getTemplate(colors: any) {
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "${theme.secondary}"
+        "foreground": "#999999"
       }
     },
     {
@@ -404,7 +389,7 @@ export function getTemplate(colors: any) {
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "${theme.symbol}"
+        "foreground": "#9999998F"
       }
     },
     {
@@ -431,7 +416,7 @@ export function getTemplate(colors: any) {
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "${adjustHexColor(accent, 1.3)}ac"
+        "foreground": "#077b5bac"
       }
     },
     {
@@ -441,7 +426,7 @@ export function getTemplate(colors: any) {
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "${accent}df"
+        "foreground": "#065f46df"
       }
     },
     {
@@ -450,7 +435,7 @@ export function getTemplate(colors: any) {
         "punctuation.definition.inserted"
       ],
 			"settings": {
-				"foreground": "${theme.insert}"
+				"foreground": "#059669"
 			}
 		},
 		{
@@ -459,7 +444,7 @@ export function getTemplate(colors: any) {
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "${theme.delete}"
+				"foreground": "#DE6666"
 			}
 		},
 		{
@@ -468,7 +453,7 @@ export function getTemplate(colors: any) {
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "${theme.change}"
+				"foreground": "#68ADE5"
 			}
 		},
     {
@@ -494,25 +479,4 @@ export function getTemplate(colors: any) {
       }
     }
   ]
-}`
-}
-
-function adjustHexColor(hexColor: string, relativeValue: number) {
-  hexColor = hexColor.replace(/^#/, '');
-
-  const rgb = [
-    parseInt(hexColor.slice(0, 2), 16),
-    parseInt(hexColor.slice(2, 4), 16),
-    parseInt(hexColor.slice(4, 6), 16),
-  ];
-
-  // 计算相对值
-  const r = Math.floor(Math.max(0, Math.min(255, rgb[0] * relativeValue)));
-  const g = Math.floor(Math.max(0, Math.min(255, rgb[1] * relativeValue)));
-  const b = Math.floor(Math.max(0, Math.min(255, rgb[2] * relativeValue)));
-
-  // 将 RGB 转换回 16 进制颜色值
-  const adjustedHexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
-
-  return adjustedHexColor;
 }
