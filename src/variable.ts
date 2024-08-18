@@ -64,7 +64,7 @@ export const lightThemeColors = {
   tsBaseType: '#049380',
   tsType: '#0790A9',
   caller: '#ae7230',
-  // json: '#B8A965',
+  json: '#bf0404',
   tag: '#1E754F',
   css: '#998418',
   nil: '#C36666',
