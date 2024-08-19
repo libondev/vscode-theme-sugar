@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { computed, ref } from 'vue'
 
 const props = defineProps({
   modelValue: {
@@ -39,8 +39,8 @@ modelValue.value.toString().split('')
 
 <template>
   <view>
-    <view class="class-names" :title="modelValue" @click="log">
-      12312
+    <view v-for="num of 10" class="class-names" :title="modelValue" @click="log">
+      {{ num }}
     </view>
   </view>
 </template>

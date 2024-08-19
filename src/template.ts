@@ -56,18 +56,18 @@ export function getTemplate(colors: any) {
     "input.background": "${inputBackground}",
     "input.border": "${background}",
     "input.foreground": "${foreground}",
-    "inputOption.activeBackground": "${accent}88",
     "inputOption.activeBorder": "${accent}",
-    "inputOption.activeForeground": "#FFFFFF",
-    "list.activeSelectionForeground": "#FFFFFF",
-    "list.activeSelectionBackground": "${accent}88",
-    "list.activeSelectionIconForeground": "#FFFFFF",
+    "inputOption.activeForeground": "#fff",
+    "inputOption.activeBackground": "${accent}",
+    "list.activeSelectionForeground": "#fff",
+    "list.activeSelectionBackground": "${accent}",
+    "list.activeSelectionIconForeground": "#fff",
     "list.hoverBackground": "${border}",
     "menu.border": "${border}",
     "menu.background": "${listBackground}",
     "menu.foreground": "${foreground}",
     "menu.selectionBackground": "${accent}",
-		"menu.selectionForeground": "#FFFFFF",
+		"menu.selectionForeground": "#fff",
     "notificationCenterHeader.background": "${listBackground}",
     "notificationCenterHeader.foreground": "${foreground}",
     "notifications.border": "${border}",
@@ -267,7 +267,6 @@ export function getTemplate(colors: any) {
         "entity.name.tag",
         "support.class.component",
         "keyword.control.anchor.regexp"
-
       ],
       "settings": {
         "foreground": "${theme.tag}"

@@ -41,6 +41,10 @@ const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6;
 
 })();
 
+function Button({ onClick }: { onClick: () => void }) {
+  return <button onClick={ onClick }>Click me!</button>
+}
+
 export function Component<Generics>(): Generics {
   const handleClick = (ev: MouseEvent) => {
     console.log(ev, exportConst.aaa)
@@ -52,7 +56,7 @@ export function Component<Generics>(): Generics {
         <span> Click the button to see some confetti! </span>
       </h1>
 
-      <button onClick={ handleClick }>Click me!</button>
+      <Button onClick={ handleClick } />
     </div>
   )
 }
