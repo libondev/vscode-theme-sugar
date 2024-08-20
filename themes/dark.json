@@ -26,7 +26,7 @@
     "dropdown.foreground": "#CCCCCC",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#121212",
-    "editor.foreground": "#bcc4d1",
+    "editor.foreground": "#ABB2BF",
     "editorGroupHeader.tabsBackground": "#121212",
     "editorGroupHeader.tabsBorder": "#333333",
     "editorGutter.addedBackground": "#059669",
@@ -69,7 +69,7 @@
     "progressBar.background": "#059669",
     "quickInput.background": "#121212",
     "quickInput.foreground": "#CCCCCC",
-    "quickInputList.focusBackground": "#05966988",
+    "quickInputList.focusBackground": "#059669",
     "settings.dropdownBackground": "#333333",
     "settings.dropdownBorder": "#333333",
     "settings.headerForeground": "#CCCCCC",
@@ -145,7 +145,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#bcc4d1"
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -343,10 +343,11 @@
     {
       "scope": [
         "meta.jsx.children",
+        "entity.name.tag.custom.css",
         "entity.name.tag.custom.scss"
       ],
       "settings": {
-        "foreground": "#bcc4d1"
+        "foreground": "#ABB2BF"
       }
     },
     {

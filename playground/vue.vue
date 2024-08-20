@@ -54,4 +54,30 @@ modelValue.value.toString().split('')
 .aaa >>> .bbb {
   height: 100%;
 }
+
+body::after{
+  content: '';
+}
+</style>
+
+<style scoped>
+.w-800px ::v-deep .el-form-item--mini.el-form-item,
+.w-800px ::v-deep .el-form-item--small.el-form-item {
+  margin-bottom: 16px;
+}
+
+body::after{
+  content: '';
+}
+</style>
+
+<style lang="less" scoped>
+.w-800px ::v-deep .el-form-item--mini.el-form-item,
+.w-800px ::v-deep .el-form-item--small.el-form-item {
+  margin-bottom: 16px;
+}
+
+body::after{
+  content: '';
+}
 </style>

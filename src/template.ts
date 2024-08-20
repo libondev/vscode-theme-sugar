@@ -1,4 +1,4 @@
-export function getTemplate(colors: any) {
+export function getTemplate(colors: Record<string, string>) {
   const {
     name,
     mode,
@@ -84,7 +84,7 @@ export function getTemplate(colors: any) {
     "progressBar.background": "${accent}",
     "quickInput.background": "${background}",
     "quickInput.foreground": "${foreground}",
-    "quickInputList.focusBackground": "${accent}88",
+    "quickInputList.focusBackground": "${accent}",
     "settings.dropdownBackground": "${inputBackground}",
     "settings.dropdownBorder": "${border}",
     "settings.headerForeground": "${foreground}",
@@ -358,6 +358,7 @@ export function getTemplate(colors: any) {
     {
       "scope": [
         "meta.jsx.children",
+        "entity.name.tag.custom.css",
         "entity.name.tag.custom.scss"
       ],
       "settings": {
