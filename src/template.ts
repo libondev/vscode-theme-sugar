@@ -210,6 +210,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.numeric",
         "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
+        "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
         "source.css.less keyword.other.keyframe-selector.less"
       ],
@@ -359,7 +360,8 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "meta.jsx.children",
         "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss"
+        "entity.name.tag.custom.scss",
+        "meta.embedded.block.html"
       ],
       "settings": {
         "foreground": "${editorForeground}"
@@ -431,7 +433,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "${adjustHexColor(accent, 1.3)}ac"
+        "foreground": "${theme.tag}"
       }
     },
     {

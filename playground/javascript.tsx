@@ -41,7 +41,7 @@ const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6;
 
 })();
 
-function Button({ onClick }: { onClick: () => void }) {
+function Button({ onClick }: { onClick: () => void }): JSX.Element {
   return <button onClick={ onClick }>Click me!</button>
 }
 

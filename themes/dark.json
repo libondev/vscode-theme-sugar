@@ -31,7 +31,7 @@
     "editorGroupHeader.tabsBorder": "#333333",
     "editorGutter.addedBackground": "#059669",
     "editorGutter.deletedBackground": "#DE6666",
-    "editorGutter.modifiedBackground": "#68ADE5",
+    "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#CCCCCC88",
     "editorLineNumber.foreground": "#CCCCCC50",
     "errorForeground": "#dc2626",
@@ -186,7 +186,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#58B49A"
+        "foreground": "#4e9d86"
       }
     },
     {
@@ -195,6 +195,7 @@
         "constant.numeric",
         "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
+        "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
         "source.css.less keyword.other.keyframe-selector.less"
       ],
@@ -254,7 +255,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#dd636d"
+        "foreground": "#4e9d86"
       }
     },
     {
@@ -264,7 +265,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#dd636d"
+        "foreground": "#B8A965"
       }
     },
     {
@@ -326,7 +327,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#4BB2CF"
+        "foreground": "#46aac6"
       }
     },
     {
@@ -337,14 +338,15 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#58B49A"
+        "foreground": "#4e9d86"
       }
     },
     {
       "scope": [
         "meta.jsx.children",
         "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss"
+        "entity.name.tag.custom.scss",
+        "meta.embedded.block.html"
       ],
       "settings": {
         "foreground": "#ABB2BF"
@@ -416,7 +418,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#06c388ac"
+        "foreground": "#4e9d86"
       }
     },
     {
@@ -453,7 +455,7 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#68ADE5"
+				"foreground": "#61AFEF"
 			}
 		},
     {

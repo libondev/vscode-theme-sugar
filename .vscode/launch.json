@@ -12,7 +12,8 @@
       "runtimeExecutable": "${execPath}",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
-        "${workspaceFolder}/playground"
+        "${workspaceFolder}/playground",
+        "--disable-extensions"
       ]
     }
   ]
