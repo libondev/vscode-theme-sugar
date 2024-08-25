@@ -84,8 +84,8 @@
     "sideBarTitle.foreground": "#424242",
     "statusBar.background": "#f8f8f8",
     "statusBar.border": "#DDDDDD",
-    "statusBar.debuggingBackground": "#05966988",
-    "statusBar.debuggingForeground": "#424242",
+    "statusBar.debuggingBackground": "#059669",
+    "statusBar.debuggingForeground": "#fff",
     "statusBar.focusBorder": "#059669",
     "statusBar.foreground": "#424242",
     "statusBar.noFolderBackground": "#EFEFEF",
@@ -176,7 +176,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#05792a"
       }
     },
     {
@@ -255,7 +255,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#06683d"
+        "foreground": "#2d4dad"
       }
     },
     {
@@ -418,7 +418,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#06683d"
+        "foreground": "#2d4dad"
       }
     },
     {

@@ -84,8 +84,8 @@
     "sideBarTitle.foreground": "#CCCCCC",
     "statusBar.background": "#121212",
     "statusBar.border": "#333333",
-    "statusBar.debuggingBackground": "#05966988",
-    "statusBar.debuggingForeground": "#CCCCCC",
+    "statusBar.debuggingBackground": "#059669",
+    "statusBar.debuggingForeground": "#fff",
     "statusBar.focusBorder": "#059669",
     "statusBar.foreground": "#CCCCCC",
     "statusBar.noFolderBackground": "#1F1F1F",
@@ -255,7 +255,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#4e9d86"
+        "foreground": "#6081d4"
       }
     },
     {
@@ -265,7 +265,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#B8A965"
+        "foreground": "#BD976A"
       }
     },
     {
@@ -304,7 +304,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#61AFEF"
+        "foreground": "#58a1dd"
       }
     },
     {
@@ -418,7 +418,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#4e9d86"
+        "foreground": "#6081d4"
       }
     },
     {
