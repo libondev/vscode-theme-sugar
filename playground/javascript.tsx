@@ -1,13 +1,13 @@
 /* eslint-disable */
 // @ts-nocheck
-import { exportConst, ExportClass, type TestType } from './javascript.js'
+import { ExportClass, exportConst } from './javascript.js'
 
 export { exportConst }
 export default ExportClass
 
 const number = 1 + 2 * 3 / 4 % 5
 const string = 'hello' + ", world" + `${number}`
-const boolean = true || false
+const boolean = true || false && true ? 111 : 222
 const array: number[] = [1, 2, 3]
 const object: Record<string, any> = {
   cls: Array,
@@ -18,8 +18,6 @@ const object: Record<string, any> = {
 const symbol = Symbol('symbol')
 const nullable = undefined || null
 const regexp = /^(?:13\d|14[5|7]|15[0-3|5-9]|17[0|135-8]|18\d|166|198|199)\d{8}$/gim
-
-const ternary = 1 ? true : false
 
 const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6;
 
@@ -52,7 +50,7 @@ export function Component<Generics>(): Generics {
 
   return (
     <div>
-      <h1 className={ 'text-lg' }>
+      <h1 title="title" className={ 'text-lg' }>
         <span> Click the button to see some confetti! </span>
       </h1>
 
@@ -84,10 +82,11 @@ Namespace.NamespaceFunction()
 type TType = keyof typeof exportClass
 
 interface IInterface {
-  a: boolean,
-  b: string,
-  c: () => void
-  d: Record<string, unknown>
+  aaa: string,
+  bbb: boolean,
+  ccc: () => void
+  ddd: Promise<void>
+  eee: Record<string, unknown>
 }
 
 enum Enum {

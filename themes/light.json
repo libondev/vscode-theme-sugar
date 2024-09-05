@@ -255,7 +255,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#2d4dad"
+        "foreground": "#0b6357"
       }
     },
     {
@@ -391,7 +391,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#6666669F"
+        "foreground": "#8888889F"
       }
     },
     {
@@ -418,7 +418,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#2d4dad"
+        "foreground": "#0b6357"
       }
     },
     {
@@ -428,7 +428,7 @@
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "#059669df"
+        "foreground": "#059669"
       }
     },
     {

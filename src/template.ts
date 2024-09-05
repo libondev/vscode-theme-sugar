@@ -443,7 +443,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "${accent}df"
+        "foreground": "${accent}"
       }
     },
     {
