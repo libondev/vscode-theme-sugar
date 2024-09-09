@@ -233,7 +233,7 @@
         "meta.at-rule.keyframe.less"
 			],
 			"settings": {
-        "foreground": "#ABB2BF"
+				"foreground": "#ABB2BF"
 			}
     },
     {
@@ -315,7 +315,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#8289e6"
+        "foreground": "#8187d4"
       }
     },
     {
@@ -446,7 +446,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-        "foreground": "#e06c75"
+				"foreground": "#e06c75"
 			}
 		},
 		{

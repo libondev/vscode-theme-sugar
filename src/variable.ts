@@ -18,7 +18,7 @@ export const darkThemeColors = {
   constant: '#c99076',
   keyword: '#b976cd',
   // storage: '#d36972',
-  class: '#8289e6',
+  class: '#8187d4',
   number: '#b5CEA8',
   string: '#9dba7e',
   boolean: '#529f7e',

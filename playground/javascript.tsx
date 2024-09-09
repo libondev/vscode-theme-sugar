@@ -10,7 +10,9 @@ const string = 'hello' + ", world" + `${number}`
 const boolean = true || false && true ? 111 : 222
 const array: number[] = [1, 2, 3]
 const object: Record<string, any> = {
-  cls: Array,
+  arr: Array,
+  num: Number,
+  str: String,
   fn: () => { },
   [`${string}`]: `string`,
   'string': 'only a string',
