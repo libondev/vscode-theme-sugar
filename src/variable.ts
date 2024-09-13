@@ -15,10 +15,11 @@ export const darkThemeColors = {
 
   comment: '#6A9955',
   variable: '#9CDCFE',
-  constant: '#E5E540',
+  constant: '#DABC7C',
+  classes: '#DABC7C',
   keyword: '#BC75B7',
   storage: '#569CD6',
-  class: '#868de9',
+  class: '#7d83e2',
   number: '#B5CEA8',
   string: '#CE9178',
   boolean: '#569CD6',
@@ -32,7 +33,7 @@ export const darkThemeColors = {
   tag: '#569CD6',
   classId: '#4FC1FF',
   css: '#9CDCFE',
-  nil: '#CB7676',
+  nil: '#BA6D6D',
 }
 
 export const lightThemeColors = {

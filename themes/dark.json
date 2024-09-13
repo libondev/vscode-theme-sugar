@@ -171,11 +171,10 @@
         "constant",
         "entity.name.constant",
         "meta.definition.variable",
-        "constant.character.escape",
-        "keyword.operator.quantifier.regexp"
+        "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#E5E540"
+        "foreground": "#DABC7C"
       }
     },
     {
@@ -184,6 +183,8 @@
         "entity.name",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
+        "constant.other.color.rgb-value",
+        "support.constant.property-value",
         "string punctuation.section.embedded source"
       ],
       "settings": {
@@ -221,7 +222,6 @@
         "support.type.custom-property",
         "variable.argument.css",
         "entity.other.attribute-name",
-        "support.constant.property-value",
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
@@ -230,11 +230,13 @@
     },
     {
       "scope": [
+        "constant.other.character-class",
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.class",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#DABC7C"
       }
     },
     {
@@ -264,7 +266,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#CB7676"
+        "foreground": "#BA6D6D"
       }
     },
     {
@@ -336,7 +338,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#868de9"
+        "foreground": "#7d83e2"
       }
     },
     {

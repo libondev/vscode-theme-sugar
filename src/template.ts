@@ -190,8 +190,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant",
         "entity.name.constant",
         "meta.definition.variable",
-        "constant.character.escape",
-        "keyword.operator.quantifier.regexp"
+        "constant.character.escape"
       ],
       "settings": {
         "foreground": "${theme.constant}"
@@ -203,6 +202,8 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
+        "constant.other.color.rgb-value",
+        "support.constant.property-value",
         "string punctuation.section.embedded source"
       ],
       "settings": {
@@ -240,7 +241,6 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type.custom-property",
         "variable.argument.css",
         "entity.other.attribute-name",
-        "support.constant.property-value",
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
@@ -249,8 +249,10 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "constant.other.character-class",
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.class",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
         "foreground": "${theme.classes}"
