@@ -13,6 +13,10 @@ export function getTemplate(colors: Record<string, string>) {
     ...theme
   } = colors;
 
+  theme.json ||= theme.css
+  theme.storage ||= theme.keyword
+  theme.classes ||= theme.attribute
+
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
   "base": "vs-${mode}",
@@ -91,7 +95,7 @@ export function getTemplate(colors: Record<string, string>) {
     "settings.numberInputBorder": "${border}",
 		"settings.textInputBorder": "${border}",
     "sideBar.border": "${border}",
-    "sideBar.background": "${background}",
+    "sideBar.background": "${theme.sidebarBackground || background}",
     "sideBar.foreground": "${foreground}",
     "sideBarSectionHeader.background": "#0000",
     "sideBarSectionHeader.border": "${border}",
@@ -156,11 +160,20 @@ export function getTemplate(colors: Record<string, string>) {
         "variable",
         "identifier",
         "attribute.name",
-        "meta.property-name",
-        "meta.object-literal.key"
+        "meta.property-name"
       ],
       "settings": {
         "foreground": "${theme.variable}"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "meta.object-literal.key",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "${theme.css}"
       }
     },
     {
@@ -176,7 +189,9 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "constant",
         "entity.name.constant",
-        "meta.definition.variable"
+        "meta.definition.variable",
+        "constant.character.escape",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
         "foreground": "${theme.constant}"
@@ -224,13 +239,21 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.scss",
         "support.type.custom-property",
         "variable.argument.css",
-        "constant.character.escape",
         "entity.other.attribute-name",
         "support.constant.property-value",
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "${theme.attribute}"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.class",
+      ],
+      "settings": {
+        "foreground": "${theme.classes}"
       }
     },
     {
@@ -280,13 +303,16 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.json || theme.tag}"
+        "foreground": "${theme.json}"
       }
     },
     {
-      "scope": ["storage.type"],
+      "scope": [
+        "storage.type",
+        "punctuation.definition.template-expression"
+      ],
       "settings": {
-        "foreground": "${theme.storage || theme.keyword}"
+        "foreground": "${theme.storage}"
       }
     },
     {
@@ -296,8 +322,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
-        "support.type.object.module.js",
-        "punctuation.definition.template-expression"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "${theme.keyword}"
@@ -349,8 +374,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "support.type.primitive",
         "storage.type.string.go",
-        "storage.type.numeric.go",
-        "keyword.operator.quantifier.regexp"
+        "storage.type.numeric.go"
       ],
       "settings": {
         "foreground": "${theme.tsBaseType}"
@@ -430,20 +454,13 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "markup.heading",
-        "entity.name.section.markdown"
-      ],
-      "settings": {
-        "foreground": "${theme.tag}"
-      }
-    },
-    {
-      "scope": [
         "markup.underline.link",
-        "punctuation.definition.list",
+        // "punctuation.definition.list",
+        "entity.name.section.markdown",
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "${accent}"
+        "foreground": "${theme.storage}"
       }
     },
     {
