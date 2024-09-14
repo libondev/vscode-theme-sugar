@@ -3,7 +3,7 @@
   "base": "vs-dark",
   "colors": {
     "activityBar.activeBorder": "#059669",
-    "activityBar.background": "#1f1f1f",
+    "activityBar.background": "#181818",
     "activityBar.border": "#333333",
     "activityBar.foreground": "#CCCCCC",
     "activityBar.inactiveForeground": "#888888",
@@ -20,14 +20,14 @@
     "button.secondaryHoverBackground": "#333333",
     "checkbox.background": "#333333",
     "checkbox.border": "#333333",
-    "debugToolBar.background": "#1f1f1f",
+    "debugToolBar.background": "#181818",
     "dropdown.background": "#333333",
     "dropdown.border": "#333333",
     "dropdown.foreground": "#CCCCCC",
     "dropdown.listBackground": "#1F1F1F",
-    "editor.background": "#1f1f1f",
+    "editor.background": "#181818",
     "editor.foreground": "#CCCCCC",
-    "editorGroupHeader.tabsBackground": "#1f1f1f",
+    "editorGroupHeader.tabsBackground": "#181818",
     "editorGroupHeader.tabsBorder": "#333333",
     "editorGutter.addedBackground": "#4D9375",
     "editorGutter.deletedBackground": "#e06c75",
@@ -39,7 +39,7 @@
     "foreground": "#CCCCCC",
     "icon.foreground": "#CCCCCC",
     "input.background": "#333333",
-    "input.border": "#1f1f1f",
+    "input.border": "#181818",
     "input.foreground": "#CCCCCC",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
@@ -58,7 +58,7 @@
     "notifications.border": "#333333",
     "notifications.background": "#1F1F1F",
     "notifications.foreground": "#CCCCCC",
-    "panel.background": "#1f1f1f",
+    "panel.background": "#181818",
     "panel.border": "#333333",
     "panelInput.border": "#333333",
     "panelTitle.activeBorder": "#059669",
@@ -67,7 +67,7 @@
     "peekViewResult.background": "#1F1F1F",
     "pickerGroup.border": "#333333",
     "progressBar.background": "#059669",
-    "quickInput.background": "#1f1f1f",
+    "quickInput.background": "#181818",
     "quickInput.foreground": "#CCCCCC",
     "quickInputList.focusBackground": "#059669",
     "settings.dropdownBackground": "#333333",
@@ -82,14 +82,14 @@
     "sideBarSectionHeader.border": "#333333",
     "sideBarSectionHeader.foreground": "#CCCCCC",
     "sideBarTitle.foreground": "#CCCCCC",
-    "statusBar.background": "#1f1f1f",
+    "statusBar.background": "#181818",
     "statusBar.border": "#333333",
     "statusBar.debuggingBackground": "#059669",
     "statusBar.debuggingForeground": "#fff",
     "statusBar.focusBorder": "#059669",
     "statusBar.foreground": "#CCCCCC",
     "statusBar.noFolderBackground": "#1F1F1F",
-    "statusBarItem.errorBackground": "#1f1f1f",
+    "statusBarItem.errorBackground": "#181818",
     "statusBarItem.focusBorder": "#059669",
     "statusBarItem.remoteBackground": "#059669",
     "statusBarItem.remoteForeground": "#fff",
@@ -98,8 +98,8 @@
     "tab.activeBorderTop": "#059669",
     "tab.activeForeground": "#CCCCCC",
     "tab.border": "#333333",
-    "tab.hoverBackground": "#1f1f1f",
-    "tab.inactiveBackground": "#1f1f1f",
+    "tab.hoverBackground": "#181818",
+    "tab.inactiveBackground": "#181818",
     "tab.inactiveForeground": "#888888",
     "tab.lastPinnedBorder": "#CCCCCC33",
     "tab.unfocusedActiveBorder": "#1F1F1F",
@@ -115,9 +115,9 @@
     "textLink.foreground": "#059669",
     "textPreformat.background": "#333333",
     "titleBar.border": "#0000",
-    "titleBar.activeBackground": "#1f1f1f",
+    "titleBar.activeBackground": "#181818",
     "titleBar.activeForeground": "#CCCCCC",
-    "titleBar.inactiveBackground": "#1f1f1f",
+    "titleBar.inactiveBackground": "#181818",
     "titleBar.inactiveForeground": "#888888",
     "welcomePage.progress.foreground": "#059669",
     "welcomePage.tileBackground": "#333333"
@@ -171,10 +171,11 @@
         "constant",
         "entity.name.constant",
         "meta.definition.variable",
-        "constant.character.escape"
+        "constant.character.escape",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#DABC7C"
+        "foreground": "#e3d199"
       }
     },
     {
@@ -232,11 +233,10 @@
       "scope": [
         "constant.other.character-class",
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class",
-        "keyword.operator.quantifier.regexp"
+        "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#DABC7C"
+        "foreground": "#BD976A"
       }
     },
     {

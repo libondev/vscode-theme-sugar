@@ -190,7 +190,8 @@ export function getTemplate(colors: Record<string, string>) {
         "constant",
         "entity.name.constant",
         "meta.definition.variable",
-        "constant.character.escape"
+        "constant.character.escape",
+        "keyword.operator.quantifier.regexp"
       ],
       "settings": {
         "foreground": "${theme.constant}"
@@ -251,8 +252,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "constant.other.character-class",
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class",
-        "keyword.operator.quantifier.regexp"
+        "entity.other.attribute-name.class"
       ],
       "settings": {
         "foreground": "${theme.classes}"
