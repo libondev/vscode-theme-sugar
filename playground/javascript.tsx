@@ -1,14 +1,20 @@
 /* eslint-disable */
 // @ts-nocheck
+
 import { ExportClass, exportConst } from './javascript.js'
 
 export { exportConst }
+
 export default ExportClass
 
 const number = 1 + 2 * 3 / 4 % 5
+
 const string = 'hello' + ", world" + `${number}`
+
 const boolean = true || false && true ?? false
-const array: number[] = [1, 2, 3]
+
+const array: number[] = [1, 2, 3] + []
+
 const object: Record<string, any> = {
   aaa: 1,
   bbb: 2,
@@ -22,7 +28,6 @@ const object: Record<string, any> = {
 const symbol = Symbol('symbol')
 const nullable = undefined || null
 const regexp = /^(?:13\d|14[5|7]|15[0-3|5-9]|17[0|135-8]|18\d|166|198|199)\d{8}$/gim
-
 const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6
 const logic = 1 === 2 !== 3 ? 111 : 222
 
@@ -45,7 +50,7 @@ const logic = 1 === 2 !== 3 ? 111 : 222
 })();
 
 function Button({ onClick }: { onClick: () => void }): JSX.Element {
-  return <button onClick={ onClick }>Click me!</button>
+  return <button class="test" onClick={ onClick }>Click me!</button>
 }
 
 export function Component<Generics>(): Generics {
@@ -64,6 +69,7 @@ export function Component<Generics>(): Generics {
   )
 }
 
+@defineElement("download-button")
 export class Demo extends React.Component {
   constructor() {
     super()

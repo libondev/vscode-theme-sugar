@@ -191,6 +191,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.constant",
         "meta.definition.variable",
         "constant.character.escape",
+        "constant.other.character-class",
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
@@ -250,7 +251,6 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "constant.other.character-class",
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.class"
       ],
@@ -305,7 +305,7 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.json}"
+        "foreground": "${theme.tag}"
       }
     },
     {

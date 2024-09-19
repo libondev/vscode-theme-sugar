@@ -29,7 +29,7 @@
     "editor.foreground": "#35373d",
     "editorGroupHeader.tabsBackground": "#ffffff",
     "editorGroupHeader.tabsBorder": "#DDDDDD",
-    "editorGutter.addedBackground": "#1E754F",
+    "editorGutter.addedBackground": "#059669",
     "editorGutter.deletedBackground": "#e06c75",
     "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#42424288",
@@ -172,6 +172,7 @@
         "entity.name.constant",
         "meta.definition.variable",
         "constant.character.escape",
+        "constant.other.character-class",
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
@@ -231,7 +232,6 @@
     },
     {
       "scope": [
-        "constant.other.character-class",
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.class"
       ],
@@ -286,7 +286,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#998418"
+        "foreground": "#1E754F"
       }
     },
     {
@@ -452,7 +452,7 @@
         "punctuation.definition.inserted"
       ],
 			"settings": {
-				"foreground": "#1E754F"
+				"foreground": "#059669"
 			}
 		},
 		{
