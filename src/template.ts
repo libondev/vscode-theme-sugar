@@ -13,8 +13,8 @@ export function getTemplate(colors: Record<string, string>) {
     ...theme
   } = colors;
 
+  theme.json ||= theme.tag
   theme.css ||= theme.variable
-  theme.json ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
 
@@ -203,6 +203,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope":[
         "string",
         "entity.name",
+        "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
@@ -453,7 +454,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "markup.heading",
-        "markup.underline.link",
         // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline"

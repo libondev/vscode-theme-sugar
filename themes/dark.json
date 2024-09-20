@@ -183,6 +183,7 @@
       "scope":[
         "string",
         "entity.name",
+        "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
@@ -191,7 +192,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#80A665"
+        "foreground": "#92ac7e"
       }
     },
     {
@@ -287,7 +288,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#6089B4"
       }
     },
     {
@@ -433,7 +434,6 @@
     {
       "scope": [
         "markup.heading",
-        "markup.underline.link",
         // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline"

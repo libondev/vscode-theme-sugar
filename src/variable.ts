@@ -18,7 +18,7 @@ export const darkThemeColors = {
   keyword: '#9872A2',
   class: '#559989',
   number: '#6089B4',
-  string: '#80A665',
+  string: '#92ac7e',
   boolean: '#498A96',
   function: '#6089B4',
   symbol: '#7777778F',

@@ -183,6 +183,7 @@
       "scope":[
         "string",
         "entity.name",
+        "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
@@ -433,7 +434,6 @@
     {
       "scope": [
         "markup.heading",
-        "markup.underline.link",
         // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline"
