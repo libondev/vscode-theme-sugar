@@ -187,7 +187,8 @@
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
-        "string punctuation.section.embedded source"
+        "string punctuation.section.embedded source",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#1c853d"
@@ -286,13 +287,12 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#1E754F"
+        "foreground": "#998418"
       }
     },
     {
       "scope": [
-        "storage.type",
-        "punctuation.definition.template-expression"
+        "storage.type"
       ],
       "settings": {
         "foreground": "#AB5959"
@@ -305,14 +305,10 @@
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
-        "support.type.object.module.js"
+        "punctuation.separator.less",
+        "punctuation.definition.group",
+        "support.type.object.module.js",
       ],
-      "settings": {
-        "foreground": "#AB5959"
-      }
-    },
-    {
-      "scope": "punctuation.definition.group",
       "settings": {
         "foreground": "#AB5959"
       }

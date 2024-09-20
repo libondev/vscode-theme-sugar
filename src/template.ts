@@ -13,6 +13,7 @@ export function getTemplate(colors: Record<string, string>) {
     ...theme
   } = colors;
 
+  theme.css ||= theme.variable
   theme.json ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
@@ -206,7 +207,8 @@ export function getTemplate(colors: Record<string, string>) {
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
-        "string punctuation.section.embedded source"
+        "string punctuation.section.embedded source",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "${theme.string}"
@@ -305,13 +307,12 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.tag}"
+        "foreground": "${theme.json}"
       }
     },
     {
       "scope": [
-        "storage.type",
-        "punctuation.definition.template-expression"
+        "storage.type"
       ],
       "settings": {
         "foreground": "${theme.storage}"
@@ -324,14 +325,10 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
-        "support.type.object.module.js"
+        "punctuation.separator.less",
+        "punctuation.definition.group",
+        "support.type.object.module.js",
       ],
-      "settings": {
-        "foreground": "${theme.keyword}"
-      }
-    },
-    {
-      "scope": "punctuation.definition.group",
       "settings": {
         "foreground": "${theme.keyword}"
       }
