@@ -141,7 +141,8 @@
         "variable",
         "identifier",
         "attribute.name",
-        "meta.property-name"
+        "meta.property-name",
+        "keyword.operator.gradient"
       ],
       "settings": {
         "foreground": "#B07D48"
@@ -154,7 +155,7 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#998418"
+        "foreground": "#B07D48"
       }
     },
     {
@@ -188,8 +189,7 @@
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
-        "string punctuation.section.embedded source",
-        "punctuation.definition.template-expression"
+        "string punctuation.section.embedded source"
       ],
       "settings": {
         "foreground": "#1c853d"
@@ -309,6 +309,7 @@
         "punctuation.separator.less",
         "punctuation.definition.group",
         "support.type.object.module.js",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#AB5959"

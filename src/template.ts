@@ -14,6 +14,7 @@ export function getTemplate(colors: Record<string, string>) {
   } = colors;
 
   theme.json ||= theme.tag
+  theme.key ||= theme.variable
   theme.css ||= theme.variable
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
@@ -161,7 +162,8 @@ export function getTemplate(colors: Record<string, string>) {
         "variable",
         "identifier",
         "attribute.name",
-        "meta.property-name"
+        "meta.property-name",
+        "keyword.operator.gradient"
       ],
       "settings": {
         "foreground": "${theme.variable}"
@@ -174,7 +176,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "${theme.css}"
+        "foreground": "${theme.key}"
       }
     },
     {
@@ -208,8 +210,7 @@ export function getTemplate(colors: Record<string, string>) {
 				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
-        "string punctuation.section.embedded source",
-        "punctuation.definition.template-expression"
+        "string punctuation.section.embedded source"
       ],
       "settings": {
         "foreground": "${theme.string}"
@@ -329,6 +330,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.separator.less",
         "punctuation.definition.group",
         "support.type.object.module.js",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "${theme.keyword}"
