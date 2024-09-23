@@ -22,7 +22,7 @@ export const darkThemeColors = {
   string: '#C98A7D',
   boolean: '#4D9375',
   function: '#80A665',
-  symbol: '#444444',
+  symbol: '#7777778F',
   secondary: '#999999',
   attribute: '#BD976A',
   tsBaseType: '#4D9375',
