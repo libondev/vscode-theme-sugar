@@ -336,7 +336,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#508997"
+        "foreground": "#8b7bc8"
       }
     },
     {
@@ -348,7 +348,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#569999"
+        "foreground": "#559c9c"
       }
     },
     {
