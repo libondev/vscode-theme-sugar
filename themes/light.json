@@ -34,7 +34,7 @@
     "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#42424288",
     "editorLineNumber.foreground": "#42424250",
-    "errorForeground": "#dc2626",
+    "errorForeground": "#e06c75",
     "focusBorder": "#1E754F",
     "foreground": "#424242",
     "icon.foreground": "#424242",
@@ -142,6 +142,7 @@
         "identifier",
         "attribute.name",
         "meta.property-name",
+        "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
@@ -155,7 +156,7 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#B07D48"
+        "foreground": "#998418"
       }
     },
     {
@@ -248,12 +249,13 @@
 				"support.type.property-name.less",
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
-        "meta.property-value.css",
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
         "entity.name.function.scss",
-        "meta.at-rule.keyframe.less"
+        "meta.at-rule.keyframe.less",
+        "entity.name.tag.custom.css",
+        "entity.name.tag.custom.scss",
 			],
 			"settings": {
 				"foreground": "#998418"
@@ -364,8 +366,6 @@
     {
       "scope": [
         "meta.jsx.children",
-        "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss",
         "meta.embedded.block.html"
       ],
       "settings": {
@@ -397,7 +397,7 @@
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        "meta.embedded.block",
+        // "meta.embedded.block",
         "meta.attribute.directive",
         "meta.function.expression",
         "storage.type.function.arrow",
@@ -408,7 +408,9 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
-        "invalid.illegal.character-not-allowed-here.html"
+        "invalid.illegal.character-not-allowed-here.html",
+        "meta.at-rule.supports.header",
+        "meta.at-rule.supports.header.css"
       ],
       "settings": {
         "foreground": "#8888889F"

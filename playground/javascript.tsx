@@ -60,7 +60,7 @@ export function Component<Generics>(): Generics {
 
   return (
     <div>
-      <h1 title="title" className={ 'text-lg' }>
+      <h1 title="title" className={ 'text-lg' } style='--font-size: 1.2rem;'>
         <span> Click the button to see some confetti! </span>
       </h1>
 

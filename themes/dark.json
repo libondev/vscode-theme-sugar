@@ -34,7 +34,7 @@
     "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#CCCCCC88",
     "editorLineNumber.foreground": "#CCCCCC50",
-    "errorForeground": "#dc2626",
+    "errorForeground": "#e06c75",
     "focusBorder": "#059669",
     "foreground": "#CCCCCC",
     "icon.foreground": "#CCCCCC",
@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#758575DD"
+        "foreground": "#696969"
       }
     },
     {
@@ -142,6 +142,7 @@
         "identifier",
         "attribute.name",
         "meta.property-name",
+        "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
@@ -216,7 +217,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#4C9A91"
+        "foreground": "#A1BA93"
       }
     },
     {
@@ -248,15 +249,16 @@
 				"support.type.property-name.less",
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
-        "meta.property-value.css",
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
         "entity.name.function.scss",
-        "meta.at-rule.keyframe.less"
+        "meta.at-rule.keyframe.less",
+        "entity.name.tag.custom.css",
+        "entity.name.tag.custom.scss",
 			],
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#B8A965"
 			}
     },
     {
@@ -336,7 +338,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#8575c2"
+        "foreground": "#8c7dc7"
       }
     },
     {
@@ -348,7 +350,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#559c9c"
+        "foreground": "#59A0A0"
       }
     },
     {
@@ -364,8 +366,6 @@
     {
       "scope": [
         "meta.jsx.children",
-        "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss",
         "meta.embedded.block.html"
       ],
       "settings": {
@@ -397,7 +397,7 @@
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        "meta.embedded.block",
+        // "meta.embedded.block",
         "meta.attribute.directive",
         "meta.function.expression",
         "storage.type.function.arrow",
@@ -408,7 +408,9 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
-        "invalid.illegal.character-not-allowed-here.html"
+        "invalid.illegal.character-not-allowed-here.html",
+        "meta.at-rule.supports.header",
+        "meta.at-rule.supports.header.css"
       ],
       "settings": {
         "foreground": "#7777778F"

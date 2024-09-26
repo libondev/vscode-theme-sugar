@@ -4,7 +4,7 @@ import { darkThemeColors, lightThemeColors } from './variable'
 
 async function rewriteColorTheme() {
 
-  const files = [
+  const files: Parameters<typeof fs.writeFileSync>[] = [
     [
       'themes/dark.json',
       getTemplate({
@@ -24,7 +24,7 @@ async function rewriteColorTheme() {
   ]
 
   files.forEach((file) => {
-    fs.writeFileSync(...file as Parameters<typeof fs.writeFileSync>)
+    fs.writeFileSync(...file)
   })
 
 }

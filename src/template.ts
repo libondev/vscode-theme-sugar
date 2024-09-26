@@ -14,7 +14,7 @@ export function getTemplate(colors: Record<string, string>) {
   } = colors;
 
   theme.json ||= theme.tag
-  theme.key ||= theme.variable
+  theme.key ||= theme.json
   theme.css ||= theme.variable
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
@@ -55,7 +55,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editorGutter.modifiedBackground": "${theme.change}",
     "editorLineNumber.activeForeground": "${foreground}88",
     "editorLineNumber.foreground": "${foreground}50",
-    "errorForeground": "#dc2626",
+    "errorForeground": "${theme.delete}",
     "focusBorder": "${accent}",
     "foreground": "${foreground}",
     "icon.foreground": "${foreground}",
@@ -163,6 +163,7 @@ export function getTemplate(colors: Record<string, string>) {
         "identifier",
         "attribute.name",
         "meta.property-name",
+        "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
@@ -269,12 +270,13 @@ export function getTemplate(colors: Record<string, string>) {
 				"support.type.property-name.less",
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
-        "meta.property-value.css",
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
         "entity.name.function.scss",
-        "meta.at-rule.keyframe.less"
+        "meta.at-rule.keyframe.less",
+        "entity.name.tag.custom.css",
+        "entity.name.tag.custom.scss",
 			],
 			"settings": {
 				"foreground": "${theme.css}"
@@ -385,8 +387,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "meta.jsx.children",
-        "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss",
         "meta.embedded.block.html"
       ],
       "settings": {
@@ -418,7 +418,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        "meta.embedded.block",
+        // "meta.embedded.block",
         "meta.attribute.directive",
         "meta.function.expression",
         "storage.type.function.arrow",
@@ -429,7 +429,9 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
-        "invalid.illegal.character-not-allowed-here.html"
+        "invalid.illegal.character-not-allowed-here.html",
+        "meta.at-rule.supports.header",
+        "meta.at-rule.supports.header.css"
       ],
       "settings": {
         "foreground": "${theme.symbol}"

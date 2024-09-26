@@ -1,0 +1,40 @@
+---
+
+---
+
+
+<h1></h1>
+
+
+<div></div>
+
+
+<p></p>
+
+
+
+<style is:global>
+  @property --percentage {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+
+  .scrollbar {
+    display: none;
+    height: 100vh;
+    margin-top: -0.5vh
+  }
+
+
+@supports (animation-timeline: scroll()) {
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
+</style>
