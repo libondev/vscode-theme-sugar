@@ -14,8 +14,8 @@ export function getTemplate(colors: Record<string, string>) {
   } = colors;
 
   theme.json ||= theme.tag
-  theme.key ||= theme.json
   theme.css ||= theme.variable
+  theme.key ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
 

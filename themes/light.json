@@ -30,11 +30,11 @@
     "editorGroupHeader.tabsBackground": "#ffffff",
     "editorGroupHeader.tabsBorder": "#DDDDDD",
     "editorGutter.addedBackground": "#059669",
-    "editorGutter.deletedBackground": "#e06c75",
+    "editorGutter.deletedBackground": "#E06C75",
     "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#42424288",
     "editorLineNumber.foreground": "#42424250",
-    "errorForeground": "#e06c75",
+    "errorForeground": "#E06C75",
     "focusBorder": "#1E754F",
     "foreground": "#424242",
     "icon.foreground": "#424242",
@@ -460,7 +460,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#E06C75"
 			}
 		},
 		{
