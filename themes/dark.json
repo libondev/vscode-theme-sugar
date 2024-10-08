@@ -26,7 +26,7 @@
     "dropdown.foreground": "#CCCCCC",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#000000",
-    "editor.foreground": "#ABB2BF",
+    "editor.foreground": "#CCCCCC",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGroupHeader.tabsBorder": "#333333",
     "editorGutter.addedBackground": "#059669",
@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#696969"
+        "foreground": "#6A9955"
       }
     },
     {
@@ -146,7 +146,7 @@
         "keyword.operator.gradient"
       ],
       "settings": {
-        "foreground": "#B8A965"
+        "foreground": "#4FC1FF"
       }
     },
     {
@@ -156,7 +156,7 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#B8A965"
+        "foreground": "#9CDCFE"
       }
     },
     {
@@ -165,7 +165,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#BD976A"
+        "foreground": "#4FC1FF"
       }
     },
     {
@@ -193,7 +193,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#9dba7e"
+        "foreground": "#CE9178"
       }
     },
     {
@@ -203,7 +203,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#529F7E"
+        "foreground": "#569CD6"
       }
     },
     {
@@ -217,7 +217,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#A1BA93"
+        "foreground": "#B5CEA8"
       }
     },
     {
@@ -230,7 +230,7 @@
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#BD976A"
+        "foreground": "#9CDCFE"
       }
     },
     {
@@ -239,7 +239,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#BD976A"
+        "foreground": "#9CDCFE"
       }
     },
     {
@@ -258,7 +258,7 @@
         "entity.name.tag.custom.scss",
 			],
 			"settings": {
-				"foreground": "#B8A965"
+				"foreground": "#9CDCFE"
 			}
     },
     {
@@ -280,7 +280,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#D36972"
+        "foreground": "#569CD6"
       }
     },
     {
@@ -290,15 +290,16 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D36972"
+        "foreground": "#9CDCFE"
       }
     },
     {
       "scope": [
-        "storage.type"
+        "storage.type",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#D36972"
+        "foreground": "#569CD6"
       }
     },
     {
@@ -310,11 +311,10 @@
         "keyword.operator.expression",
         "punctuation.separator.less",
         "punctuation.definition.group",
-        "support.type.object.module.js",
-        "punctuation.definition.template-expression"
+        "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#b976cd"
+        "foreground": "#C586C0"
       }
     },
     {
@@ -327,7 +327,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#569CD6"
+        "foreground": "#DCDCAA"
       }
     },
     {
@@ -338,7 +338,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#8288DF"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -350,7 +350,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#66acbf"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -360,7 +360,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#529F7E"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -369,7 +369,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#CCCCCC"
       }
     },
     {
@@ -387,7 +387,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#999999"
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -442,7 +442,7 @@
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "#D36972"
+        "foreground": "#569CD6"
       }
     },
     {

@@ -295,7 +295,8 @@
     },
     {
       "scope": [
-        "storage.type"
+        "storage.type",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#AB5959"
@@ -310,8 +311,7 @@
         "keyword.operator.expression",
         "punctuation.separator.less",
         "punctuation.definition.group",
-        "support.type.object.module.js",
-        "punctuation.definition.template-expression"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "#AB5959"

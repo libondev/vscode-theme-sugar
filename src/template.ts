@@ -316,7 +316,8 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "storage.type"
+        "storage.type",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "${theme.storage}"
@@ -331,8 +332,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.expression",
         "punctuation.separator.less",
         "punctuation.definition.group",
-        "support.type.object.module.js",
-        "punctuation.definition.template-expression"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "${theme.keyword}"

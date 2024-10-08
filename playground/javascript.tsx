@@ -71,8 +71,12 @@ export function Component<Generics>(): Generics {
 
 @defineElement("download-button")
 export class Demo extends React.Component {
+  users = []
+
   constructor() {
     super()
+
+    console.log(this.users)
   }
 
   render() {
