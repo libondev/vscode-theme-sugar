@@ -195,6 +195,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.constant",
         "meta.definition.variable",
         "constant.character.escape",
+        "punctuation.definition.group",
         "constant.other.character-class",
         "keyword.operator.quantifier.regexp"
       ],
@@ -297,7 +298,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "entity.name.tag",
-        "support.class.component",
+        // "support.class.component",
         "keyword.control.anchor.regexp"
       ],
       "settings": {
@@ -331,7 +332,6 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.class.jsdoc",
         "keyword.operator.expression",
         "punctuation.separator.less",
-        "punctuation.definition.group",
         "support.type.object.module.js"
       ],
       "settings": {

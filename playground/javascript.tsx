@@ -7,6 +7,10 @@ export { exportConst }
 
 export default ExportClass
 
+let increment = 1
+increment++
+increment--
+
 const number = 1 + 2 * 3 / 4 % 5
 
 const string = 'hello' + ", world" + `${number}`
@@ -18,10 +22,9 @@ const array: number[] = [1, 2, 3] + []
 const object: Record<string, any> = {
   aaa: 1,
   bbb: 2,
-  arr: Array,
-  num: Number,
-  str: String,
-  fn: () => { },
+  array,
+  class: Array,
+  function: () => { },
   [`${string}`]: `string`,
   'string': 'only a string',
 }
@@ -40,9 +43,8 @@ const logic = 1 === 2 !== 3 ? 111 : 222
 
   try {
     const instance = new ExportClass()
-    delete instance.testMethod
-    console.log(typeof instance.testMethod)
-
+    typeof instance.testMethod
+    delete instance.testProperty
   } catch (error) {
     console.log(error)
   }
@@ -55,7 +57,7 @@ function Button({ onClick }: { onClick: () => void }): JSX.Element {
 
 export function Component<Generics>(): Generics {
   const handleClick = (ev: MouseEvent) => {
-    console.log(ev, exportConst.aaa)
+    console.log(ev, object.aaa)
   }
 
   return (
@@ -76,7 +78,7 @@ export class Demo extends React.Component {
   constructor() {
     super()
 
-    console.log(this.users)
+    console.log(this.users, this)
   }
 
   render() {

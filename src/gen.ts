@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import { getTemplate } from './template'
-import { darkThemeColors, lightThemeColors } from './variable'
+import { darkThemeColors } from './variable'
 
 async function rewriteColorTheme() {
 
@@ -13,14 +13,14 @@ async function rewriteColorTheme() {
       }),
       'utf8'
     ],
-    [
-      'themes/light.json',
-      getTemplate({
-        mode: 'light',
-        ...lightThemeColors
-      }),
-      'utf8'
-    ],
+    // [
+    //   'themes/light.json',
+    //   getTemplate({
+    //     mode: 'light',
+    //     ...lightThemeColors
+    //   }),
+    //   'utf8'
+    // ],
   ]
 
   files.forEach((file) => {
