@@ -277,7 +277,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.function.scss",
         "meta.at-rule.keyframe.less",
         "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss",
+        "entity.name.tag.custom.scss"
 			],
 			"settings": {
 				"foreground": "${theme.css}"
