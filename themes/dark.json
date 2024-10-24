@@ -231,7 +231,7 @@
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#98C379"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -240,7 +240,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#98C379"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -291,7 +291,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -338,7 +338,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#B392F0"
       }
     },
     {
