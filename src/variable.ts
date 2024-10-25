@@ -14,12 +14,12 @@ export const darkThemeColors = {
 
   comment: '#696969',
   variable: '#CCCCCC', // F8F8F2
-  constant: '#E5C07B',
+  constant: '#E0CE85',
   keyword: '#E06C75',
   storage: '#56B6C2',
   class: '#B392F0',
   number: '#B5CEA8',
-  string: '#E5C07B',
+  string: '#E0CE85',
   boolean: '#56B6C2',
   function: '#61AFEF',
   symbol: '#7878789F',
