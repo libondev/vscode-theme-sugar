@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#888888"
+        "foreground": "#6A9955"
       }
     },
     {
@@ -146,7 +146,7 @@
         "keyword.operator.gradient"
       ],
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#CFCFCF"
       }
     },
     {
@@ -156,7 +156,7 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#CFCFCF"
       }
     },
     {
@@ -179,7 +179,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#E0CE85"
+        "foreground": "#D9AD79"
       }
     },
     {
@@ -218,7 +218,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#B5CEA8"
+        "foreground": "#cad6a9"
       }
     },
     {
@@ -259,7 +259,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#CCCCCC"
+				"foreground": "#CFCFCF"
 			}
     },
     {
@@ -350,7 +350,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#56c2a2"
       }
     },
     {
@@ -360,7 +360,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#A6D189"
+        "foreground": "#56c2a2"
       }
     },
     {
