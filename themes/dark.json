@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6A9955"
+        "foreground": "#787878"
       }
     },
     {
@@ -413,7 +413,7 @@
         "meta.at-rule.supports.header.css"
       ],
       "settings": {
-        "foreground": "#7878789F"
+        "foreground": "#8888889F"
       }
     },
     {

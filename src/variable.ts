@@ -12,7 +12,7 @@ export const darkThemeColors = {
   delete: '#E06C75',
   change: '#61AFEF',
 
-  comment: '#6A9955',
+  comment: '#787878',
   variable: '#CFCFCF',
   constant: '#D9AD79',
   keyword: '#E06C75',
@@ -22,7 +22,7 @@ export const darkThemeColors = {
   string: '#A6D189',
   boolean: '#56B6C2',
   function: '#61AFEF',
-  symbol: '#7878789F',
+  symbol: '#8888889F',
   secondary: '#ABB2BF',
   attribute: '#D9AD79',
   tsBaseType: '#56c2a2',
