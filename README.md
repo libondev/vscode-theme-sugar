@@ -3,8 +3,12 @@
 > [!IMPORTANT]
 > it's still a work in progress. Feel free to try it and tell me if you hate it.
 
-![](https://github.com/libondev/static-files/blob/main/vscode/js.png)
-![](https://github.com/libondev/static-files/blob/main/vscode/html.png)
-![](https://github.com/libondev/static-files/blob/main/vscode/css.png)
+![](./screenshots/dark-js.png)
+![](./screenshots/dark-html.png)
+![](./screenshots/dark-css.png)
+
+![](./screenshots/light-js.png)
+![](./screenshots/light-html.png)
+![](./screenshots/light-css.png)
 
 **Enjoy!**
