@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#8f8f8f"
+        "foreground": "#808080"
       }
     },
     {
@@ -165,7 +165,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#a37000"
+        "foreground": "#996900"
       }
     },
     {
@@ -179,7 +179,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#a37000"
+        "foreground": "#996900"
       }
     },
     {
@@ -204,7 +204,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#32808b"
+        "foreground": "#2d727c"
       }
     },
     {
@@ -218,7 +218,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#a37000"
+        "foreground": "#996900"
       }
     },
     {
@@ -231,7 +231,7 @@
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#a37000"
+        "foreground": "#996900"
       }
     },
     {
@@ -240,7 +240,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#a37000"
+        "foreground": "#996900"
       }
     },
     {
@@ -300,7 +300,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#32808b"
+        "foreground": "#2d727c"
       }
     },
     {
@@ -350,7 +350,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#369679"
+        "foreground": "#31876d"
       }
     },
     {
@@ -360,7 +360,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#369679"
+        "foreground": "#31876d"
       }
     },
     {
@@ -442,7 +442,7 @@
         "variable.other.link.underline"
       ],
       "settings": {
-        "foreground": "#32808b"
+        "foreground": "#2d727c"
       }
     },
     {
