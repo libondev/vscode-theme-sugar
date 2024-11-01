@@ -179,7 +179,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#D9AD79"
+        "foreground": "#e6c07b"
       }
     },
     {
@@ -218,7 +218,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#cad6a9"
+        "foreground": "#D9AD79"
       }
     },
     {
