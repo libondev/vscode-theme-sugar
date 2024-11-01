@@ -1,3 +1,4 @@
+.idea
 *.vsix
 .DS_Store
 node_modules/

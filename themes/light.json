@@ -30,11 +30,11 @@
     "editorGroupHeader.tabsBackground": "#ffffff",
     "editorGroupHeader.tabsBorder": "#DDDDDD",
     "editorGutter.addedBackground": "#059669",
-    "editorGutter.deletedBackground": "#cb2a3a",
+    "editorGutter.deletedBackground": "#be2736",
     "editorGutter.modifiedBackground": "#005CC5",
     "editorLineNumber.activeForeground": "#42424288",
     "editorLineNumber.foreground": "#42424250",
-    "errorForeground": "#cb2a3a",
+    "errorForeground": "#be2736",
     "focusBorder": "#1E754F",
     "foreground": "#424242",
     "icon.foreground": "#424242",
@@ -165,7 +165,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#b17900"
+        "foreground": "#a37000"
       }
     },
     {
@@ -179,7 +179,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#b17900"
+        "foreground": "#a37000"
       }
     },
     {
@@ -218,7 +218,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#b17900"
+        "foreground": "#a37000"
       }
     },
     {
@@ -231,7 +231,7 @@
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#b17900"
+        "foreground": "#a37000"
       }
     },
     {
@@ -240,7 +240,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#b17900"
+        "foreground": "#a37000"
       }
     },
     {
@@ -281,7 +281,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#cb2a3a"
+        "foreground": "#be2736"
       }
     },
     {
@@ -291,7 +291,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#cb2a3a"
+        "foreground": "#be2736"
       }
     },
     {
@@ -314,7 +314,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#cb2a3a"
+        "foreground": "#be2736"
       }
     },
     {
@@ -460,7 +460,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#cb2a3a"
+				"foreground": "#be2736"
 			}
 		},
 		{
